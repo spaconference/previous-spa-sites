@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>spa2017 Conference - Session: Access control for REST services</title>
+  <!--[if lt IE 9]>
+      <script src="html5shiv.min.js"></script>
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.spaconference.org/spa2017/spa.css" type="text/css">
+</head>
+<body class='session'>
+<header><div>
+  <h1>
+    <img alt="BCS" src="https://www.spaconference.org/spa2017/images/bcslogo.png" width="65" height="69">
+    <a href="https://www.spaconference.org/spa2017/"><span class="conference-name">SPA<em>2017</em></span></a>
+  </h1>
+  <nav>
+    <ul>
+      <li class="menuactive"><a href="/scripts/myprofile.php">My SPA</a></li>
+    </ul>
+  </nav>
+</div></header>
+<div id="main"><div class="inner"><main><h1>Access control for REST services</h1>
+<p>Workshop on authenticating and authorizing users for REST services</p>
+
+<a href="https://www.spaconference.org/spa2017/formats.html">workshop, 150min</a>
+
+<h2>Abstract</h2>
+<p>REST services are very popular. Unfortunately, many are not secure.<br />
+In this session, we identify access control requirements for a range of application types and discuss how these can be delivered with current standards and tools. The presentation is interactive; we discuss the trade-offs when implementing typical requirements.<br />
+Role-Based Access Control (RBAC) is probably still the dominant access control model. However, this is shifting to Attribute-Based Access Control (ABAC). Authentication (authN) and authorization (authZ) standards in the REST ecosystem such as OAuth and OpenID Connect (OIDC) have been designed to enable ABAC.<br />
+OpenID Providers authenticate end users and issue a security token called an ID Token, containing a set of claims about the attributes of the caller. We will be dissecting the OpenID Connect ID Tokens, encoded as JSON Web Tokens (JWT).<br />
+Even though OIDC and OAuth are supplanting older authN/Z standards for web services such as SAML (Security Assertion Markup Language) and XACML (eXtensible Access Control Markup Language), they will have to co-exist for a long time. Many components offering OIDC or OAuth interfaces also work with SAML or XACML, which define interesting roles such as Identity Provider (IdP), Policy Enforcement Point (PEP) and Policy Decision Point (PDP). So it is natural to ask whether these roles are relevant in a REST architecture as well and, if so, how they map on OIDC and OAuth roles.<br />
+A laptop with Postman or other REST client would be useful, so that you can request, dissect and submit JWTs yourself.</p>
+
+<h2>Audience background</h2>
+<p>target audience: developers and architects with an understanding of web technologies.</p>
+
+<h2>Benefits of participating</h2>
+<p>understand practical approaches to REST service authN/Z<br />
+appreciate the limitations of the current technology<br />
+anticipate future developments</p>
+
+<h2>Materials provided</h2>
+<p>presentation<br />
+demo services</p>
+
+<h2>Process</h2>
+<p>I intend to run the session as a design meeting. We discuss requirements for authN/Z architectures, trade offs to be made and practical solutions.</p>
+
+<h2>Detailed timetable</h2>
+<p>00:00 - 00:15 welcome and intro<br />
+00:15 - 00:25 functional demo<br />
+00:25 - 00:50 interactive presentation on architectural patterns<br />
+00:50 - 01:20 interactive presentation on relevant standards<br />
+01:20 - 01:30 interactive presentation on user authentication (IdP)<br />
+01:30 - 01:40 user authN demo<br />
+01:40 - 01:50 interactive presentation on client registration and authentication<br />
+01:50 - 02:00 interactive presentation on coarse and fine-grained authZ (API GW)<br />
+20:00 - 02:10 authZ demo<br />
+02:10 - 02:30 wrap-up</p>
+
+<h2>Outputs</h2>
+<p>Demonstrator: <a href="https://github.com/JohanPeeters/REST-IAM-demo">https://github.com/JohanPeeters/REST-IAM-demo</a><br />
+Slides: <a href="https://docs.google.com/presentation/d/1DmVlveGKba0KNki_U-2cbLmBQQxcYHvvqW4lcmWa7xM/pub?start=false&loop=false&delayms=3000&slide=id.p">https://docs.google.com/presentation/d/1DmVlveGKba0KNki_U-2cbLmBQQxcYHvvqW4lcmWa7xM/pub?start=false&loop=false&delayms=3000&slide=id.p</a></p>
+
+<h2>History</h2>
+<p>The session has been accepted at SecAppDev (March 2017) and the I T.A.K.E. (May 2017).</p>
+
+<h2>Presenters</h2>
+<ol>
+  <li><a href="https://www.spaconference.org/spa2017/people/johanpeeters.html">Johan Peeters</a><i><br>Johan Peeters bvba</i></li>
+</ol>
+
+</main></div></div>
+
+<footer><div>
+  <p>&copy; BCS SPA, 2017.</p>
+  <p><span class="conference-name">SPA<em>2017</em></span> is organised by
+    <a href="http://www.bcs-spa.org/">SPA</a>
+    which is a specialist group of the
+    <a href="http://www.bcs.org/">BCS</a>
+  </p>
+</div></footer>
+</body>
+</html>

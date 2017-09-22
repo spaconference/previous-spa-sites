@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>spa2017 Conference - Session: Why SPA should switch to HTTPS and how easy that is </title>
+  <!--[if lt IE 9]>
+      <script src="html5shiv.min.js"></script>
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.spaconference.org/spa2017/spa.css" type="text/css">
+</head>
+<body class='session'>
+<header><div>
+  <h1>
+    <img alt="BCS" src="https://www.spaconference.org/spa2017/images/bcslogo.png" width="65" height="69">
+    <a href="https://www.spaconference.org/spa2017/"><span class="conference-name">SPA<em>2017</em></span></a>
+  </h1>
+  <nav>
+    <ul>
+      <li class="menuactive"><a href="/scripts/myprofile.php">My SPA</a></li>
+    </ul>
+  </nav>
+</div></header>
+<div id="main"><div class="inner"><main><h1>Why SPA should switch to HTTPS and how easy that is </h1>
+<p>It's not cool anymore to serve your web site over HTTP. It has also become very easy to move to HTTPS.</p>
+
+<a href="https://www.spaconference.org/spa2017/formats.html">Tutorial, 75min</a>
+
+<h2>Abstract</h2>
+<p>Objectives<br />
+<br />
++ understand why secure communication is important, even for static websites<br />
++ run through some alternative procedures for supporting HTTPS at low cost<br />
++ know how to enforce HTTPS<br />
++ appreciate weaknesses and limitations of TLS and hence HTTPS<br />
+<br />
+Content<br />
+<br />
+As a site owner, you have a responsibility to your users to protect their privacy. You probably also want to ensure that nobody tampers with your content, let alone that your users would be re-directed to an adversary's site. Confidentiality, data integrity and server authenticity were objectives of HTTPS right from the start and they have only become more pertinent as network technology and our habits evolved.<br />
+But there are additional incentives to going HTTPS, such as the influence of the use of HTTPS on page ranking, increasingly aggressive sign-posting of insecure sites in browsers and performance benefits with HTTP/2.<br />
+<br />
+While it used to be complex and expensive to enable HTTPS, it is now cheap and easy. One easy way is using Cloudflare's free reverse proxy, which will terminate HTTPS connections on your behalf.<br />
+Another free, but slightly more challenging, option is Let's Encrypt. The extra effort buys extra control and even better security.<br />
+<br />
+When you are serving your web pages over HTTPS, maybe you don't want to immediately turn off HTTP since this would make the server unavailable for anyone with the old URL. On the other hand, you do not want to fall victim to SSL Stripping attacks. Use HTTP Strict Transport Security (HSTS) for protection.<br />
+<br />
+Transport Layer Security (TLS), the protocol HTTPS relies on for its security, has not had a good press in recent years: numerous bugs have been discovered and some of its underlying design has been questioned. A discussion of the cryptographic details is out of scope, but it is important to appreciate that (i) you need to keep your TLS stack patched (ii) you need to configure it correctly. Fortunately, state-of-the-art configuration files do not need to be built by hand - there are good tools such as the Mozilla SSL Configuration Generator to do this for you. And tools such as Qualys SSL Labs test the configuration.</p>
+
+<h2>Audience background</h2>
+<p>This talk is for anyone who uses web technology and either does not run it over HTTPS or does not know whether they use HTTPS.</p>
+
+<h2>Benefits of participating</h2>
+<p>Understand some of the security risks associated with the use of web technology and how to mitigate them cost-effectively.</p>
+
+<h2>Materials provided</h2>
+<p>Presentation. Demos.</p>
+
+<h2>Process</h2>
+<p>Interactive presentation.<br />
+<br />
+Participants are encouraged to try some of the technologies discussed during the session.</p>
+
+<h2>Detailed timetable</h2>
+<p>00:00 - 00:10 welcome and intro<br />
+00:10 - 00:20 why you should switch to HTTPS<br />
+00:20 - 00:30 brief technical overview of HTTPS<br />
+00:30 - 00:45 using Cloudflare<br />
+00:45 - 01:00 using Let's Encrypt (ACME)<br />
+01:00 - 01:15 wrap-up discussion</p>
+
+<h2>Outputs</h2>
+<p>Slides comparing 3 approaches are available: <a href="https://docs.google.com/presentation/d/11t_CYwxUcBlbBrVqlu7tDuJTS71ywtt7GJ2JkyGsy1M/pub?start=false&loop=false&delayms=3000">https://docs.google.com/presentation/d/11t_CYwxUcBlbBrVqlu7tDuJTS71ywtt7GJ2JkyGsy1M/pub?start=false&loop=false&delayms=3000</a><br />
+How to use Let's Encrypt including some sample command lines and configuration files for NGINX and Caddy: <a href="https://github.com/supernelis/letsencrypt-demo">https://github.com/supernelis/letsencrypt-demo</a></p>
+
+<h2>History</h2>
+<p>We have spoken about TLS at OWASP and taught TLS for ops, devs and devops commercially. However, this session is more high-level, focusing on the motivation for using TLS and looking for the simplest way you could possibly enable it.</p>
+
+<h2>Presenters</h2>
+<ol>
+  <li><a href="https://www.spaconference.org/spa2017/people/johanpeeters.html">Johan Peeters</a><i><br>Johan Peeters bvba</i></li>
+  <li><a href="https://www.spaconference.org/spa2017/people/nelisbouck.html">Nelis Boucké</a><i></i></li>
+</ol>
+
+</main></div></div>
+
+<footer><div>
+  <p>&copy; BCS SPA, 2017.</p>
+  <p><span class="conference-name">SPA<em>2017</em></span> is organised by
+    <a href="http://www.bcs-spa.org/">SPA</a>
+    which is a specialist group of the
+    <a href="http://www.bcs.org/">BCS</a>
+  </p>
+</div></footer>
+</body>
+</html>
