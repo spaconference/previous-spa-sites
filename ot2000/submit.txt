@@ -1,0 +1,225 @@
+
+OT2000 Proposal for Submission
+
+
+
+HOW TO USE THIS FORM
+
+1. Save this page as a text file, and edit it offline.
+
+2. Please fill in the fields below.
+	Anything after "%" on each line will be ignored.
+	Multi-line fields begin ":-" and end "%%"
+		Leave a blank line between paragraphs.
+		You may include html references and emphasis.
+
+3. Send the form (before 20 September) to submit@ot2000.org
+
+
+
+The form's contents will be used:
+	* to assess your proposal
+	* as the basis for the description of your session
+	  in the brochure and on the web site
+
+Our aim is to construct a programme that will be interesting
+and useful to the participants. You are welcome to discuss
+your proposal with any of the conference panel, before
+finalising it.
+
+
+You may make as many proposals as you like: only one will
+be accepted.
+
+
+IF YOUR PROPOSAL IS ACCEPTED
+
+* you will have the opportunity to provide a more pictorial
+  and longer web page, with links to other material
+  (However, this submision should be self-contained.)
+
+* you will be asked to provide a photo of yourself
+  (electronic or paper) for display on the website.
+
+
+ENQUIRIES
+
+To discuss a proposal with someone on the Programme Committee:
+	Andy Moorley <andy.moorley@ot2000.org>
+
+To enquire about fees, accommodation, etc:
+	Chris Boon <admin@ot2000.org>
+
+To enquire about this form or the web site:
+	Alan Wills <alan@trireme.com>
+
+
+======================================
+
+  Please don't erase field names ending : or :-
+  and lines beginning %%
+
+
+CONTACT PERSON
+
+Name_A:		your name here
+Email_A:	you@somewhere.com
+Phone1_A:	+44 111 222 3333
+Phone2_A:	+44 410 333 444
+Fax_A:		+44 111 333 4444
+Web_A:		http:// Your own home web page (or blank)
+Org_A:		Your company's name
+OrgWeb_A:	http:// Your company's home web page (or blank)
+Addr1_A:	1234 Brisket St
+Addr2_A:	Breesely Common
+Addr3_A:	Northampton
+Addr4_A:	PX12 23TH
+Addr4_A:	UK
+CV_A:-
+
+	% A paragraph here about you, your background
+	% and current interests. This will be
+	% posted on the web page. You may include
+	% html <B>emphasis</B> marks and cross-references.
+
+%% END MARKER %%
+
+
+====
+
+SECOND PRESENTER
+
+If there is only you presenting this session, please
+delete this section, down to "===="
+
+Name_B:		your name here
+Email_B:	you@somewhere.com
+Phone1_B:	+44 161 225 3240
+Phone2_B:	+44 410 487575
+Fax_B:		+44 161 257 3292
+Web_B:		Your own web page
+Org_B:		Your company's name
+OrgWeb_B:	Your company's web page
+Addr1_B:	1234 Brisket St
+Addr2_B:	Breesely Common
+Addr3_B:	Northampton
+Addr4_B:	PX12 23TH
+Addr4_B:	UK
+CV_B:-
+
+	% A paragraph about you, your background
+	% and current interests. This will be
+	% posted on the web page. You may include
+	% html <B>emphasis</B> marks.
+
+%% END MARKER %%
+
+
+====
+
+FURTHER PRESENTERS
+
+If there are other presenters, please replicate the
+above section, altering the suffices "B" to "C" etc.
+
+====
+
+SESSION DETAILS
+
+These paragraphs will be published in the brochure and on the web site
+if your proposal is accepted.
+
+Title:			% Something Snappy
+Subtitle:		% A longer hook to provoke interest
+
+
+Session type --- PLEASE DELETE all but one of the following.
+Please see http://www.ot2000.org/proposal.html for details.
+
+SessionType:		Drama workshop		75 minutes
+SessionType:		Simulation		75 minutes
+SessionType:		Long Simulation		170 minutes
+SessionType: 		Tutorial		75 minutes
+SessionType:		Case study		75 minutes
+SessionType:		Goldfish bowl		75 minutes
+SessionType:		Think Tank		75 minutes
+SessionType:		Workshop		170 minutes
+SessionType:		Working group		300 minutes
+SessionType:		something else		75 minutes
+
+(You will also be able to organise 'birds of a feather' sessions
+during the conference.)
+
+
+
+Subject:-	
+			% A paragraph or two introducing the subject matter.
+			% This should immediately attract the attention
+			% of anyone in your target audience.
+
+%%
+
+Benefits:-
+			% What participants will learn by attending.
+			% This should help potential participants decide
+			% whether to attend.
+
+%%
+
+Topics:-
+			% * Bullet points summarising each topic covered
+			% * This helps confirm the scope of the session
+			
+
+%%
+
+
+Who is the session for?
+
+Audience:-
+			% prerequisites for participants
+%%
+
+MaxCount:		% maximum number of participants
+Level:			basic | intermediate | advanced	  
+			(please delete all but one)
+
+
+
+How will the session work?
+
+Structure:-
+			% Please detail the contents of your session,
+			% giving sections and approximate timings.
+	
+			% This is to help the conference organisers
+			% understand how you expect the session to work.
+	
+			% If you'd like to talk over your proposal,
+			% we'll be happy to discuss this section
+			% before you make a final submission.
+
+%%
+
+Material:-
+			% What material will you prepare in advance
+			% for participants, that will be included in
+			% conference documentation?
+%%
+
+Format:-
+			% How will you work? 
+			% Lecture? Interactive drama? Round-table discussion? ...?
+
+%%
+
+Delivery:-
+			% Workshops, working groups, think-tanks and goldfish-bowls 
+			% should produce output to record the results of the session
+%%
+
+END OF EMAIL TEMPLATE
+
+Please send to submit@ot2000.org
+
+==============================

@@ -1,0 +1,103 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<TITLE>Integrity into Java</TITLE>
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR=ffffff>
+
+<B><FONT FACE="Arial" SIZE=7><P ALIGN="CENTER">Building Integrity into Java programs</P>
+</B></FONT><P ALIGN="CENTER"><IMG SRC="DukePrison.jpg" WIDTH=180 HEIGHT=252></P>
+<B><h1>Session Leaders</h1>
+</B></FONT><FONT SIZE=3>
+<P><A HREF="/ot98/people/jehunt-card.html">Dr. John Hunt</A> and Dr. Fred Long,<br>
+<A HREF="http://www.aber.ac.uk/~dcswww/">Department of Computer Science</A>, <br>
+University of Wales, Aberystwyth, <br>
+SY23 3DB,<br> 
+Email: {jjh, fwl}@aber.ac.uk</P>
+</FONT><h1>Type of Session</h1>
+Tutorial (75 minutes)
+<h1>Subject Matter</h1>
+</B></FONT><FONT SIZE=3><P>The subject of the tutorial is the development of high integrity object oriented programs in Java. Here programs refers to both applications and applets (after all just because a program is run as an applet does not mean that it does not need to be highly reliable).</P>
+<P>The construction of high integrity or high reliability systems in an object oriented language, and in Java in particular, introduces some very specific issues. These issues include:</P>
+
+<UL>
+<LI>Importance of testing inherited code in its new context. </LI>
+<LI>Implications of security within applets. Such systems require a careful analysis of security issues, the environments within which such programs will execute, as well as an understanding of the holes in Javas' "sandbox". </LI>
+<LI>The Java language itself. Issues associated with type safety, language ambiguities and common programmer bugs need to be considered. </LI>
+<LI>The environment. Java is intended to be "write once run anywhere". However, at present it is closer to "write once, and may run anywhere". This is due to differences in virtual machine implementations, internal details relating to how system provided classes are implemented and platform dependencies. </LI>
+<LI>The javac compiler. This compiler is NOT bug free. It contains a number of bugs which are primarily related to the newest addition to Javas' inner classes. </LI>
+<LI>The lack of code analysis tools such as QAC for C.</LI></UL>
+
+<P>All of these have an impact on the way in which reliable object oriented Java programs should be developed and deployed. In particular they impact on:</P>
+
+<UL>
+<LI>The reusability of code. </LI>
+<LI>The testing of your code as well as that inherited from existing classes. </LI>
+<LI>The dynamic nature through which </FONT><FONT FACE="Courier New" SIZE=3>.class</FONT><FONT SIZE=3> files are accessed at run time. </LI>
+<LI>The need for class authentication signatures. </LI>
+<LI>The application of drastic quality control measures if your application is truly mission critical or requires very high levels of reliability. For example, specifying that certain language features or classes will not be used within your applications. </LI>
+<LI>The use of code quality analysis software. </LI>
+<LI>The use of rapid application development to identify and trouble shoot problem areas. </LI>
+<LI>The role that design patterns can play within such developments.</LI></UL>
+
+<P>As part of the tutorial the session leaders will consider the impact on each of the above and how the impact can be minimized. This is an important aspect of the tutorial and will present object oriented developmental approaches and strategies.</P>
+<P>As part of the tutorial, the attendees will be divided into groups and presented with some Java code. They will be asked to analyse it in light of the above and to comment on its integrity. The session leaders will then lead a discussion on the sample code and present the results of their own analysis.</P>
+</FONT><B><FONT FACE="Arial"><P>Principal objectives</P>
+</B></FONT><FONT SIZE=3><P>The principal objectives of this tutorial are:</P>
+
+<UL>
+<LI>To make participants aware of the problems associated with building high integrity object oriented systems, with particular reference to Java. </LI>
+<LI>To consider the effects that these problems can have on various aspects of a project's development cycle and a program's constructions and deployment. </LI>
+<LI>To present some approaches to minimizing the influence that these problems (and their effects) can have on a program's reliability. </LI></UL>
+
+</FONT><h1>Who is the session for?</h1>
+<h3>Intended audience</h3>
+
+<UL>
+</B><LI>Developers and project managers who wish to understand the issues associated with constructing high integrity object oriented systems (and in particular those considering the use of Java). </LI>
+<LI>Developers and project managers wishing to consider whether Java is safe enough for use within systems whose reliability is paramount.</LI></UL>
+
+<h3>Level of experience</h3>
+</B><P>Familiarity with at least one object oriented language (and preferably familiarity with Java).</P>
+<P>An appreciation of the issues relating to high reliability systems (i.e. why they are important, why they are difficult to build etc.)</P>
+
+<h1>How will the session work?</h1>
+<h3>Structure of the session</h3>
+</B><P>The session will be organized in the following manner:</P>
+
+<UL>
+<LI>Problems associated with the construction of high reliability systems (10 minutes) </LI>
+<LI>Impact of these problems on the construction of systems (20 minutes) </LI>
+<LI>Impact minimization strategies and object oriented approaches (15 minutes) </LI>
+<LI>Break into groups for sample code analysis (15 minutes) </LI>
+<LI>Discussion of code analysis and "model" solution (15 minutes)</LI></UL>
+
+<h1>Material provided</h1>
+</B><P>The material provided for the session will include:</P>
+
+<UL>
+<LI>Paper considering the problems encountered, their impact and ways of minimizing this impact. </LI>
+<LI>Sample code for analysis. </LI>
+<LI>Analysis of sample code.</LI></UL>
+
+<h1>Format and method of working</h1>
+</B><P>The format of the tutorial will involve formal lecturing, plus small group based analysis and discussion followed by a discussion with the whole group.</P>
+</FONT><h1>Session leader's experience</h1>
+</B></FONT><FONT SIZE=3><P>Dr. Hunt has been working in the field of object oriented systems (in both industry and academia) since 1986. During that time he has used a variety of object oriented languages and design techniques to construct systems as diverse as design analysis systems, MIS and AI systems. For the last year he has been involved in the analysis of Java as a language for constructing high reliability systems. </P>
+<P>Dr. Long lectures on software engineering and formal methods. He is a
+visiting scientist at the Software Engineering Institute in
+Pittsburgh. Recently, he has been researching into Java's suitability for
+the development of critical applications.</P>
+<h1>Conference links</h1>
+<DL>
+<DT>My OT97 personal details: 
+<DD><A HREF=http://www.trireme.com/ot97/people/jehunt-card.html>
+John Hunt</a>; 
+
+<DT>OT97 Main Web page: 
+<DD><A HREF="http://www.sis.port.ac.uk/bcs-oops/ot97/">
+<IMG SRC="/ot98/ot98.gif" height=30 width=60></A> 
+</DL>
+<hr>
+<P>John Hunt <br>23rd December 1997</P></FONT></BODY>
+</HTML>

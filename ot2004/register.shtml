@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html><!-- InstanceBegin template="/Templates/OT2004.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+	<title>OT2004 - registration</title>
+	<style>
+		.s1{background-color: #ffffff}
+		.s2{background-color: #ffffff}
+		.sx{background-color: #ff0000}
+		input { font: 12px/120% verdana, arial, sans-serif; color: #000;}
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="ot.css" />
+	<script type="text/javascript" src="x/x.js"></script>
+	<script type="text/javascript" src="x/ot.js"></script>
+	<script type="text/javascript" src="register.js"></script>
+</head>
+
+<body onLoad="adjustLayout();setAmount()">
+<!--#include file="leftmenu.html" -->
+<div id="top">
+	<a href="register.shtml" class="topmenu">registration</a> - 
+	<a href="organisers.shtml" class="topmenu">contact</a>&nbsp;
+</div>
+<div id="content">
+	<div id="contentcontent">
+		<br />
+		<br />
+		<img src="images/registerhead.gif" width="271" height="22" border="0">
+				<table><tr><td>
+		<div class="FloatBox" style="width: 400px">
+			News flash!<br />
+			<br />
+			The conference is now SOLD OUT. If you wish, you may call
+			+44 (0)870 760 6863 to join the waiting list for cancellations.
+		</div></td></tr></table>
+	</div>
+</div>
+</body>
+</html>

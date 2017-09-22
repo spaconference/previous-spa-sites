@@ -1,0 +1,78 @@
+Paper Number	Paper Title	Synopsis Date	Length	Session Type	URL
+1	UML modeling – the easy way	13 August 2003	150	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagahgagfibgeicfbbdhKk
+10	Discovery Made Easy	3 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagcejhiebhostibbdgcbjhainaddrbtopenworldcomKk
+11	A First step into OOP encapsulating the database	6 September 2003	75	case	http://www.ot2003.org/scripts/wiki/submissions/?KkbagciefajgdslcbhbffcfbcdizencoukKk
+12	Understanding Metamodelling	8 September 2003	75	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdaedjeamadonnacswincolostateeduKk
+13	Process Engineering workshop	8 September 2003	330	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdaefehbmadonnacswincolostateeduKk
+14	MDA - this year's silver bullet?	9 September 2003	75	goldfish	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbefifhdslcbhbffcaagezencoukKk
+15	Coaching Skills for Software Development Teams	10 September 2003	150	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdcaacjdicdfcbdccableubrabhariblueyondercoukKk
+16	Getting the message?	10 September 2003	150	thinktank	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdcabhifgcibaabfcKk
+17	Soft Systems Methodology Outputs = OO/UML/Agile Inputs	10 September 2003	75	thinktank	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbdcdagcbdhibgebfcKk
+18	Soft Systems Methodology - Learning an Approach to Requirements	10 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbdeggacbdhibgebfcKk
+19	Belbin Team Roles in Software Development	10 September 2003	75	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagcjefecbibfbhdceeKk
+2	Mind the culture gap!	9 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbcahedgccdccdhaKk
+20	Java Persistence Options	9 September 2003	75	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbcjgafdslcbhbffcaagezencoukKk
+21	Delegation in Java	10 September 2003	150	other	http://www.ot2003.org/scripts/wiki/submissions/?KkbagbjhfiejevispcacheabopsasmrabenergisidcnetKk
+22	JPMorgan Case  Study: Deploying a Process Framework	29 August 2003	75	case	http://www.ot2003.org/scripts/wiki/submissions/?KkbagcbhafajbgjhbfaeeKk
+23	"Earth calling Jupiter!" - web services interoperability	9 September 2003	75	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbabjjhblueicebxukibmcomKk
+24	Data distribution in a diverse community - an exercise in abstraction	9 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbahecibdibaebfcgcKk
+25	Test Driven Development	22 August 2003	150	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagbffdghhcbcbfijfcbaKk
+26	Blogs and RSS - worth your time?	8 September 2003	75	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdadeagcpcpabhebbbjpcshowardabmdcomcastnetKk
+27	Understanding Project Dynamics	8 September 2003	330	workgroup	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdabcjdapdjeifcfidiptdialinnetKk
+28	Dispersed Development	18 August 2003	75	case	http://www.ot2003.org/scripts/wiki/submissions/?KkbagadejijdwansyntropyadslalcomcoukKk
+29	Getting out of the box in an agile manner	8 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdaceecidclientiacbicbicdbhispeedchKk
+3	Agile Software Development Ecosystems in practice	10 September 2003	75	goldfish	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbiadfegccdccdhaKk
+30	MANAGING STANDARDS	15 July 2003	330	workgroup	http://www.ot2003.org/scripts/wiki/submissions/?KkbafibjefbfzebzqwdrqszcomKk
+31	Sustainable Architecture	10 September 2003	75	thinktank	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdcahicdproxybdraegercomKk
+32	From coping stances to congruence	8 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdadjacbcoproxydavayacomKk
+33	Call in the CoPs	9 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdajeibfamperenoosnetKk
+34	Automated test idioms	9 September 2003	75	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbbacjgbdibaebfcgcKk
+35	Putting Human Competencies to Work in the Software Industry: Insights from the Worldwide Indian leader Infosys Ltd.	9 September 2003	75	thinktank	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdaihedeproxyhntuedusgKk
+36	(Ab)user stories	10 September 2003	75	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbabeebtaikoxseallnlKk
+37	System Dynamics -- seeing the forest and the trees	8 September 2003	75	other	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdadbhdgnjproxycavayacomKk
+38	Systems archetypes -- diagnosing system issues and designing high-leverage interventions	8 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdadfhhecoproxyfavayacomKk
+39	Seeing the forest and the trees 	8 September 2003	330	workgroup	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdaecabhcoproxyfavayacomKk
+4	Non-XP words for agile development practices	2 September 2003	150	thinktank	http://www.ot2003.org/scripts/wiki/submissions/?KkbagcfdgabgcachedlbaproxyaolcomKk
+40	A Picture Paints a Thousand Words - Or does it?	10 September 2003	75	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagcebbcfbbcjdfibbgKk
+41	Objects on ACID	9 September 2003	75	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagcefjhbihostibbfcbcagdrangeibbfcbtcentralpluscomKk
+42	Getting to Grips with Architecture Using Viewpoints and Perspectives	10 September 2003	150	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbicbebhainbhexamscomKk
+43	Customer Taming	17 July 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbafheacijchostcbhdjjjjinaddrbtopenworldcomKk
+44	Project management tips from the factory	18 September 2003	75	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdaeecjecdcibdgcbhadslskynetbeKk
+45	Tracer Bullets Reloaded	26 July 2003	150	simulation	http://www.ot2003.org/scripts/wiki/submissions/?KkbafjcdhijbdslcbhbffbhegzencoukKk
+46	Insight tools	16 September 2003	75	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagchfhheepcbbsfdbgcustbddcmbgcablentlcomKk
+47	Extreme Model Driven Development - a meeting of cultures	10 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdcaeaadasbaabmiscoventryacukKk
+48	There is no Real World! - There's only Object Models.	10 September 2003	150	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbjgeagbjdbaihibaKk
+49	Start to Win	9 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbdejaeoptbombukaccessvodafonenetKk
+5	Famous for Fifteen Minutes	7 September 2003	150	other	http://www.ot2003.org/scripts/wiki/submissions/?KkbagcjgjgjeuserdecdfdslpipexcomKk
+50	The Rise and Fall of the Elegant Object Model	10 September 2003	75	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbdfhihibbgifhbjdKk
+51	Agile Testing verses Traditional Test Process in Xtreme Development Approaches	7 August 2003	75	other	http://www.ot2003.org/scripts/wiki/submissions/?KkbafibhafceslipbdjjcccjjjwarukprservnetKk
+52	Towards EJB 3.0	8 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdaegccchostibbcicaadjinaddrbtopenworldcomKk
+53	The Architect's Bookshelf	8 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdafbjjdhostibbcicaadjinaddrbtopenworldcomKk
+54	Object architectures for ambient systems	9 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbchdhfbjdbcabbifeKk
+55	Do we need Software Architects and if so why?	10 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdcagbebbjdbbdeihKk
+56	Model Driven Architecture (MDA)	31 July 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbafjgdhjjgunallocatedstarnetukKk
+57	Managing Agile/Extreme Programming (XP) Projects	31 July 2003	75	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbafjgdjbjdunallocatedstarnetukKk
+58	The difficulties we encountered in developing an object model to support requirements development.	9 September 2003	75	case	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbccgfespringbankhudacukKk
+59	Extendible Architectures Best Practices	10 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdcagehbproxycdraegercomKk
+6	Power tools: friend or foe	10 September 2003	75	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdbdbhgedslcbhbffcaagezencoukKk
+60	Life without Unit Tests	10 September 2003	75	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagchgcgacnchoboadtelenetopsbeKk
+61	Release the pressure - how (not) to deliver valuable software continuously	9 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagbjjbfjeevispcacheabopsasmrabenergisidcnetKk
+ 62	Domain Specific Languages - issues and exercises	10 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdcbfghctidebdgmicrosoftcomKk
+ 64	CMMI How do you know if it is worth a look?	10 September 2003	75		http://www.ot2003.org/scripts/wiki/submissions/?KkbagdcccibinjproxydavayacomKk
+ 65	What went wrong? Error handling in a distributed environment	10 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdccfbejcacheglutnserverntlinetKk
+ 66	How I learned to stop worrying and love metrics	10 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdccgajdkeithbraithwaitedemoncoukKk
+ 67	How to Fail at XP	10 September 2003	75	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdcbhfdakeithbraithwaitedemoncoukKk
+ 68	The Software Engineer's View of Content Management	10 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdccgfccbjchgbgciKk
+69	Smooth Integration Of The UML Into Established Development Processes	11 September 2003	75	case	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdccajbjhostcbdbccbjbddinaddrbtopenworldcomKk
+7	Curly Bracket Tikka Masala	19 August 2003	75	goldfish	http://www.ot2003.org/scripts/wiki/submissions/?KkbagbdaagcbblueskylinedemoncoukKk
+ 70	The Compute Backbone at JPMorgan	11 September 2003	75	case	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdcedbbbhostibbciceibbhinaddrbtopenworldcomKk
+ 71	Planning and managing the organizational transition to object technology	11 September 2003	150	case	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdcfiehjwwwcitdutseduauKk
+ 72	Haven't thought of a snappy title yet	11 September 2003	75	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagddabcjhbjdbaihibaKk
+ 73	Applying Jackson Problem Frames	12 September 2003	150	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagddfgcihcbcedbgecfKk
+ 74	Getting Your Story Straight	14 September 2003	75	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdfdbacbdialgcgeccadfaccessuktiscalicomKk
+ 75	Component co-ordination in models	16 September 2003	75	thinktank	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdhchjcgcbdhihibigKk
+ 76	Large Refactorings continued – providing support for agile teams	17 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdhhjhbffbipcaiacinformatikunihamburgdeKk
+ 77	Generic Mechanisms in Software Engineering	17 September 2003	150	workshop	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdicfcafhostibbdebhdjfinaddrbtopenworldcomKk
+ 78	Considerations for Code Placement in a Layered Architecture	17 September 2003	75	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagdicacighostibbdebhdjfinaddrbtopenworldcomKk
+8	Mixin It	15 September 2003	75	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagcefghcihostibbfcbcagdrangeibbfcbtcentralpluscomKk
+9	Taming the Tiger: Using Java 1.5	4 September 2003	75	tutorial	http://www.ot2003.org/scripts/wiki/submissions/?KkbagcgjghjccbhcahbhabhiKk

@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+<head>
+<title>Investigating architectural styles for distributed object systems</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 1.1">
+</head>
+
+<body background="images/jade-par-back.gif">
+
+<A HREF="../daniels.html"><IMG SRC="/ot98/prvs.gif"></A>
+<A HREF="/ot98/programme.html"><IMG SRC="/ot98/up.gif"></A>
+<A HREF="../robertson.html"><IMG SRC="/ot98/next.gif"></A>
+
+<h1 align=center><a name="top"><font color="#FFFF80"><font size=4><b>I</b></font></font></a><font color="#FFFF80"><font size=4><b>nvestigating architectural styles for distributed object systems</b></font></font></h1>
+<p><font color="#FFFFFF"><font size=2><em><strong>&quot;In the design of large distributed object systems (especially those which use an ORB), it appears that the 
+architecture can often be described by two high-level styles. The first of these is usually referred to as 
+Service-Based and the other could be referred to as Model-Based. The purpose of this workshop is to investigate 
+when, where and how these styles can be usefully applied. &quot;</strong></em></font></font></p>
+<table width=100%>
+<tr><td align=center valign=bottom width=16%><a href="#Introduction"><img src="images/intro-sml.gif" align=bottom border=0 width=72 height=72></a></td><td align=center valign=bottom width=16%><a href="#Service Based"><img src="images/ser-sml.gif" align=bottom border=0 width=72 height=71></a></td><td align=center valign=bottom width=17%><a href="#Model Based "><img src="images/mod-sml.gif" align=bottom border=0 width=72 height=60></a></td><td align=center valign=bottom width=17%><a href="#Time Table"><img src="images/time-sml.gif" align=bottom border=0 width=72 height=83></a></td><td align=center valign=bottom width=17%><a href="#Who should come?"><img src="images/aud-sml.gif" align=bottom border=0 width=72 height=60></a></td><td align=center valign=bottom width=17%><a href="#Session Leaders"><img src="images/pres-sml.gif" align=bottom border=0 width=72 height=66></a></td></tr>
+<tr><td width=16%><p align=center><a href="#Introduction">Introduction</a></p>
+</td><td width=16%><p align=center><a href="#Service Based">Service Based</a></p>
+</td><td width=17%><p align=center><a href="#Model Based ">Model Based</a></p>
+</td><td width=17%><p align=center><a href="#Time Table">Time Table</a></p>
+</td><td width=17%><p align=center><a href="#Who should come?">Who should 
+come?</a></p>
+</td><td width=17%><p align=center><a href="#Session Leaders">Session Leaders</a></p>
+</td></tr>
+</table>
+<p><font color="#FFFF80"><strong>OT98 Main Web page:</strong></font> <a href="http://www.trireme.com/ot98/home.html"><img src="http://www.trireme.com/ot98/Image/smallOT.gif" align=middle border=0 width=94 height=50></a></p>
+<hr>
+<h1><font size=2><img src="images/intro-lrg.gif" align=bottom width=120 height=120></font><a name="Introduction"><font color="#FFFF80"><font size=2><strong>Introduction</strong></font></font></a><font size=2><br>
+</font></h1>
+<p><font color="#FFFFFF"><font size=2>In the design of large distributed object systems (especially those which use an ORB), it appears that the 
+architecture can often be described by two high-level styles. The first of these is usually referred to as </font></font><a href="#Service Based"><font color="#FFFFFF"><font size=2>Service-Based 
+</font></font></a><font color="#FFFFFF"><font size=2>and the other could be referred to as </font></font><a href="#Model Based "><font color="#FFFFFF"><font size=2>Model-Based</font></font></a><font color="#FFFFFF"><font size=2>. The purpose of this workshop is to investigate when, where and 
+how these styles can be usefully applied. Specifically, we will consider:</font></font></p>
+<ul>
+<li><font color="#FFFFFF"><font size=2>Do certain design techniques (e.g. Jacobson Use-case, OMT, etc.) work better with one of the styles?</font></font></li>
+<li><font color="#FFFFFF"><font size=2>Do certain implementation technologies suite one style better than the other?</font></font></li>
+<li><font color="#FFFFFF"><font size=2>Are the results of one style easier to understand?</font></font></li>
+<li><font color="#FFFFFF"><font size=2>Are these really two distinct styles or merely two extremes of a spectrum of possibilities?<br>
+</font></font></li>
+</ul>
+<p><font color="#FFFFFF"><font size=2>These topics will be investigated by various design issues based on a simple, distributed car-hire system. Attendees 
+will be split into small groups in which they will do the exercises.</font></font></p>
+<p><font color="#FFFFFF"><font size=2><br>
+Therefore, the main objective of this workshop is to produce patterns describing the two architectural styles, when 
+and where they might be applicable, how implementation technologies affect the choice of style, what the 
+consequences of adopting one style over another might be, etc. We will not look to recommend one style over 
+another because different business contexts will have different requirements (such as being tied into one 
+implementation technology or another by historical accident), but to understand the characteristics of the styles 
+better.</font></font></p>
+<p><a href="#top"><img src="images/up.gif" align=bottom border=0 width=16 height=16></a> <font color="#FFFFFF">Back to top</font></p>
+<hr>
+<h1><font color="#FFFF80"><font size=2><strong><img src="images/ser-lrg.gif" align=bottom width=139 height=137></strong></font></font><a name="Service Based"><font color="#FFFF80"><font size=2><strong>Service Based</strong></font></font></a></h1>
+<p><font color="#FFFFFF"><font size=2>A system is constructed by directly modelling the processes which occur within the system and then by considering 
+the entities involved in these processes. The model of the processes will allow the architect to collect together sets 
+of coherent functions which can be packaged up into reusable, shared service objects. These objects will also 
+provide the potential distribution boundaries. </font></font></p>
+<p><a href="#top"><img src="images/up.gif" align=bottom border=0 width=16 height=16></a> <font color="#FFFFFF">Back to top</font></p>
+<hr>
+<h1><font color="#FFFF80"><font size=2><strong><img src="images/mod-lrg.gif" align=bottom width=135 height=114></strong></font></font><a name="Model Based "><font color="#FFFF80"><font size=2><strong>Model Based </strong></font></font></a></h1>
+<p><font color="#FFFFFF"><font size=2>An object model is constructed without reference to the expected distribution of the objects using techniques such 
+as OMT. This model will tend to focus on the static type diagram allocating the required behaviour to the 
+appropriate object types as required. At a later configuration phase of the project, the distribution of objects is 
+decided.</font></font></p>
+<p><a href="#top"><img src="images/up.gif" align=bottom border=0 width=16 height=16></a> <font color="#FFFFFF">Back to top</font></p>
+<hr>
+<h1><font color="#FFFF80"><font size=2><b><img src="images/time-lrg.gif" align=bottom width=168 height=193></b></font></font><a name="Time Table"><font color="#FFFF80"><font size=2><b>Time Table</b></font></font></a></h1>
+<p><font size=2></font>&nbsp;</p>
+<table width=80%>
+<tr><th align=left width=10%><font color="#FFFF80"><strong>Time from 
+start</strong></font></th><th align=left width=50%><p align=left><font color="#FFFF80"><strong>Activity</strong></font></p>
+</th></tr>
+<tr><td valign=top width=10%><font color="#FFFFFF"><strong>0.00</strong></font></td><td width=50%><font color="#FFFFFF"><font size=2><strong>Introduction to the workshop</strong></font></font></td></tr>
+<tr><td valign=top width=10%><font color="#FFFFFF"><strong>0.05</strong></font></td><td width=50%><font color="#FFFFFF"><font size=2><strong>What do we mean by service-based and model-based?</strong></font></font></td></tr>
+<tr><td valign=top width=10%><font color="#FFFFFF"><strong>0.10</strong></font></td><td width=50%><font color="#FFFFFF"><font size=2><strong>Introduction to the problem domain</strong></font></font></td></tr>
+<tr><td valign=top width=10%><font color="#FFFFFF"><strong>0.15</strong></font></td><td width=50%><font color="#FFFFFF"><font size=2><strong>Exercise - designing within an architectural style</strong></font></font><p><font color="#FFFFFF"><font size=2>Half of the groups will produce a design for the distributed system within the 
+service-based architectural style, the other half within the model-based style. 
+These designs will be quick-and-dirty, relying on instinct and experience.</font></font></p>
+<p><font color="#FFFFFF"><font size=2></font></font>&nbsp;</p>
+</td></tr>
+<tr><td valign=top width=10%><font color="#FFFFFF"><strong>0.45</strong></font></td><td width=50%><font color="#FFFFFF"><font size=2><strong>Feedback and reflection</strong></font></font><p><font color="#FFFFFF"><font size=2>Groups will pair up (one service-based with one model-based) to discuss their 
+solutions. Particularly, discussions will focus on justifying designs to the 
+other groups - reflecting on the intuition and experience that lead to the 
+design produced.</font></font></p>
+<p><font color="#FFFFFF"><font size=2></font></font>&nbsp;</p>
+</td></tr>
+<tr><td valign=top width=10%><font color="#FFFFFF"><strong>1.05</strong></font></td><td width=50%><font color="#FFFFFF"><font size=2><strong>Exercise - implementation technology</strong></font></font><p><font color="#FFFFFF"><font size=2>Two sets of implementation technologies will be described: one based around 
+a CORBA ORB, the other around &quot;guaranteed&quot; message delivery systems and 
+relational database technology. The groups will now consider how one of 
+these technologies might affect the implementation of their design.</font></font></p>
+<p><font color="#FFFFFF"><font size=2></font></font>&nbsp;</p>
+</td></tr>
+<tr><td valign=top width=10%><font color="#FFFFFF"><strong>1.15</strong></font></td><td width=50%><font color="#FFFFFF"><font size=2><strong>Break</strong></font></font></td></tr>
+<tr><td valign=top width=10%><font color="#FFFFFF"><strong>1.45</strong></font></td><td width=50%><font color="#FFFFFF"><font size=2><strong>Exercise continued</strong></font></font></td></tr>
+<tr><td valign=top width=10%><font color="#FFFFFF"><strong>2.00</strong></font></td><td width=50%><font color="#FFFFFF"><font size=2><strong>Feedback and reflection</strong></font></font><p><font color="#FFFFFF"><font size=2>Groups will pair up (one CORBA with one messaging) to discuss how the 
+underlying technology affects the implementation of the design. Again, the 
+objective of the discussions is to reflect on how the choice of implementation 
+technology affects system design and architectural assumptions.</font></font></p>
+<p><font color="#FFFFFF"><font size=2></font></font>&nbsp;</p>
+</td></tr>
+<tr><td valign=top width=10%><font color="#FFFFFF"><strong>2.20</strong></font></td><td width=50%><font color="#FFFFFF"><font size=2><strong>Group reflection</strong></font></font><p><font color="#FFFFFF"><font size=2>Each group will attempt to write a pattern based on their experiences with the 
+service-based and model-based styles (both in the workshop and previously). 
+Specifically they will consider: what are the forces which might lead us to 
+choose to us one style or another? how are these forces resolved by the 
+style? and what is the new context that results from using one of the styles.</font></font></p>
+<p><font color="#FFFFFF"><font size=2></font></font>&nbsp;</p>
+</td></tr>
+<tr><td valign=top><font color="#FFFFFF"><strong>2.45</strong></font></td><td><font color="#FFFFFF"><font size=2><strong>Pattern summaries and plenary discussion</strong></font></font></td></tr>
+</table>
+<p><a href="#top"><img src="images/up.gif" align=bottom border=0 width=16 height=16></a> <font color="#FFFFFF">Back to top</font></p>
+<hr>
+<h1><font size=2><img src="images/aud-lrg.gif" align=bottom width=191 height=159></font><a name="Who should come?"><font color="#FFFF80"><font size=2>Who should come?</font></font></a></h1>
+<p><font color="#FFFFFF"><font size=2>Attendees to this workshop could be anyone who is interested in the requirements or design of distributed systems 
+using OO technologies. A participant should have a reasonable background knowledge across a wide-range of OO 
+issues such as issues relating to distribution, modelling techniques and ORBs, although in depth knowledge of any 
+one technique, development tool, etc is not expected.</font></font></p>
+<p><a href="#top"><img src="images/up.gif" align=bottom border=0 width=16 height=16></a> <font color="#FFFFFF">Back to top</font></p>
+<hr>
+<h1><font color="#FFFF80"><font size=2><b><img src="images/pres-lrg.gif" align=bottom width=250 height=144> </b></font></font><a name="Session Leaders"><font color="#FFFF80"><font size=2><b>Session Leaders</b></font></font></a></h1>
+<p><a href="http://www.trireme.com/ot98/people/amoorley-card.html"><font color="#FFFFFF"><font size=2>Andy Moorley</font></font></a><font color="#FFFFFF"><font size=2> has jointly run successful workshops on subjectivity and 'ORBS and ODBMSs' at OT '96 and '97. 
+</font></font><a href="http://www.trireme.com/ot98/people/pdyson-card.html"><font color="#FFFFFF"><font size=2>Paul Dyson</font></font></a><font color="#FFFFFF"><font size=2> has, with Bruce Anderson, run two successful 'Design variation and architecture' workshops at previous 
+OT conferences. Paul has also presented papers and posters at a number of international conferences including 
+OOPSLA and OOP.</font> </font></p>
+<p><font color="#FFFFFF"><font size=2>Paul is with Cumulus Systems Ltd., a software house that develops systems for the financial sector. Cumulus is 
+currently designing an integrated front and back office product in a totally OO environment based around an ORB, 
+ODBMS and developed in Smalltalk.</font> </font></p>
+<address><a href="mailto:paul@cumulus.co.uk"><font color="#FFFFFF"><font size=2>paul@cumulus.co.uk</font></font></a><font color="#FFFFFF"><font size=2>: Cumulus Systems Ltd., 1 High Street, Rickmansworth, Herts. WD3 1ET, UK.</font> <font size=2>Tel: 
++44.1923.720477</font> </font></address>
+<p><font color="#FFFFFF"><font size=2>Andy is now with JP Morgan (London) where he is working on an OO Derivatives Risk Management system based 
+on Smalltalk, ODBMS and ORB technology. He has both architectural and development roles in this project.</font> </font></p>
+<address><a href="mailto:moorley_andy@jpmorgan.com"><font color="#FFFFFF"><font size=2>moorley_andy@jpmorgan.com</font></font></a><font color="#FFFFFF"><font size=2>: JP Morgan ,PO Box 161, 60 Victoria Embankment, London. EC4Y 0JP, UK. Tel: 
++44.171.353.8658.</font></font></address>
+<p><font color="#FFFFFF"><font size=2>The architecture of both of these system has adopted facets of both approaches.</font></font></p>
+<p><a href="#top"><img src="images/up.gif" align=bottom border=0 width=16 height=16></a> <font color="#FFFFFF">Back to top</font></p>
+<HR>
+<A HREF="../daniels.html"><IMG SRC="/ot98/prvs.gif"></A>
+<A HREF="/ot98/programme.html"><IMG SRC="/ot98/up.gif"></A>
+<A HREF="../robertson.html"><IMG SRC="/ot98/next.gif"></A>
+</body>
+
+</html>

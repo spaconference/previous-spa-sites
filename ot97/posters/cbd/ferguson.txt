@@ -1,0 +1,43 @@
+Greetings,
+
+I am hoping to attend OT 97 and would like to participate in your working
+group.
+
+I am working with a small team of engineers, developing object-oriented 
+software for the oil industry.  Our first product 'Hedera' is a Basin-modelling
+workbench for use in exploration and is coded in C++ using ObjectStore for
+persistance.  We are presently involved in a cross-platform tool for the
+production side of the oil industry, again using C++ as well as a cross-platform
+development tool called Galaxy.  The database in this case is relational with
+an POSC compliant object-oriented interface layer.  We have significant
+experience
+in developing object-libraries for graphics, motif, and domain specific 
+science.  
+
+As object-technology has as one of its major drives, software reuse, we
+should be striving toward that goal.  At the end of the day the greatest
+efficiency
+gains are not obtained mearly by better coding practice (though that
+helps) but by gearing up with the use of libraries and components.  To do
+this, interfaces must be designed with the 'big picture' in mind rather than 
+only the project at hand.  If not, productivity gains will reflect only
+reuse local to the project at hand, rather than for subsequent projects or
+even the projects of others outside the company.  Thus it is probably best
+to consider opportunities to market components along with the final product:
+e.g. the means may be part of the end.
+
+Yours sincerely,
+Jon Ferguson
+
+*****************************************************************************
+****  Dr. JC Ferguson    
+****  Senior Software Engineer
+****  PGS Tigress (UK) Ltd. 
+****  Offshore Technology Park
+****  Exploration Drive
+****  Aberdeen  AB23 8GX
+****  Scotland, UK. 
+****  email: jcf@tigress.co.uk
+****  phone: (0224) 706763
+****  fax  : (0224) 706082
+*****************************************************************************

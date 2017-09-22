@@ -1,0 +1,958 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+
+   <TITLE>OT98 Participation</TITLE>
+
+   <META NAME="Author" CONTENT="Alan Wills">
+
+
+</HEAD>
+
+<BODY BGCOLOR=fff0e0>
+
+<A HREF=/ot98>[OT98]</A>
+
+<A HREF=/ot99>[OT99]</A> 
+<A href="/www.ot2000.org/">OT2000</A>
+<A href="/www.ot2001.org/">OT2001</A>
+<A href="/www.ot2002.org/">OT2002</A>
+<A href="/www.ot2003.org/">OT2003</A>
+<A href="/www.ot2004.org/">OT2004</A>
+<A href="/www.ot2005.org/">OT2005</A>
+
+<A HREF=organisers.html>[Organisation]</A>
+
+<P>
+
+<TABLE CELLSPACING=3 CELLPADDING=3 >
+
+<TR VALIGN=TOP>
+
+
+
+<TD ALIGN=RIGHT VALIGN=TOP><B><I><FONT SIZE=+4>Programme</FONT></I></B>
+
+<P><B>The themes of patterns, components, and distributed architectures will 
+
+lead in this year's conference.</B>
+
+</TD>
+
+<TD ALIGN=RIGHT ><BR>
+
+<A HREF="/ot98"><IMG SRC="Image/ot98PCA.gif" BORDER=0 HEIGHT=120 WIDTH=310></A></TD>
+
+</TR>
+
+</TABLE>
+
+<!---------- END OF HEADER ---------------------->
+
+
+
+
+
+
+
+<P>
+
+<A HREF=""><IMG SRC="Image/bar.jpeg" BORDER=0 ALIGN=right WIDTH=204 height=137></A>
+
+OT98 (like all its predecessors) is an interactive, buzzing event at which
+
+you will learn and discuss ideas contributed by all the participants, not
+
+just the pre-prepared sessions. A significant proportion of the time is
+
+set aside for <A HREF="bof.html">'BOF' meetings</A>. A BOF is for you to set up, to discuss any
+
+topic you like, with people interested in the same questions. In the
+
+past, BOFs have proved one of the most successful aspects of this series
+
+of conferences.
+
+<BR CLEAR=all>
+
+<P>
+
+
+<P>This year, OT98 is co-located with the  <A
+HREF="http://www.cms.dmu.ac.uk/STRL/cotsr/prog2.html">Colloquium on Object Technology and System Re-engineering</A>.
+
+<P><IMG SRC=ul.gif HEIGHT=3 WIDTH="100%"></P>
+
+<A HREF="http://www.ot2000.org/"><H2><CENTER><I>This is the <blink>1998</blink> programme --- click here for OT2000</I></CENTER></H2></A>
+
+
+
+<P><IMG SRC=ul.gif HEIGHT=3 WIDTH="100%"></P>
+
+
+<TABLE WIDTH=100%><TR><TD>
+
+<A HREF="sessionTypes.html#GFB">GFB</A> --> discussion group
+
+</TD><TD>
+
+<A HREF="sessionTypes.html#TT">TT</A> --> think tank
+
+</TD><TD>
+
+<A HREF="sessionTypes.html#CS">CS</A> --> case study
+
+</TD><TD>
+
+<FONT FACE="Wingdings">*</FONT> --> requires prior sign-up
+
+
+</TD></TR></TABLE>
+<I>Other sessions are in <A HREF="sessionTypes.html#TU">tutorial</A> or <A HREF="sessionTypes.html#WS">workshop</A> format.</I>
+
+
+
+
+<HR WIDTH="100%"></P>
+
+
+
+<P><B><FONT SIZE=+1>Sunday 5 April</FONT> --- <A HREF="sessionTypes.html#WG">Working Groups</A></B></P>
+
+<P><I>Each of these half-day working groups is aimed at developing new
+
+understandings within a particular area. You're encouraged to take part 
+
+in whichever has the most direct relevance to you.
+
+</I>
+
+<TABLE BORDER=1 >
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>13:00
+</TD>
+
+
+
+<TD>
+<H4><A HREF="http://www.cix.co.uk/~cweir/ot98wg/index.htm">Software architectures for reuse <FONT FACE="Wingdings">*</FONT></A></H4>
+<A HREF="/cgi-bin/wiki.pl?CharlesWeir">Charles Weir</A>
+ </TD>
+
+<TD>
+<H4><A HREF="posters/wgwills.html">Process patterns <FONT FACE="Wingdings">*</FONT></A></H4>
+<A href="/cgi-bin/wiki.pl?AlanCameronWills">Alan Cameron Wills</A> 
+</TD>
+
+
+<TD>
+<H4><A HREF="posters/wgmoorley.html">Patterns for distributed systems <FONT FACE="Wingdings">*</FONT></A></H4> 
+<A href="/cgi-bin/wiki.pl?PaulDyson">Paul Dyson</A> &amp; <A HREF="/cgi-bin/wiki.pl?amoorley-card.html">Andy&nbsp;Moorley</A>
+</TD>
+
+
+<TD>
+<H4><A HREF="posters/wgkirsopp.html">Metrics for project control <FONT FACE="Wingdings">*</FONT></A></H4>
+
+<A HREF="/cgi-bin/wiki.pl?ColinKirsopp">Colin&nbsp;Kirsopp</A> &amp; <A HREF="/cgi-bin/wiki.pl?swebster-card.html">Steve&nbsp;Webster</A>
+</TD>
+</TR>
+
+<TR VALIGN=top BGCOLOR=c0ffc0>
+
+<TD WIDTH=72>19:00</TD>
+
+
+<TD COLSPAN=4>
+
+<CENTER><FONT COLOR=008000>Break</FONT></CENTER>
+
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top BGCOLOR=c0ffc0>
+
+<TD WIDTH=72>20:00</TD>
+
+
+
+<TD COLSPAN=4>
+
+<CENTER><FONT COLOR=008000>Dinner</FONT></CENTER>
+
+</TD>
+
+
+
+</TR>
+
+
+
+<TR VALIGN=top BGCOLOR=c0ffc0>
+
+<TD WIDTH=72>21:30</TD>
+
+
+
+<TD COLSPAN=4>
+
+<CENTER><FONT COLOR=008000>Diversions</FONT></CENTER>
+
+</TD>
+
+</TR>
+
+</TABLE>
+
+
+
+<P>
+
+<IMG SRC=ul.gif HEIGHT=3 WIDTH="100%"></P>
+
+
+
+<P><B><FONT SIZE=+1>Monday 6 April</FONT> </B></P>
+
+
+
+<TABLE BORDER=1 >
+
+<TR VALIGN=top BGCOLOR=c0ffc0>
+
+<TD WIDTH=72>8:30</TD>
+
+
+
+<TD COLSPAN=4 >
+
+<CENTER><font color=008000>Breakfast </font></CENTER>
+
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>10:00</TD>
+
+
+
+<TD COLSPAN=4 BGCOLOR=ffff00>
+
+<CENTER>Registration and coffee</CENTER>
+
+</TD>
+
+</TR>
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>10:30</TD>
+
+
+
+<TD COLSPAN=4>
+
+<CENTER><A HREF="posters/opener.html">Opening session</A></CENTER>
+
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>11:15</TD>
+
+
+
+<TD>
+<H4><A HREF="posters/rutherford.html">Improving component reusability</A></H4>
+<A HREF="/cgi-bin/wiki.pl?KevinRutherford">Kevin Rutherford</A>
+</TD>
+
+<TD><H4><A HREF="posters/mitchell.html">Getting into patterns: what, why, how</A></H4>
+<A HREF="/cgi-bin/wiki.pl?RichardMitchell">Richard Mitchell</A>, Franco&nbsp;Civello
+</TD>
+
+<TD><H4><A HREF="posters/lawson.html">Writing improved interfaces</A></H4>
+<I>Patterns for IDL</I>
+<P>
+<A HREF="/cgi-bin/wiki.pl?JulianLawson">Julian Lawson</A>
+
+</TD>
+
+
+
+<TD>
+<H4><A HREF="posters/horan.html">Requirements for collaborative development environments</A></H4>
+<A HREF="/cgi-bin/wiki.pl?BernardHoran">Bernard Horan</A> 
+<FONT SIZE=-2><A HREF="sessionTypes.html#TT">TT</A></FONT>
+</TD>
+</TR>
+
+
+
+<TR VALIGN=top BGCOLOR=c0ffc0>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>12:30</TD>
+
+<TD COLSPAN=4>
+
+<CENTER><FONT COLOR=008000>Lunch </FONT></CENTER>
+
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>14:00</TD>
+
+
+
+<TD>
+<H4><A HREF="posters/crist.html">Is ORB technology ready for the big time?</A></H4>
+<A HREF="/cgi-bin/wiki.pl?ColinCrist">Colin Crist</A> 
+<A href="sessionTypes.html#GFB"><FONT SIZE=-2>GFB</FONT></A>
+</TD>
+
+
+
+<TD ><H4><A HREF="posters/crone.html">Patterns for large distributed systems</A></H4>
+<A HREF="/cgi-bin/wiki.pl?DavidCrone">David Crone</A> 
+<A href="sessionTypes.html#GFB"><FONT SIZE=-2>GFB</FONT></A>
+</TD>
+
+
+<TD ROWSPAN="3" >
+<H4><A HREF="posters/parsons.html">UML: notations, roles, design processes</A></H4>
+<A HREF="/cgi-bin/wiki.pl?DavidParsons">David Parsons</A>
+</TD>
+
+
+
+<TD ROWSPAN="3">
+<H4><A HREF="posters/hill.html">Human collaboration in the object development lifecycle</A></H4>
+<A HREF="/cgi-bin/wiki.pl?LauraHill">Laura&nbsp;Hill</A>
+&amp; <A HREF="/cgi-bin/wiki.pl?JohnDaniels">John Daniels</A>
+</TD>
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>15:15</FONT></TD>
+
+
+
+<TD COLSPAN=2 BGCOLOR=c0ffc0>
+
+<CENTER><FONT COLOR="#008000">Break</FONT></CENTER>
+
+</TD>
+
+
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>15:45</TD>
+
+<TD >
+<H4><A HREF="posters/weir.html">Capturing OO software architecture</A></H4>
+<A HREF="/cgi-bin/wiki.pl?CharlesWeir">Charles Weir</A> 
+</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/eckstein.html">A paradigm shift in teaching OT</A></H4>
+<A HREF="/cgi-bin/wiki.pl?JuttaEckstein">Jutta Eckstein</A>
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top BGCOLOR=c0ffc0>
+
+<TD WIDTH=72>17:00</TD>
+
+
+
+<TD COLSPAN=4 >
+
+<CENTER><FONT COLOR=008000>Adjourn </FONT></CENTER>
+
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>17:45</TD>
+
+
+
+<TD COLSPAN=4 >
+
+<CENTER>Home Groups</CENTER>
+
+</TD>
+
+
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>18:30</TD>
+
+
+
+<TD COLSPAN=4 BGCOLOR=ffff00>
+
+<CENTER><FONT COLOR=008000>Dinner </FONT>
+
+<P><FONT COLOR=800000><B>Speaker: Annra&iacute; O'Toole</B></FONT>
+<BR>CTO <A HREF="http://www.iona.com">Iona Technologies</A>
+
+</CENTER>
+
+</TD>
+
+
+
+</TR>
+
+
+
+<TR VALIGN=top BGCOLOR=c0ffc0>
+
+<TD WIDTH=72>20:30</TD>
+
+
+
+<TD COLSPAN=4 >
+
+<CENTER><FONT COLOR=008000>Diversions </FONT></CENTER>
+
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>22:00</TD>
+
+
+
+<TD COLSPAN=4 >
+
+<CENTER><A HREF="bof.html">BOFs</A></CENTER>
+
+</TD>
+
+</TR>
+
+</TABLE>
+
+
+
+<P><IMG SRC=ul.gif HEIGHT=3 WIDTH="100%"></P>
+
+
+
+<P><B><FONT SIZE=+1>Tuesday 7 April</FONT> </B></P>
+
+
+
+<TABLE BORDER=1 >
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>9:00</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/coen.html">Frameworks for business objects in large trading systems</A></H4>
+Martin&nbsp;Coen, Neil&nbsp;Lancaster, Roy&nbsp;Maclean
+<A HREF="sessionTypes.html#CS"><FONT SIZE=-2>CS</FONT></A>
+</TD>
+
+<TD >
+<H4><A HREF="posters/medina.html">Object architectures and Internet applications</A></H4>
+<A HREF="/cgi-bin/wiki.pl?RolandMedina">Roland Medina</A> 
+<A HREF="sessionTypes.html#CS"><FONT SIZE=-2>CS</FONT></A>S
+
+</TD>
+
+
+
+<TD ROWSPAN="3" WIDTH="108">
+<H4><A HREF="posters/wills.html">Modelling components &amp; architectures</A></H4>
+<A HREF="/cgi-bin/wiki.pl?AlanCameronWills">Alan Cameron Wills</A>
+</TD>
+
+
+
+<TD ROWSPAN="3" WIDTH="117">
+<H4><A HREF="posters/marks.html">How software learns</A></H4>
+
+<I>Nature of change</I>
+<P>
+<A HREF="/cgi-bin/wiki.pl?PeterMarks">Peter&nbsp;Marks</A> &amp;<BR>
+
+Tim&nbsp;MacKinnon
+
+</TD>
+
+
+
+<TD ROWSPAN="3" WIDTH="126">
+
+<H4><A HREF="posters/anderson.html">Pattern languages</A></H4>
+
+<I> for capturing excellence</I>
+Bruce Anderson &amp;
+
+Rory&nbsp;Woodward 
+
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>10:15</TD>
+
+
+
+<TD COLSPAN=2  BGCOLOR=c0ffc0>
+
+<CENTER><FONT COLOR=008000>Break </FONT></CENTER>
+
+</TD>
+
+
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>10:45</TD>
+<TD>
+<H4><A HREF="posters/jahne.html">Backoffice trading with Gemstone</A></H4>
+<A HREF="/cgi-bin/wiki.pl?AlexanderJhne">Alexander J&auml;hne</A> 
+<A HREF="sessionTypes.html#CS"><FONT SIZE=-2>CS</FONT></A>
+</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/purchase.html">Architects - the acid test</A></H4>
+Jan Purchase
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top BGCOLOR=c0ffc0>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>12:00</TD>
+
+
+
+<TD COLSPAN=5 >
+
+<CENTER><FONT COLOR=008000>Lunch </FONT></CENTER>
+
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>13:15</TD>
+
+
+
+<TD COLSPAN=5 >
+
+<CENTER><A HREF="bof.html">BOFs</A></CENTER>
+
+</TD>
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>14:30</TD>
+
+
+
+<TD COLSPAN=5  BGCOLOR=c0ffc0>
+
+<CENTER><FONT COLOR=008000>Break </FONT></CENTER>
+
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>15:00</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/hunt">Building integrity into Java programs</A></H4>
+<A HREF="/cgi-bin/wiki.pl?JohnHunt">John Hunt</A> &amp; 
+<A HREF="/cgi-bin/wiki.pl?FredLong">Fred&nbsp;Long</A>
+</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/edwards.html">Distribution in Smalltalk &amp; Java</A></H4>
+Steve&nbsp;Edwards, <BR>
+
+Matthew&nbsp;Bradley
+</TD>
+
+<TD >
+<H4><A HREF="http://www.dcs.shef.ac.uk/~ajhs/OT98disc.html">Object Discovery <FONT FACE="Wingdings">*</FONT></A></H4>
+<I>A process for developing applications</I>
+<P><A HREF="/cgi-bin/wiki.pl?TonySimons">Tony Simons</A>
+</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/harvey/">How to Get Ahead in Architecture</A></H4>
+<I>Process and culture for change</I>
+<p>
+<A HREF="/cgi-bin/wiki.pl?DavidHarvey">David Harvey</A> 
+</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/sharp.html">Patterns for pedagogy</A></H4>
+<I>Techniques for teaching OT</I>
+<P><A HREF="/cgi-bin/wiki.pl?HelenSharp">Helen&nbsp;Sharp</A>,
+<A HREF="/cgi-bin/wiki.pl?MaryLynnManns">Mary&nbsp;Lynn&nbsp;Manns</A>,
+Phil&nbsp;McLaughlin, Maximo&nbsp;Prieto
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top BGCOLOR=c0ffc0>
+<TD WIDTH=72 BGCOLOR=c0ffc0>18:00</TD>
+<TD COLSPAN=5 >
+<CENTER><FONT COLOR=008000>Adjourn </FONT></CENTER>
+</TD>
+</TR>
+
+
+
+<TR VALIGN=top>
+<TD WIDTH=72 BGCOLOR=c0ffc0>18:30</TD>
+<TD COLSPAN=5 >
+<CENTER>Home Groups</CENTER>
+</TD>
+</TR>
+
+
+
+<TR VALIGN=top BGCOLOR=c0ffc0>
+<TD WIDTH=72>19:00</TD>
+<TD COLSPAN=5 >
+<CENTER><FONT COLOR=008000>Dinner </FONT></CENTER>
+</TD>
+</TR>
+
+
+
+<TR VALIGN=top>
+<TD WIDTH=72 BGCOLOR=c0ffc0>20:30</TD>
+<TD COLSPAN=5  BGCOLOR=ffff00>
+<CENTER>Guitar Recital --- <A HREF="/cgi-bin/wiki.pl?DavidHarvey">David Harvey</A></CENTER>
+</TD>
+</TR>
+
+
+
+<TR VALIGN=top>
+<TD WIDTH=72 BGCOLOR=c0ffc0>22:00</TD>
+<TD COLSPAN=5 >
+<CENTER><FONT COLOR=008000><A HREF="bof.html">BOFs</A>, Diversions </FONT></CENTER>
+</TD>
+</TR>
+</TABLE>
+
+
+
+<P><IMG SRC=ul.gif HEIGHT=3 WIDTH="100%"></P>
+
+
+
+<P><B><FONT COLOR="#000000"><FONT SIZE=+1>Wednesday 8 April</FONT></FONT></B> </P>
+
+
+
+<TABLE BORDER=1 >
+<TR VALIGN=top>
+<TD WIDTH=72 BGCOLOR=c0ffc0>9:00</TD>
+
+<TD COLSPAN=2 BGCOLOR=ffff00>
+<CENTER>
+<H4><A HREF="posters/mellor.html">Whither methods?</A></H4>
+<A HREF="/cgi-bin/wiki.pl?StephenMellor">Stephen Mellor</A> <I>Project Technology</I>
+</CENTER>
+</TD>
+
+<TD></TD>
+
+<TD COLSPAN=2 BGCOLOR=ffff00>
+<CENTER>
+<P><H4><A HREF="posters/ferguson.html">Middleware and tools for building OO applications</A></H4>
+Don Ferguson <I>IBM</I>
+</CENTER>
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>10:00</TD>
+
+
+
+<TD COLSPAN=5  BGCOLOR=c0ffc0>
+
+<CENTER><FONT COLOR=008000>Break </FONT></CENTER>
+
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72  BGCOLOR=c0ffc0>10:15</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/sowatsky.html">Java Beans</A></H4>
+<A HREF="/cgi-bin/wiki.pl?NathanSowatsky">Nathan Sowatskey</A>
+</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/freeman.html">Personal cybernetics <FONT FACE="Wingdings">*</FONT></A></H4>
+<I>Learning from experience</I> 
+<BR><A HREF="/cgi-bin/wiki.pl?SteveFreeman">Steve Freeman</A>  
+<A href="sessionTypes.html#GFB"><FONT SIZE=-2>GFB</FONT></A>
+</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/mccausland.html">Design by translation</A></H4>
+Campbell McAusland
+</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/daniels.html">Agents of change</A></H4>
+<I>Team structures for change</I>
+<P>
+<A HREF="/cgi-bin/wiki.pl?JohnDaniels">John Daniels</A>
+</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/moorley">Architectural styles for distributed systems.</A></H4>
+<A HREF="/cgi-bin/wiki.pl?AndyMoorley">Andy Moorley</A> &amp; 
+<A HREF="/cgi-bin/wiki.pl?PaulDyson">Paul Dyson</A>
+</TD>
+</TR>
+
+
+
+<TR VALIGN=top>
+<TD WIDTH=72 BGCOLOR=c0ffc0>13:15</TD>
+<TD COLSPAN=5  BGCOLOR=c0ffc0>
+<CENTER><FONT COLOR=008000>Lunch </FONT></CENTER>
+</TD>
+</TR>
+
+
+
+<TR VALIGN=top>
+<TD WIDTH=72  BGCOLOR=c0ffc0>14:30</TD>
+
+<TD >
+<h4><A HREF="posters/robertson.html">Frameworks for modelling business processes</A></H4>
+<A HREF="/cgi-bin/wiki.pl?StuartRobertson">Stuart Robertson</A>
+<A HREF="sessionTypes.html#CS"><FONT SIZE=-2>CS</FONT></A>
+</TD>
+
+<TD >
+<H4><A HREF="posters/stimson.html">Can Objects get Mainstream?</A></H4>
+<A HREF="/cgi-bin/wiki.pl?RolyStimson">Roly Stimson</A>
+</TD>
+
+
+
+<TD >
+<H4><A HREF="posters/graham.html">Modelling concurrent business processes</A></H4>
+Ian Graham &amp; <BR>
+Peter Llewelyn Jones
+</TD>
+
+
+
+<TD >
+<h4><A HREF="http://dec.bournemouth.ac.uk/dec_ind/ckirsopp/KirsoppWebsterTutorial.html">Metrics for project control</A></h4>
+<A HREF="/cgi-bin/wiki.pl?ColinKirsopp">Chris&nbsp;Kirsopp</A> &amp; <A HREF="/cgi-bin/wiki.pl?SteveWebster">Steve&nbsp;Webster</A>
+</TD>
+
+
+
+<TD >
+<h4><A HREF="posters/due.html">The end of the Age of Miracles</A></h4>
+<i>Decoupling project management and design</i>
+<P><A HREF="/cgi-bin/wiki.pl?RichardDu">Richard Du&eacute;</A>
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top BGCOLOR=c0ffc0>
+
+<TD WIDTH=72>15:45</TD>
+
+
+
+<TD COLSPAN=5  BGCOLOR=c0ffc0 >
+<CENTER><FONT COLOR=008000>Break </FONT></CENTER>
+</TD>
+
+</TR>
+
+
+
+<TR VALIGN=top>
+
+<TD WIDTH=72 BGCOLOR=c0ffc0>16:00</TD>
+
+
+
+<TD COLSPAN=5 >
+<CENTER><A HREF="posters/closer.html">Closing session</A></CENTER>
+</TD>
+
+
+
+</TR>
+
+
+
+<TR VALIGN=top BGCOLOR=c0ffc0>
+<TD WIDTH=72>16:30</TD>
+
+
+
+<TD COLSPAN=5 >
+<CENTER><FONT COLOR=008000>Finish </FONT></CENTER>
+</TD>
+
+</TR>
+
+</TABLE>
+
+
+
+<P><IMG SRC=ul.gif HEIGHT=3 WIDTH="100%"></P>
+
+
+
+<!-- trailer -->
+
+
+
+<HR WIDTH="100%">
+<TABLE ALIGN=RIGHT VALIGN=top><TR>
+<TD>
+<A HREF="home.html"><IMG SRC="Image/smallOT.gif" HEIGHT=50 WIDTH=94 ALIGN=LEFT></A><A HREF="index.html">
+
+</A>
+</TD>
+<TD>
+
+<A HREF=/ot99>[OT99]</A>
+
+
+<A HREF=organisers.html>[Organisation]</A>
+
+<P>
+</TD>
+<TD valign=top><FONT SIZE=-1>Web site host:<BR><A HREF="/">
+<IMG SRC=/trireme/images/ken.gif>
+<BR>
+TriReme International Ltd </A></FONT>
+</TD></TR></TABLE>
+
+</BODY>
+
+</HTML>
+
+
+

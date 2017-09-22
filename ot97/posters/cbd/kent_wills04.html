@@ -1,0 +1,91 @@
+<HTML>
+<HEAD>
+    <TITLE>Kent &amp; Wills</TITLE>
+</HEAD>
+<BODY BGCOLOR="#fe9bcb">
+<H5><A HREF="http://www.sis.port.ac.uk/bcs-oops/ot97/"><IMG SRC="../../up.gif"
+WIDTH="14" HEIGHT="14" ALIGN=bottom NATURALSIZEFLAG="3" BORDER="0">OT97</A><A HREF="home.html"><IMG SRC=
+"../../up.gif" WIDTH="14" HEIGHT="14" ALIGN=bottom NATURALSIZEFLAG="3" 
+BORDER="0">OT97 Working Group</A> <A HREF="cbd.html"><IMG SRC="../../up.gif"
+WIDTH="14" HEIGHT="14" ALIGN=bottom NATURALSIZEFLAG="3" BORDER="0">CBD Main
+Page</A> <A HREF="kent_wills.html"><IMG SRC="../../up.gif" WIDTH="14" HEIGHT=
+"14" ALIGN=bottom NATURALSIZEFLAG="3" BORDER="0">CBD Intro &shyp; Kent &amp;
+Wills</A> </H5>
+<H4>Specify the Interfaces</H4>
+In Java and CORBA's IDL (and other languages), an interface is a list of
+operations:<BR>
+<PRE>interface Financial_Instrument 
+	// loans, savings accounts, shares, insurance policies, ...
+{
+	Money 		balance;
+	void		payIn (Money amount);
+	boolean	canPayOut ();
+	void		payOut (Money amount);
+	Money		balanceMinLimit ();
+}</PRE>
+<BR>
+You use an interface to ensure that components are correctly coupled.<BR>
+The compiler can check that what's being provided conforms to what's expected:<IMG SRC=
+"image16.gif" WIDTH="396" HEIGHT="88" ALIGN=bottom NATURALSIZEFLAG="3"><BR>
+But is a list of operations enough to document what one component expects
+of the other?<BR>
+<H4>Problem</H4>
+Specifying Object Interfaces: signatures are not enough:
+<PRE>	interface Vzrtpgk
+	{		void 		shjhaa 	(Grk);
+			Grk 		akfe 		();
+			int			bvbvb 		();
+			boolean 	cmnn		();
+	}
+	interface NuclearPowerPlant
+	{		void	raise_rods		(int);
+			int		temperature	();
+			void	lower_rods		(int);
+	}</PRE>
+<DL>
+<DT>Natural language (French, English, ...) is ambiguous
+<DD>How often have you found that a requirement has been understood differently
+by writer and readers?
+<DT>Natural language is imprecise
+<DD>How often have you found that it is only when you get to coding, that
+you notice essential decisions have missing from the spec?
+<DT>It's the precision of program code that exposes the gaps and inconsistencies
+<DD>- we need a precise way of writing interface specs
+<DD>- (But don't throw away natural language -&nbsp;it's more readable!)
+</DL>
+<H4>Solution</H4>
+Describe how each message affects state of object (and outputs)
+<PRE>	interface Financial_Instrument
+	{	Money	balance ();						// read-only
+		Money	maxPayOut ();						// read-only
+		Money	balanceMinLimit ();						// read-only
+		void	payIn (Money amount)
+			pre				
+			post	// increases the balance by the amount paid in
+					balance == old.balance + amount ;
+		void	payOut (Money amount)
+			pre		// this spec applies if payout is allowed
+					// and this amount is available in account
+					maxPayOut &gt; amount
+					&amp;&amp; balance &shyp; amount &gt; balanceMinLimit
+			post	// decreases the balance by the amount paid out
+					balance == old.balance &shyp; amount	 ;
+		}</PRE>
+<UL>
+<LI>The state-changing operations are specified in terms of the read-only
+&quot;attributes&quot;
+<LI>Postcondition relates states before and after - note use of &quot;old&quot;
+version of &quot;self&quot;
+<LI>Pre &amp; postconditions stripped before presenting to compiler!
+</UL>
+<H4>Consequences</H4>
+<UL>
+<LI>More investment in documentation
+<LI>more reliable re-use
+</UL>
+<H2></H2>
+<B><A HREF="kent_wills.html"><IMG SRC="../../up.gif" WIDTH="14" HEIGHT=
+"14" ALIGN=bottom NATURALSIZEFLAG="3" BORDER="0">CBD Intro &shyp; Kent &amp;
+Wills</A> </B>
+</BODY>
+</HTML>

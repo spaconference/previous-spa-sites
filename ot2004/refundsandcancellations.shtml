@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OT2004</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="ot.css" />
+	<script type="text/javascript" src="x/x.js"></script>
+	<script type="text/javascript" src="x/ot.js"></script>
+</head>
+
+<body>
+<!--#include file="leftmenu.html" -->
+<div id="top">
+	<a href="register.shtml" class="topmenu">registration</a> - 
+	<a href="organisers.shtml" class="topmenu">contact</a>&nbsp;
+</div>
+<div id="content">
+	<div id="contentcontent">
+
+		<br />
+		<br />
+		<img src="images/refundshead.gif" width="525" height="22" border="0"><br />
+		
+<br />
+Please ensure you are familiar and comfortable with the following conditions before returning to the booking page.
+<br /><br />
+<h3>Payment</h3>
+Booking should normally be accompanied by payment, either via cheque or money order made payable to BCS OOPS or by Credit Card. All payments must be received before the conference. Proforma invoices may be issued upon receipt of an official company order. Any early-bird discount can only be secured by full-payment. 
+
+<h3>Substitutions</h3>
+In the event that a registered participant is unable to attend, a substitute may participate in their place provided that the organisers are notify in advance of the conference. 
+
+<h3>Cancellations</h3>
+In the events of cancellation, and provided that written notice is received before 1st January 2004, then a refund of 90% can be made by cheque. For cancellations after this date but before 12th March 2004, then a partial refund will be made solely at the discretion of the conference administrators. If no notice of cancellation is received before 12th March 2004, no refund can be made.
+
+<h3>Accommodation</h3>
+The registration fee covers 3-nights accommodation, all meals, diversions, conference sessions, optional informal meetings and full conference documentation.
+
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OT2004</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="ot.css" />
+	<script type="text/javascript" src="x/x.js"></script>
+	<script type="text/javascript" src="x/ot.js"></script>
+</head>
+
+<body>
+<!--#include file="leftmenu.html" -->
+<div id="top">
+	<a href="register.shtml" class="topmenu">registration</a> - 
+	<a href="organisers.shtml" class="topmenu">contact</a>&nbsp;
+</div>
+<div id="content">
+	<div id="contentcontent">
+		<br />
+		<br />
+		<img src="images/heading.gif" width="475" height="22" border="0">
+		<h3>St. Neots, UK, 28th - 31st March 2004</h3>
+		<br />
+		<div class="FloatBox" id="highlight">
+		<p>	Industry leaders participating at OT2004 include<br />
+			- <a href="/cgi-bin/wiki.pl/?IvarJacobson" target="_blank" class="FloatBoxLink">Ivar Jacobson</a><br />
+			- <a href="/cgi-bin/wiki.pl/?MartinFowler" target="_blank" class="FloatBoxLink">Martin Fowler</a><br />
+			- <a href="/cgi-bin/wiki.pl/?JoshuaBloch" target="_blank" class="FloatBoxLink">Joshua Bloch</a><br />
+			- <a href="/cgi-bin/wiki.pl/?JohnDaniels" target="_blank" class="FloatBoxLink">John Daniels</a><br />
+			<br />
+		</p><p> Topics for OT2004 include<br />
+			- test-driven development<br />
+			- API design<br />
+			- mock objects<br />
+			- dispersed development<br />
+			- EJB 3.0<br />
+			- sustainable architecture<br />
+			- MDA
+		</p>
+		</div>
+		<h2>Output</h2>
+		<p>
+		OT2004 has now finished. You can <a href="http://www.spaconference.org/cgi-bin/wiki.pl/?OtTwoThousandAndFourOutput">
+		view output from the sessions</a>.
+		</p>
+		<h2>The conference for participants</h2>
+		<p>
+		For more than a decade, the OT Conference has been the place where Europe’s leading
+		software development practitioners gather to share their latest thinking.
+		</p><p>
+		Don't expect to spend hours listening to interminable speeches. OT2004 is for people
+		that want to share experiences, work together to address hot topics, and ask tough
+		questions. Most sessions stress participation and learning - you don't need to know
+		the answers to join in, you just need enthusiasm.
+		</p><p>
+		Come prepared to spend four days taking part in an exchange of experiences and ideas
+		that will bring benefit to you and your organisation. Test your ideas with people who
+		have no axe to grind and lots of experience to share.
+		</p><p>
+		Whether you're interested in the latest technology, pioneering development practices
+		or innovative project management techniques OT2004 has something valuable to offer
+		you.
+		</p>
+		<br />
+		<div class="FloatBox" id="sponsors">
+			OT2004 is sponsored by<br /><br />
+			<div align="center">
+				<a href="http://www.7irene.com" target="_blank"><img src="images/7irenelogo.gif" border="0" width="96" height="32"></a><br />
+				<br />
+				<a href="http://www.microsoft.com" target="_blank"><img src="images/mslogo.gif" border="0" width="111" height="30"></a><br />
+				<br />
+				<a href="http://www.thoughtworks.com" target="_blank"><img src="images/twlogo.gif" border="0" width="112" height="32"></a><br />
+				<br />
+				<a href="http://www.cincom.com/scripts/smalltalk.dll/Home.ssp" target="_blank"><img src="images/cstlogo.gif" border="0" width="100" height="53"></a><br />
+			</div>
+		</div>
+		<h2>OT2004 is sold out</h2>
+		<p><b>We regret that OT2004 is now fully subscribed.</b> If you wish, you may call
+			+44 (0)870 760 6863 to join the waiting list for cancellations.
+		</p>
+	</div>
+</div>
+</body>
+</html>

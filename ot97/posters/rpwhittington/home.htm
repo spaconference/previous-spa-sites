@@ -1,0 +1,332 @@
+<HTML>
+
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+
+<TITLE>Object Technology 97</TITLE>
+
+
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Microsoft Word 2.04z">
+
+</HEAD>
+
+<BODY BGCOLOR=ffffC0>
+
+<P>
+
+<CENTER><B><FONT SIZE=4 COLOR=#008080 FACE="Arial">A Tutorial
+
+for Object Technology 97: </FONT></B></CENTER><BR>
+
+<CENTER><B><FONT SIZE=5 COLOR=#008080 FACE="Arial">Business Objects are Much More than Technology</FONT></B></CENTER>
+
+<P>
+
+<CENTER><B><FONT SIZE=4 COLOR=#008080 FACE="Arial">Led by <A HREF="/ot97/people/rpwhittington-card.html">Dick
+
+Whittington</A><BR>
+
+</FONT></B></CENTER>
+
+<H1><FONT COLOR=#0000FF FACE="Arial">Subject Matter</FONT></H1>
+
+<P>
+
+There is much talk these days about business (or enterprise) objects.
+
+Much interest derives from opportunities for greater system integration,
+
+through re-use of larger-grained components. But the potential
+
+benefits for business integration are no less significant. Object
+
+technology can be used to create a business architecture that
+
+delivers clear statements of purpose, responsibility and performance,
+
+well-defined relationships, and resilience to change. The creation
+
+and availability of such architectures significantly reduces risk
+
+in development projects. Requirements models can be tightly linked
+
+to organisational objectives, enabling exploration of alternative
+
+implementations.
+
+<P>
+
+<CENTER><IMG SRC="IMG00001.GIF"><BR>
+
+</CENTER>
+
+<P>
+
+This tutorial will address the use of business objects in organisation
+
+design, focusing upon the business benefits that can be achieved,
+
+modelling techniques that can be used, and cultural issues relating
+
+to the development process.
+
+<H1><FONT COLOR=#0000FF FACE="Arial">Target Audience</FONT></H1>
+
+<P>
+
+Those who are keen to understand how business risk can be managed
+
+through effective use of business object modelling, and how implementations
+
+can be tightly linked to organisational objectives. This will
+
+include: business analysts, project managers and business managers.
+
+A general awareness of OO principles is assumed. 
+
+<H1><FONT COLOR=#0000FF FACE="Arial">Structure of the Tutorial</FONT>
+
+</H1>
+
+<H2><I><FONT COLOR=#008080 FACE="Arial">Introduction and Terminology</FONT></I>
+
+</H2>
+
+<P>
+
+What is a business object? We will discuss the characteristics,
+
+and differentiate from software objects. Briefly:
+
+<UL>
+
+<LI>Business objects represent business resources and capabilities.
+
+Examples include Customer, Product, Order, Opportunity, Diary,
+
+Delivery, Request, Complaint, StaffMember, &#133;
+
+<LI>A business object integrates behaviour and data that the business
+
+needs in order to fulfill its process responsibilities. So, for
+
+example, a Customer object integrates the behaviour and data that
+
+the business needs in order to acquire, engage and manage its
+
+customers. 
+
+<LI>This behaviour will be delivered in part by people, and in
+
+part through technology (i.e., communications and information
+
+systems). Business objects abstract away from implementation specifics.
+
+It is often important to be able to encapsulate requirement at
+
+a level that enables identification of implementation options,
+
+including responsibility distribution across people and technology.
+
+<LI>They are normally large-grained composites, comprising several
+
+smaller objects. For example, a Customer object might contain
+
+Address and PersonName objects, together with references to Account
+
+and Diary objects.
+
+<LI>Conceptually, business objects exhibit the same properties
+
+as software objects. Inheritance, encapsulation and polymorphism
+
+all apply in much the same way. The benefits of inheritance and
+
+polymorphism are very much in terms of consistency; and the benefits
+
+of encapsulation are very much in terms of clear process responsibility
+
+and management of change.
+
+<LI>A business object architecture provides a framework for system
+
+object design. A business object will typically give rise to a
+
+number of system objects. Traceability of the system back to the
+
+business brings significant benefits during change management.
+
+</UL>
+
+<P>
+
+We will also briefly trace the history of object technology, from
+
+its roots in system implementation through increased abstraction
+
+and broader applicability. <BR>
+
+<P>
+
+What are the benefits of business objects? In particular, we will
+
+focus upon:<BR>
+
+<UL>
+
+<LI><U>Business integration;</U> the ability to achieve consistency
+
+of understanding and operation, within and between business processes.
+
+This is especially crucial in the context of change management.
+
+<LI><U>Understanding and communication</U> bridging the business
+
+/ systems gap; the provision of notations and techniques that
+
+can engage management, operations roles and systems developers
+
+in a coherent debate. This applies during development and throughout
+
+continuing improvement.
+
+<LI><U>Business risk management;</U> integration and understanding
+
+both contribute to management of risk, a multi-dimensional concept
+
+that is ever-present during change. Looked at in this way, business
+
+objects can be viewed as a risk management strategy.
+
+</UL>
+
+<H2><I><FONT COLOR=#008080 FACE="Arial">Identifying and Managing
+
+Business Objects - Illustration</FONT></I></H2>
+
+<P>
+
+It is useful to explore concepts through examples. We will work
+
+through a simplified case study, illustrating techniques for creation
+
+and exploration of a business object model. The model will begin
+
+with a high-level business requirement expressed in terms of goals
+
+and process responsibilities. 
+
+<P>
+
+<CENTER><IMG SRC="IMG00002.GIF"></CENTER>
+
+<P>
+
+For example, the diagram above is an Object Association Model,
+
+showing the business objects and services required by a specific
+
+process activity. Although techniques like this are highly effective
+
+at driving out well-focused object and service requirements, they
+
+do not support architectural consolidation.<BR>
+
+<P>
+
+The following diagram is a Process Insight Model. For a broader
+
+process capability, this consolidates the complete set of contributing
+
+business objects and services. <BR>
+
+<P>
+
+<CENTER><IMG SRC="IMG00003.GIF"></CENTER>
+
+<P>
+
+Within the context of the example we will discuss repository management
+
+requirements and opportunities.
+
+<H2><I><FONT COLOR=#008080 FACE="Arial">Identifying and Managing
+
+Business Objects - Practical</FONT></I></H2>
+
+<P>
+
+Participants will share in a short session of practical modelling,
+
+working in small teams. The precise nature of the practical work
+
+will take account of the number and backgrounds of people involved.
+
+The practical will wrap up with a short presentation and discussion.
+
+<H2><I><FONT COLOR=#008080 FACE="Arial">Summary of Organisational
+
+Benefits</FONT></I></H2>
+
+<P>
+
+We will review the business benefits in the light of the practical
+
+examples.
+
+<H2><I><FONT COLOR=#008080 FACE="Arial">Summary of Challenges</FONT></I>
+
+</H2>
+
+<P>
+
+Introducing business object modelling into the organisation development
+
+process raises a number of cultural issues, including:<BR>
+
+<UL>
+
+<LI>Many business people are not familiar with object concepts,
+
+nor even with the more general proposition of using (even semi-)formal
+
+notations to express business requirements. To be most effective,
+
+object approaches need to encourage active understanding and participation.
+
+<LI>In many organisations, business people expect an involvement
+
+at the beginning and end of a development project. To be most
+
+effective, object approaches need to encourage wider and continual
+
+participation by the business.
+
+<LI>IT people can be defensive or arrogant when their methods
+
+are exposed to the broader business. This can lead to resistance
+
+against wider involvement of business people. To be most effective,
+
+object approaches need to encourage developers to welcome a broader
+
+cultural mix within development teams.
+
+</UL>
+
+<P>
+
+We will review these and discuss ways to avoid potential resistance
+
+and win wider acceptance from business and systems communities.
+<HR>        <A HREF="http://www.trireme.com/ot97/debate/rpwhittington.html">Click
+here to see and add followup comments.</A><BR>
+<H5><A HREF="http://www.sis.port.ac.uk/bcs-oops/ot97/" target="_top"><IMG SRC="../../up.gif"
+WIDTH="14" HEIGHT="14" ALIGN=bottom NATURALSIZEFLAG="3" BORDER="0">OT97</A>  </H5>
+
+</BODY>
+
+</HTML>
+

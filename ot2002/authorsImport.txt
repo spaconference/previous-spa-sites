@@ -1,0 +1,104 @@
+Paper Number	Initials	Surname	Main Author	Affiliation	Address 1	Address 2	Address 3	 Address 4	Country	Phone	Email
+1	Ales	Zivkovic	yes	University of Maribor	Smetanova ulica 17	SI-2000 Maribor	Slovenia, Europe	       	UK	+38622355115	ales.zivkovic@uni-mb.si
+10	Bernard	Horan	yes	Sun Microsystems	Sun Microsystems Ltd, 	Sun House, 306 Cambridge Science Park	Milton Road, Cambridge, CB4 0WG, UK	       	UK	+44 1223 418925	bernard.horan@sun.com
+10	Laura	Hill	no	Sun Microsystems				       	UK	+1 650 336 6037	laura.hill@sun.com
+11	Brett	Collins	yes		43a Upland Road	Sutton	Surrey	SM2 5HW       	UK	07973 932263	brett@bacsoftware.co.uk
+12	Brian	Henderson	yes	University of Technology, Sydney	Faculty of IT	UTS	PO Box 123	Broadway   NSW 2007    Australia	UK	+61 2 9514 1687	brian@it.uts.edu.au
+13	Brian	Henderson	yes	University of Technology, Sydney	Faculty of IT	UTS	PO Box 123	Broadway   NSW 2007    Australia	UK	+61 2 9514 1687	brian@it.uts.edu.au
+14	Dan	Haywood	yes	Haywood Associates Ltd.				       	UK		dan@haywood-associates.co.uk
+15	Dave	Kirby	yes	The Developers' Coach	91 Creighton Road	Tottenham	London	N17 8JS       	UK	020 8376 2274	dave@thedeveloperscoach.com
+16	David	Bell	yes	MFESD	PO Box 7630	Hungerford	Berkshire RG17 7FB	       	UK	+44 (0) 1488 648 374	david.bell@mfesd.com
+17	Debbie	Lawther	yes					       	UK		@
+17	Rob	Day	no	RDA Limited	RDA Ltd. 	68 Beer Road 	Seaton 	Devon    EX12 2PR     	UK	01297 23044	RobDay@compuserve.com
+18	Debbie	Lawther	yes					       	UK		@
+18	Rob	Day	no	RDA Limited	RDA Ltd. 	68 Beer Road 	Seaton 	Devon    EX12 2PR     	UK	01297 23044	RobDay@compuserve.com
+19	Duncan	McGregor	yes					       	UK		duncan@oneeyedmen.com
+2	Alia	Cooper	yes	Tesco	Post Point 6	1st Floor Progress House	Shire Park,	Welwyn Garden City   Herts    	UK	01707 359167	alia.cooper@uk.tesco.com
+20	Eoin	Woods	yes	Artechra Limited				       	UK	+44-1442-254761	eoin.woods@artechra.com
+20	Dan	Haywood	no	Haywood Associates Ltd.				       	UK		dan@haywood-associates.co.uk
+21	Erik	Groeneveld	yes	Seek You Too B.V.	Hessenweg 115	6741 JP Lunteren	The Netherlands	       	UK	+31 624 584 029	ejgroene@ieee.org
+21	Willem van den	Ende	no	CQ2	Vondellaan 53	3401 AM IJsselstein	The Netherlands	       	UK	+31-6-41306965	mail@willemvandenende.com 
+23	Graham	Turrell	yes	IBM UK Ltd.	Web Services Development	Mailpoint 208	IBM UK Ltd.	Hursley Park   Winchester     Hampshire	UK	01962 815018	gturrell@uk.ibm.com
+24	Ian	Cornwell	yes	Mott MacDonald	1 Atlantic Quay	Broomielaw	Glasgow	G2 8YD       	UK	0141 222 4576	ihc@sas-glas.mottmac.com
+25	Ivan	Moore	yes	ThoughtWorks	 			       	UK		ivanm@tadmad.co.uk
+26	James A.	Robertson	yes	Cincom Systems, Inc.	6510 River Run	Columbia, MD	21044	       	UK	410 730-6579	jarober@mail.com
+27	Jens	Coldewey	yes	Coldewey Consulting	Curd-Jürgens-Str. 4	D- 81739 Muenchen	Germany	       	UK	+49 (89) 74995702	jens_coldewey@acm.org
+28	John	Daniels	yes	Fastnloose Limited	Syntropy Limited	Fastnloose Limited		       	UK		jd@syntropy.co.uk
+28	Paul	Dyson	no	Independent				       	UK	+44.(0)7900.216930	paul@pauldyson.net
+29	Joseph	Pelrine	yes	MetaProg	Bachlettenstrasse 41	4054 Basel	Switzerland	       	UK		jpelrine@acm.org
+3	Alia	Cooper	yes	Tesco	Post Point 6	1st Floor Progress House	Shire Park,	Welwyn Garden City   Herts    	UK	01707 359167	alia.cooper@uk.tesco.com
+30	Ken	Rigby	yes		White Croft	Alston,	Longridge,	PRESTON   PR3 3BN    	UK	01772782389	kenr@wysywig.airtime.co.uk@
+31	Klaus	Marquardt	yes	Dräger Medical AG	Käthe-Kollwitz-Weg 14	D-23558 Lübeck	Germany	       	UK	+40 451 82622	marquardt@acm.org
+32	Diane	Gibson	no					       	UK		@
+32	Martine	Devos	no	Avaya Inc.	233, Mount Airy Road 	Room 1A06	Basking Ridge, NJ 07920-2336 USA	       	UK	+19(908)696.5210	mmdevos@research.avayalabs.com
+33			yes		4, impasse Morlet	75011 Paris	France	       	UK	+331(0)668151144	laurent.ot@bossavit.com
+33	Pascal Van	Cauwenberghe	no	Nayima	St Pancratiuslaan 49	1933 Sterrebeek	Belgium	       	UK	++32 476 997428	pvc@nayima.be
+34	Looking for another experienced	co	yes					       	UK		@
+34	Ian	Cornwell	no	Mott MacDonald	1 Atlantic Quay	Broomielaw	Glasgow	G2 8YD       	UK	0141 222 4576	ihc@sas-glas.mottmac.com
+35	Manasi	Shukla	yes	Nanyang Business School, Singapore				       	UK	(65) 90689215	pa0140601@ntu.edu.sg
+35	Pranab	Shekhar	no	Godrej Ltd. Bombay, India				       	UK		pranab_shukla@hotmail.com
+36	Marc	Evers	yes	NIWI	P.O.Box 95110	1090 HC Amsterdam	The Netherlands	       	UK		marc.evers@livingsoftware.org
+36	Willem van den	Ende	no	CQ2	Vondellaan 53	3401 AM IJsselstein	The Netherlands	       	UK	+31-6-41306965	mail@willemvandenende.com 
+37	Martine	Devos	yes	Avaya Inc.	233, Mount Airy Road 	Room 1A06	Basking Ridge, NJ 07920-2336 USA	       	UK	+19(908)696.5210	mmdevos@research.avayalabs.com
+37	Diane	Gibson	no					       	UK		@
+38	Martine	Devos	yes	Avaya Inc.	233, Mount Airy Road 	Room 1A06	Basking Ridge, NJ 07920-2336 USA	       	UK	+19(908)696.5210	mmdevos@research.avayalabs.com
+38	Diane	Gibson	no					       	UK		@
+39	Martine	Devos	yes	Avaya Inc.	233, Mount Airy Road 	Room 1A06	Basking Ridge, NJ 07920-2336 USA	       	UK	+19(908)696.5210	mmdevos@research.avayalabs.com
+39	Diane	Gibson	no					       	UK		@
+4	Alistair	Cockburn	yes	Humans and Technology	1814 Fort Douglas Circle	Salt Lake City, UT 84103	USA	       	UK	+1.801.582-3162	acockburn@aol.com
+40	Matt	Stephenson	yes	Royal & SunAlliance				       	UK		matt@mattstephenson.fsnet.co.uk
+40	Stephen	Hutchinson	no	Royal and Sunalliance	Royal and Sunalliance UKIS 	Ground Floor Mercury Court 	Tithebarn Steet 	Liverpool        	UK	0151 243 4140	smh@spurstow.com
+41	Nicholas	Simons	yes	Metamaxim Ltd.	22 Fulwood Gardens	Twickenham	TW1 1EN	       	UK	0208 892 0427	nick.simons@metamaxim.com
+42	Nick	Rozanski	yes	French Thornton				       	UK		nick@rozanski.com
+42	Eoin	Woods	no	Artechra Limited				       	UK	+44-1442-254761	eoin.woods@artechra.com
+43	Nigel	Gilkes	yes					       	UK	01352 755252	nigelgilkes@btconnect.com
+43	Alan Cameron	Wills	no	Microsoft	Microsoft Ltd	7 J J Thomson Avenue	Cambridge	CB3 0FB       	UK	+44 1223 479 719	awills@microsoft.com
+44	Pascal Van	Cauwenberghe	yes	Nayima	St Pancratiuslaan 49	1933 Sterrebeek	Belgium	       	UK	++32 476 997428	pvc@nayima.be
+44			no		4, impasse Morlet	75011 Paris	France	       	UK	+331(0)668151144	laurent.ot@bossavit.com
+44	Vera	Peeters	no	TRYX	Colomastraat 28	B-2800 Mechelen	Belgium	       	UK	+32 476 78 89 82	vera.peeters@tryx.com
+45	Paul	Simmons	yes	Rochester Software House	6 Copse Close	Pattens Lane	Rochester	Kent   ME1 2RS    	UK		pas@pobox.com
+45	Rob	Westgeest	no	MasterObjects				       	UK		rob.van@zonnet.nl
+47	Ray	Farmer	yes	Coventry University	School of Mathematical and Information Sciences	Coventry University, Priory Street, Coventry, CV1 5FB		       	UK	+44 (0)24 7688 7752	r.farmer@coventry.ac.uk
+48	Richard	Allen	yes	Changing Tack	230 Cable Street	London  E1 0BL		       	UK	020 7790 4582	richard.allen@changingtack.com
+49	Rob	Day	yes	RDA Limited	RDA Ltd. 	68 Beer Road 	Seaton 	Devon    EX12 2PR     	UK	01297 23044	RobDay@compuserve.com
+52	Scott	Crawford	yes	Independent	69 Aldworth Road	London E15 4DN	UK	       	UK		scott@scottcrawford.co.uk
+53	Scott	Crawford	yes	Independent	69 Aldworth Road	London E15 4DN	UK	       	UK		scott@scottcrawford.co.uk
+54	Simon	Dobson	yes	Trinity College Dublin	Department of Computer Science	Trinity College	Dublin 2	Ireland       	UK	+353 1 608 3681	simon.dobson@cs.tcd.ie
+54	Paddy	Nixon	no	University of Strathclyde	Department of Computing and Information Sciences	University of Strathclyde	Livingstone Tower	Glasgow, UK       	UK		paddy.nixon@cis.strath.ac.uk
+55	Simon	Ward	yes	BT Exact	Enterprise House	84-85 Adam Street	Cardiff	CF24 2XF       	UK	029 2072 4523	simon.2.ward@bt.com
+56	Steve	Ash	yes	Select Business Solutions Inc	26 Briarsfield	Barmby Moor	YORK	YO42 4HN       	UK	07967 552202	steve.ash@selectbs.com
+57	Steve	Ash	yes	Select Business Solutions Inc	26 Briarsfield	Barmby Moor	YORK	YO42 4HN       	UK	07967 552202	steve.ash@selectbs.com
+58	Steve	Wade	yes	University of Huddersfield	School of Computing and Engineering	Canalside West	University of Huddersfield	HD1 3DH       	UK	(01484) 472524	s.j.wade@hud.ac.uk
+59	Tony	Barrett	yes	Oracle Corporation UK Ltd.	Castlegate,	TowerHill,	Bristol,	BS2 0JA       	UK	0117 9462642	tony.barrett-powell@oracle.com
+59	Klaus	Marquardt	no	Dräger Medical AG	Käthe-Kollwitz-Weg 14	D-23558 Lübeck	Germany	       	UK	+40 451 82622	marquardt@acm.org
+6	Andy	Carmichael	yes	Better Software Faster Ltd	Gothic House 	Southampton 	SO15 5JY	       	UK	+44 77 7573 5120	andy.carmichael@bettersoftwarefaster.com
+6	Dan	Haywood	no	Haywood Associates Ltd.				       	UK		dan@haywood-associates.co.uk
+60	Vera	Peeters	yes	TRYX	Colomastraat 28	B-2800 Mechelen	Belgium	       	UK	+32 476 78 89 82	vera.peeters@tryx.com
+60	Willem van den	Ende	no	CQ2	Vondellaan 53	3401 AM IJsselstein	The Netherlands	       	UK	+31-6-41306965	mail@willemvandenende.com 
+61	Willem van den	Ende	yes	CQ2	Vondellaan 53	3401 AM IJsselstein	The Netherlands	       	UK	+31-6-41306965	mail@willemvandenende.com 
+61	Marc	Evers	no	NIWI	P.O.Box 95110	1090 HC Amsterdam	The Netherlands	       	UK		marc.evers@livingsoftware.org
+61	Erik	Groeneveld	no	Seek You Too B.V.	Hessenweg 115	6741 JP Lunteren	The Netherlands	       	UK	+31 624 584 029	ejgroene@ieee.org
+62	Alan Cameron	Wills	yes	Microsoft	Microsoft Ltd	7 J J Thomson Avenue	Cambridge	CB3 0FB       	UK	+44 1223 479 719	awills@microsoft.com
+64	Diane	Gibson	yes					       	UK		@
+65	Eoin	Woods	yes	Artechra Limited				       	UK	+44-1442-254761	eoin.woods@artechra.com
+65	Andy	Longshaw	no	Blue Skyline				       	UK	01625-611816	andy@blueskyline.com
+66	Keith	Braithwaite	yes	Penrillian	First Floor	25A Cornmarket	Penrith	CA11 7HS        	UK	01768 214400 	keith@penrillian.com
+66	Ivan	Moore	no	ThoughtWorks	 			       	UK		ivanm@tadmad.co.uk
+67	Steve	Freeman	yes	M3P	12 Montagu Square,	London	W1H 2LR	       	UK	0797 179 4105	steve@m3p.co.uk
+67	Keith	Braithwaite	no	Penrillian	First Floor	25A Cornmarket	Penrith	CA11 7HS        	UK	01768 214400 	keith@penrillian.com
+68	Andreas	R	yes	sd&m AG, Hamburg, Germany	Dr. Andreas Rüping	sd&m AG	Lübecker Str. 1	D-22087 Hamburg       	UK	++49-40-254491-915	rueping@acm.org
+69	Mick	Nally	yes	Ingenico Fortronic Ltd	Ingenico Fortronic Ltd	Ridge Way	Donibristle Industrial Estate	Dunfermline   Fife KY11 9JU    	UK	0131 479 8421	mick.nally@ingenicofortronic.com
+69	Dr Sabah	Merad	no		Anrad			       	UK		sabah@anrad.co.uk
+7	Andy	Longshaw	yes	Blue Skyline				       	UK	01625-611816	andy@blueskyline.com
+70	Peter	Sumner	yes	JPMorgan	60 Victoria Embankment	London EC4Y 0JP		       	UK	020 7325 1443	peter.sumner@jpmorgan.com
+71	Dr Magdy	Serour	yes					       	UK		@
+72	Robert	James	yes	HSBC				       	UK	07932 253938	rob.james@hsbcgroup.com
+73	Richard	Mitchell	no	InferData Corporation	 			       	UK	+44 1323 899382 	richard@inferdata.com
+74	Rachel	Davies	yes	Amarinda	30 Lancaster Road	Rugby	CV21 2QW	       	UK	+44 7951 168408	rachel@amarinda.com
+75	Richard	Mitchell	yes	InferData Corporation	 			       	UK	+44 1323 899382 	richard@inferdata.com
+75	Robert	James	no	HSBC				       	UK	07932 253938	rob.james@hsbcgroup.com
+76	Martin	Lippert	yes	University of Hamburg & it-wps, Ltd.				       	UK		lippert@acm.org
+76	Stefan	Roock	no	it-wps, Ltd.				       	UK		@
+77	Bruce	Anderson	yes	IBM Component Technology Services	IBM Component Technology Services	32 Park Road 	Wivenhoe 	Colchester    Essex CO7 9LS     	UK	+44 20 8818 4305	Bruce_Anderson@uk.ibm.com
+8	Ashley	McNeile	yes	Metamaxim Ltd.	48 Brunswick Gardens	London W8 4AN	United Kingdom	       	UK	020 7229 3239	ashley.mcneile@metamaxim.com
+9	Benedict	Heal	yes	Fastnloose Ltd	3 East End	North Crawley	Newport Pagnell	Bucks      MK16 9HW    	UK	+44 (0)1234 391582 	benedict@fastnloose.com

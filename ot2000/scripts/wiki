@@ -1,0 +1,24 @@
+#!/usr/bin/perl
+
+
+
+$newSite = "http://www.ot2004.org/cgi-bin/wiki.pl";
+
+$newUrl= "$newSite$ENV{'PATH_INFO'}?$ENV{'QUERY_STRING'}";
+
+
+print <<EOF ;
+Content-type: text/html
+
+<HTML><head>
+<meta HTTP-EQUIV="Refresh" CONTENT="1; URL=$newUrl">
+</head>
+<BODY bgcolor=yellow><FORM method=post action="$ScriptUrl">
+<h2>Redirecting to <a href="$newUrl">$newUrl</a></h2>
+
+</BODY></HTML>
+EOF
+exit;
+
+
+

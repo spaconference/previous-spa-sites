@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OT2004</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="ot.css" />
+	<script type="text/javascript" src="x/x.js"></script>
+	<script type="text/javascript" src="x/ot.js"></script>
+	<style>
+		.org-left { font: 12px/120% verdana, arial, sans-serif; vertical-align: top; color: #906; text-align: right; }
+		.org-right { font: 12px/120% verdana, arial, sans-serif; vertical-align: top; color: #666;}
+	</style>
+</head>
+
+<body>
+<!--#include file="leftmenu.html" -->
+<div id="top">
+	<a href="register.shtml" class="topmenu">registration</a> - 
+	<a href="organisers.shtml" class="topmenu">contact</a>&nbsp;
+</div>
+<div id="content">
+	<div id="contentcontent">
+		<br />
+		<br />
+		<img src="images/organisershead.gif" width="255" height="22" border="0"><br /><br />
+		<table cellpadding="5">
+			<tr>
+				<td class="org-left">Organisation</td>
+				<td class="org-right">OOPS Specialist Group of the British Computer Society</td>
+			</tr>
+			<tr>
+				<td class="org-left">Administration</td>
+				<td class="org-right">Andy Moorley <i>TrueData Computer Services</i></td>
+			</tr>
+			<tr>
+				<td class="org-left">Conference Office</td>
+				<td class="org-right"><SCRIPT language="javascript">eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%61%64%6d%69%6e%40%6f%74%32%30%30%34%2e%6f%72%67%3f%73%75%62%6a%65%63%74%3d%45%6e%71%75%69%72%79%25%32%30%66%72%6f%6d%25%32%30%77%65%62%73%69%74%65%22%3e%61%64%6d%69%6e%40%6f%74%32%30%30%34%2e%6f%72%67%3c%2f%61%3e%27%29%3b'))</SCRIPT><NOSCRIPT><a href="http://www.quarella.co.uk/email/spamproof-noscript.html">admin@spaconference.org</a></NOSCRIPT><br />
+				+44 (0)870 760 6863 </td>
+			</tr>
+			<tr>
+				<td class="org-left">Conference Chair</td>
+				<td class="org-right">Matt Stephenson <i>Royal &amp; SunAlliance</i></td>
+			</tr>
+			<tr>
+				<td class="org-left">Programme Chair</td>
+				<td class="org-right">Andy Longshaw <i>Blue Skyline</i></td>
+			</tr>
+			<tr>
+				<td class="org-left">Conference Executive</td>
+				<td class="org-right">
+					Ewan Milne <i>Independent</i><br />
+					Steve Freeman <i>TF Europe</i><br />
+					John Daniels <i>Fastnloose</i><br />
+					Jane Chandler <i>University of Portsmouth</i>
+				</td>
+			</tr>
+			<tr>
+				<td class="org-left">Website</td>
+				<td class="org-right">
+					Dave Cleal <i>Syntropy</i><br />
+					Alan Cameron Wills <i>Microsoft</i>
+				</td>
+			</tr>
+			<tr>
+				<td class="org-left">Programme Advisors</td>
+				<td class="org-right">Bruce Anderson, Dave Cleal, David Harvey, Duncan Pierce, Helen Sharp, Keith Braithwaite, Leonor Barroca, Martine Devos, Paul Dyson, Peter Marks, Richard Mitchell, Scott Crawford</td>
+			</tr>
+		</table>
+	</div>
+</div>
+</body>
+</html>

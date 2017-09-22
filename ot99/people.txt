@@ -1,0 +1,89 @@
+Subject: people list
+Date: Fri, 10 Apr 1998 01:58:03 +0100
+From: Alan Cameron Wills <alan@trireme.com>
+Organization: Trireme International Ltd
+To: Charles Weir <cweir@cix.co.uk>
+
+Charles,
+
+This is a list of people extracted from OT97/8 involvement.
+We could perhaps get some more by trawling OMG, ECOOP, and
+EuroPLop lists.
+
+Adrian Kunzle <kzl@mindspring.com>
+Akmal B. Chaudhri <akmal@soi.city.ac.uk>
+Alan Cameron Wills <alan@trireme.com>
+Alan O'Callaghan <aoc@dmu.ac.uk>
+Alexander Jaehne <alexander.jaehne@ubs.com>
+Andy Moorley <moorley_andy@jpmorgan.com>
+Anthony Kesterton <ajk@rational.com>
+Bernard Horan <bernard.horan@sun.com>
+Bruce Anderson <bruce@essex.ac.uk>
+Campbell McCausland <campbell@projtech.com>
+Charles Weir <cweir@cix.co.uk>
+Chris Boon <cboon@indigo.ie>
+Chris Wallace <chris.wallace@csm.uwe.ac.uk>
+Colin Crist <colin.crist@acm.org>
+Colin Kirsopp <ckirsopp@bournemouth.ac.uk>
+David Crone <david.crone@ecsoft.co.uk>
+David Greenfield <david@cumulus.co.uk>
+David Harvey <dihharvey@cix.compulink.co.uk>
+David Parsons <dave.parsons@solent.ac.uk>
+David Redmond-Pyle <David_Redmond-Pyle%LBMS__UK@lbms.com>
+Di Pitcher <object.technology@indigo.ie>
+Dick Whittington <100330.615@compuserve.com>
+Donald F Ferguson <dff@us.ibm.com>
+Dorothy Graham <dorothy@grove.co.uk>
+Franco Civello <f.civello@bton.ac.uk>
+Fred Long <fwl@aber.ac.uk>
+Gary Birch <gary.birch@integral.com>
+Gillian Lovegrove <G.L.Lovegrove@soc.staffs.ac.uk>
+Guido Dedene <guido.dedene@econ.kuleuven.ac.be>
+Helen Sharp <h.c.sharp@open.ac.uk>
+Hussein Zedan <hzedan@liverpool.dmu.ac.uk>
+Iain Houston <iain_houston@uk.ibm.com>
+Ian Graham <ian.graham@chase.com>
+Jan Purchase <Jan.Purchase@bankerstrust.com>
+Jane Chandler <chandlerj@sis.port.ac.uk>
+Jesus Rolando Medina Hernandez <rolando_medina@unipart.co.uk>
+John Cameron <john_cameron@uk.ibm.com>
+John Cato <cato@cix.compulink.co.uk>
+John Daniels <jdaniels@bankerstrust.com>
+John Hunt <John.Hunt@aber.ac.uk>
+Julian Lawson <julianl@quidnunc.com>
+Jutta Eckstein <jeckstein@acm.org>
+Katharine Whitehead <103176.3520@compuserve.com>
+Keri Jackson <kjackson@jpmorgan.com>
+Kevin Rutherford <kr@zhaus.demon.co.uk>
+Laura Hill <l_hill@mindspring.com>
+Martin West <a_martin_west@uk.ibm.com>
+MaryLynn Manns <manns@unca.edu>
+Nathan Sowatskey <nathan@ambra.demon.co.uk>
+Paul Dyson <paul@cumulus.co.uk>
+Paul Evans <pevans@tignosis.com>
+Peter Marks <100665.3636@compuserve.com>
+Peter Sommerlad <sommerlad@ifa.ch>
+Richard Mitchell <Richard.Mitchell@brighton.ac.uk>
+Richard T. Due <rtdue@ccinet.ab.ca>
+Richard Veryard <rxv@veryard.com>
+Roly Stimson <roly.stimson@ecsoft.co.uk>
+Roy_Maclean@stratus.com
+Stephen J. Mellor <sjm@projtech.com>
+Steve Edwards <Steve_Edwards@compuserve.com>
+Steve Freeman <steve_freeman@oti.com>
+Steve Webster <swebster@bmth.ac.uk>
+Stuart Kent <Stuart.Kent@brighton.ac.uk>
+Stuart Robertson <stuartr@cumulus.co.uk>
+Suzanne Robertson <suzanne@guild.demon.co.uk>
+Tony Simons <a.simons@dcs.shef.ac.uk>
+jerry@cumulus.co.uk
+peterl@ran.co.uk
+rory_woodward@uk.ibm.com
+rtdue@ccinet.ab.ca
+stuartr@cumulus.co.uk
+--
+Alan Cameron Wills
+TriReme International Ltd       Object and component technology
+alan@trireme.com                Training, mentoring and consultancy
+Tel: +44 161 225 3240           Strategic and technical
+Fax: +44 161 257 3292           http://www.trireme.com

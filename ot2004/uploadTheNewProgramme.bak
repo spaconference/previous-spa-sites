@@ -1,0 +1,16 @@
+<html><body>
+  <h1>Upload OT Programme</h1>
+  <form method="POST" action="http://www.spa2005.org/cgi-bin/upload.pl" enctype="multipart/form-data">
+  <table>
+    <tr><td>Programme Template file:</td><td><input type="file" size=20 name="u1f" value=""> (unchanged if blank)</td></tr>
+    <tr><td>Tag file:</td><td><input type=file size=20 name=u2f value=""> (unchanged if blank)</td></tr>
+    <tr><td>Draft Suffix:</td><td><input type=text size=6 name=draftSuffix value="1836"> (updates real programme if blank)</td></tr>
+    <tr><td>Password:</td><td><input type=password size=10 name=password></td></tr>
+  </table>
+  <input type=submit name=submit value="update programme">
+  </form>
+  When you first want to update the real programme, ask Alan to unlock the programme placeholder.
+  <hr>
+  <a href="http://66.226.100.116/cgi-bin/wiki.pl/submissions/?edit=new+submission&type=submission">Click here to create a new session.</a>
+</body>
+</html>

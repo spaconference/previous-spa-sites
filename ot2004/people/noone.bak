@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OT2004</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="../ot.css" />
+</head>
+  <body>
+  <br />
+	<br />
+
+	<div class="contentText">
+	<H1>OT People Index</H1>
+  This is a card index of some of the people you might meet at the annual <a href="../index.shtml" target="_top">OT conference</a> 
+  in St.Neots.
+  <p>
+  If you're coming to the conference, you're welcome to join the list. Please type your name here (in conventional style with Initial Capitals): 
+  <form action="/cgi-bin/wiki.pl" target="_top">
+  <input type="hidden" name="newpage" value="bio">
+  <input type="text" size="30" name="Name">
+  </form>
+  (You'll be given the chance to upload a photo, 196x142.)<br />
+	The information you enter will appear as pages within the 
+	<a href="http://www.spa2005.org/cgi-bin/wiki.pl" target="_blank">OT 2004 wiki</a> site,
+	and will also be publicy visible here.
+	</div>
+  </body>
+</html>
+

@@ -1,0 +1,97 @@
+<HTML><HEAD><TITLE>OT97 Discussion</TITLE></HEAD><BODY BGCOLOR=ffc0c0>
+<H4><A HREF="http://web.ftech.net/~honeyg/poster/ot97.htm" target=card>Architectural styles</A>
+<!-- email --></H4><A HREF="http://www.trireme.com/ot97/people/ccrist-card.html" target=card>Colin Crist</A> and <A HREF="http://www.trireme.com/ot97/people/dharvey-card.html" target=card>David Harvey</A><BR> 
+<I>By being explicit about characteristics of software architecture we can determine suitable styles for building large-scale
+distributed object systems.</I>
+
+<HR>
+<PRE>Given the coverage that architecture is receiving in the conference this year,
+<P>we're proposing in the second half of the workshop to focus rather more closely
+<P>on issues arising from scaling-up design patterns in distributed environments. 
+<P>If anyone has any views on this, let us know. (It would be nice to know people 
+<P>are reading this stuff, too :-) )
+<P>
+<P>--- David Harvey (dihharvey@cix.compulink.co.uk)  </PRE><HR>
+<PRE>Hi there,
+<P>
+<P>Your poster doesn't define 'architecture'.
+<P>Since I have an OT97 session that is trying to define terms,
+<P>would to care to supply a definition?
+<P>
+<P>--John Daniels (jdaniels@cix.co.uk) </PRE><HR>
+<PRE>Architecture: what software people do now engineering is no 
+<P>longer fashionable.
+<P>
+<P>
+<P>Also:
+<P>
+<P>Architecture: that which a complex artefact posesses by virtue of the 
+<P>properties of its components and connections as constrained by dictates 
+<P>of purpose, aesthetics, and culture.
+<P>
+<P>Note:
+<P>
+<P>* The definition holds for any artefact
+<P>
+<P>* There is a complexity threshold: a mug doesn't have architecture,
+<P>a house or computer system does.
+<P>
+<P>* Architecture is a resultant. Ill-formed and chaotic architectures tell us
+<P>as much about the culture that produced them as elegant, carefully-planned
+<P>ones.
+<P>
+<P>-- David Harvey (dihharvey@cix.compulink.co.uk)
+<P>
+<P>
+<P>
+<P>
+<P> </PRE><HR>
+<PRE>David
+<P>
+<P>In response to your first posting, I certainly would be more interested in
+<P>discussing the scaling up of designs and patterns into the distributed object
+<P>world. We all have implicit design patterns in out heads (some even write them 
+<P>down!), that we use on a regular basis. Many of us are also having to consider 
+<P>distribution in our designs. It would be interesting to understand how the patterns
+<P>need to change as they are scaled, and what things cause certain designs to
+<P>become unusable.
+<P>
+<P>Adrian Kunzle (kunzle_adrian@jpmorgan.com) </PRE><HR>
+<PRE>Hi, 
+<P>I just came in. Dont know if much discussion has happened already.
+<P>
+<P>When I was involved in the architecture teams for two massive projects (both of them OO based), we focused on the deliverables below :
+<P>
+<P>1) Logical architecture
+<P>|----------------------GUI (OLTP) architecture
+<P>|----------------------Batch architecture
+<P>|----------------------Common framework
+<P>
+<P>2) Process Architecture
+<P>3) Physical architecture
+<P>
+<P>Item 2 focuses on the application server processes, their config info, error recovery, control record info, load balancing, scheduling  and the like.
+<P>
+<P>Item 3 focuses on the physical network, machine capability and system management functions.
+<P>
+<P>Item 1) is the logical modelling part. It focuses on :
+<P>- processes, inputs, outputs (captured by use cases and scenarios)
+<P>- common layers in the object framework (data type/location abstraction, utilities, visual framework, non-visual framework, class clusters and dependencies)
+<P>
+<P>- We found that the dependency management was the most tricky part. To prevent tight coupling between abstraction layers in the framework, we had to resort to methods prescribed by Robert Martin (comp.object) and Grady Booch (book:Object Solutions)
+<P>
+<P>I feel the patterns prescribed by the Gang-of-four in their book addresses Items 1) and 2) quite well. 
+<P>
+<P>In a multi-process, multi-threaded environment, patterns like FLYWEIGHT may need to be applied based on the situation. We also realised that a new class of objects like Thread, Mutex, ResourceManager and DynamicCache got introduced. 
+<P>
+<P>If you use the SanFrancisco framework (courtesy:IBM), the distributed object layer can be modelled to fit in with the rest of the framework quite easily 
+<P>
+<P>Ramesh
+<P>Software Consultant 
+<P>(music_mrb@hotmail.com) </PRE><HR>
+<FORM ACTION="/scripts/ot97.cgi/debate/harvey01" ENCTYPE="x-www-form-encoded" METHOD=POST>
+<H3>Please add your contribution to this discussion:</H3>
+<P><TEXTAREA NAME=contrib ROWS=20 COLS=80></TEXTAREA>
+<h3>Please don't forget your name (and email)!</h3>
+<INPUT NAME="submit" TYPE="submit" VALUE="Press to submit poster info">
+</FORM></BODY></HTML>

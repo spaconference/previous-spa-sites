@@ -1,0 +1,51 @@
+# OT Programme Tags   (don't change this title --- it's a check line)
+
+# This file maps submission numbers to accepted session names
+# The session numbers are in http://www.trireme.com/scripts/otsubs.pl
+
+83 WG1
+78 WG2
+45 WG3
+80 WG4
+16 WG5
+
+38 WS1
+39 WS2
+ 4 TU1
+ 3 WS3
+68 WS4
+
+ 7 WS5
+37 TU2
+24 CS1
+10 TU3
+48 TU4
+65 TU5
+13 TU6
+41 WS6
+
+22 WS7
+15 TU7
+62 WS8
+51 CS2
+79 WS9
+33 TT1
+26 WS10
+
+67 TU8
+61 GB1
+52 WS11
+82 SP1
+28 TU9
+47 WS12
+36 WS13
+
+17 TU10
+19 TU11
+31 WS14
+12 WS15
+18 TT2
+85 SP2
+ 6 ZZ1
+30 SI1
+58 TU12

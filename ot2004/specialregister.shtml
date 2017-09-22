@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html><!-- InstanceBegin template="/Templates/OT2004.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+	<title>OT2004 - complementary registration ..</title>
+	<style>
+		.s1{background-color: #ffffff}
+		.s2{background-color: #ffffff}
+		.sx{background-color: #ff0000}
+		input { font: 12px/120% verdana, arial, sans-serif; color: #000;}
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="ot.css" />
+	<script type="text/javascript" src="x/x.js"></script>
+	<script type="text/javascript" src="x/ot.js"></script>
+	<script type="text/javascript" src="register.js"></script>
+</head>
+
+<body onLoad="adjustLayout()">
+<!--#include file="leftmenu.html" -->
+<div id="top">
+	<a href="register.shtml" class="topmenu">registration</a> - 
+	<a href="organisers.shtml" class="topmenu">contact</a>&nbsp;
+</div>
+<div id="content">
+	<div id="contentcontent">
+		<br />
+		<br />
+		<img src="images/registerhead.gif" width="271" height="22" border="0">
+		<table border="0" cellspacing="0" cellpadding="2">
+		  <tr> 
+		    <td class="body">
+					This page is reserved for complementary registrants to OT2004: keynote speakers, 
+					representatives of conference sponsors, and other privileged attendees.
+					<a href="register.shtml">Click here</a> if you wish to register as a normal participant.
+				</td>
+			</tr>
+			<tr><td colspan="2"><i>Call +44 (0)870 760 6863 to book by phone.</i><br /><br /></td></tr>
+		</table>
+		<form name="registrationForm" method="post"  action="http://www.trireme.com/scripts/mailForm.pl">
+	    <input name="archive" type=hidden value="ot2004Registrations.txt"/>
+	    <input name="to" type=hidden value="admin@spaconference.org,dave@cleal.com"/>
+	    <input name="from" type=hidden value="registration@spaconference.org"/>
+	    <input name="subject" type=hidden value="ONLINE BOOKING"/>
+	    <input name="thankyou" type=hidden id="thankyou" value="Thank you for booking. We will contact you in due course."/>
+	    <input name="next" type=hidden value="http://www.ot2004.org"/>
+	    <input name="validate" type=hidden value="$email != $emailAgain"/>
+	    <input name="cartId" type=hidden value=""/>
+	    <input name="report" type=hidden value="Booking $cartId for\n   $fullname ($badge) $email, $organisation\n
+	     $address1/$address2/$address3/$postcode/$country\n
+	     $phone1 / $phone2\n
+	     [$invited] \n
+	     [$sponsor] \n
+	     DIET: $diet    ACCOM: $accommodation\n
+	     PAYMENT: $payment  $invoiceAddress\n
+	     $date
+	     \n\n\n
+	     <booking>
+	     <name full='$fullname' badge='$badge' email='$email' org='$organisation'/>
+	     <contact >
+	     	<address address1='$address1' address2='$address2' address3='$address3' address4='$address4' postcode='$postcode' country='$country'/>
+	     	<phones phone1='$phone1' phone2='$phone2'/>  
+	     </contact>
+	     <participation>
+			 	 <complementary flag='is_complementary'>
+	       <invited flag='$invited'/>
+	       <sponsor flag='$sponsor'/>
+	      </participation>
+	       <diet diet='$diet'/>
+	       <accommodation accom='$accommodation'/>
+		     <date now='$date'/>
+	     </booking>
+	     "/>
+		<table bgcolor="#000099" cellpadding="1"><tr><td><table border="0" bgcolor="#ffffff">
+			<tr>
+				<td colspan="4">
+					<h1>Complementary registration for OT2004</h1>
+				</td>
+			</tr>
+			<tr><td colspan="4"><h2>Your name</h4></td></tr>
+			<tr class="s2" ID="nameRow">
+      	<td>&nbsp;</td>
+        <td>Full name:</td>
+  			<td><input name="fullname" type="text" value="" size="40" onBlur="setBadge()" /></td>
+
+				<td rowspan="4">
+					Conference badge:
+					<div style="margin: 5px; padding: 3px; border: 2px solid black; width: 150px;">
+						<div id="nameEg" align="center">Dr. Basil Pesto</div>
+						<div id="badgeEg" align="center"style="font-size: 150%; font-weight: bold;">Baz</div>
+						<div id="orgEg" align="center">Skye TV</div>
+					</div>
+				</td>
+			</tr>
+	    <tr class=s2 ID="badgeRow">
+	      <td width="3%">&nbsp; &nbsp; &nbsp;</td>
+	      <td>Badge name:</td>
+	      <td><input name="badge" type="text" value="" size="20" onBlur="setBadge()"/></td>
+	    </tr>
+	    <tr class=s2>
+	      <td>&nbsp;</td>
+	      <td>Organisation:</td>
+	      <td><input name="organisation" type="text" id="organisation" value="" size="40" onBlur="setBadge()"/></td>
+	    </tr>
+			<tr><td></td></tr>
+	    <tr class="s2"><td colspan="4">&nbsp;</td></tr>
+	    <tr><td colspan="4"><h2>Contact information</h2></td></tr>
+	    <tr ID="emailRow" class="s1">
+	      <td>&nbsp;</td>
+	      <td width="23%" id="emailCell">email:</td>
+	      <td><input name="email" type="text" id="email" size="50"></td>
+				<td rowspan="2">Please enter your email twice to confirm that the spelling is correct.</td>
+	    </tr>
+	    <tr ID="emailAgainRow" class="s1">
+	      <td>&nbsp;</td>
+	      <td>email again:</td>
+	      <td><input name="emailAgain" type="text" size="50"></td>
+	    </tr>
+	    <tr valign=top class=s2 ID="addressRow">
+	      <td>&nbsp; </td>
+	      <td>correspondence<br>
+	        address:</td>
+	      <td colspan="2">            
+	        <input name="address1" type="text" size="50"><br>
+	        <input name="address2" type="text" size="50"><br>
+	        <input name="address3" type="text" size="50">
+	      </td>
+	     </tr>
+	    <tr class=s2>
+	      <td>&nbsp;</td>
+				<td>Post/zipcode:</td>
+	      <td ID="postcodeRow" colspan="2"><input name="postcode" type="text" size="12"></td>
+			</tr>
+			<tr class=s2>
+	    	<td>&nbsp;</td>
+				<td>Country:</td>
+				<td colspan="2">
+					<SELECT NAME="country">
+	<OPTION VALUE="GB">UK<OPTION VALUE="AF">Afghanistan<OPTION VALUE="AL">Albania<OPTION VALUE="DZ">Algeria<OPTION VALUE="AS">American Samoa<OPTION VALUE="AD">Andorra<OPTION VALUE="AO">Angola<OPTION VALUE="AI">Anguilla<OPTION VALUE="AQ">Antarctica<OPTION VALUE="AG">Antigua and Barbuda<OPTION VALUE="AR">Argentina<OPTION VALUE="AM">Armenia<OPTION VALUE="AW">Aruba<OPTION VALUE="AU">Australia<OPTION VALUE="AT">Austria<OPTION VALUE="AZ">Azerbaijan<OPTION VALUE="BS">Bahamas<OPTION VALUE="BH">Bahrain<OPTION VALUE="BD">Bangladesh<OPTION VALUE="BB">Barbados<OPTION VALUE="BY">Belarus<OPTION VALUE="BE">Belgium<OPTION VALUE="BZ">Belize<OPTION VALUE="BJ">Benin<OPTION VALUE="BM">Bermuda<OPTION VALUE="BT">Bhutan<OPTION VALUE="BO">Bolivia<OPTION VALUE="BA">Bosnia and Herzegovina<OPTION VALUE="BW">Botswana<OPTION VALUE="BV">Bouvet Island<OPTION VALUE="BR">Brazil<OPTION VALUE="IO">British Indian Ocean Territory<OPTION VALUE="BN">Brunei Darussalam<OPTION VALUE="BG">Bulgaria<OPTION VALUE="BF">Burkina Faso<OPTION VALUE="BI">Burundi<OPTION VALUE="KH">Cambodia<OPTION VALUE="CM">Cameroon<OPTION VALUE="CA">Canada<OPTION VALUE="CV">Cape Verde<OPTION VALUE="KY">Cayman Islands<OPTION VALUE="CF">Central African Republic<OPTION VALUE="TD">Chad<OPTION VALUE="CL">Chile<OPTION VALUE="CN">China<OPTION VALUE="CX">Christmas Island<OPTION VALUE="CC">Cocos (Keeling) Islands<OPTION VALUE="CO">Colombia<OPTION VALUE="KM">Comoros<OPTION VALUE="CG">Congo<OPTION VALUE="CK">Cook Islands<OPTION VALUE="CR">Costa Rica<OPTION VALUE="HR">Croatia<OPTION VALUE="CU">Cuba<OPTION VALUE="CY">Cyprus<OPTION VALUE="CZ">Czech Republic<OPTION VALUE="CI">Côte d'Ivoire<OPTION VALUE="DK">Denmark<OPTION VALUE="DJ">Djibouti<OPTION VALUE="DM">Dominica<OPTION VALUE="DO">Dominican Republic<OPTION VALUE="TP">East Timor<OPTION VALUE="EC">Ecuador<OPTION VALUE="EG">Egypt<OPTION VALUE="SV">El salvador<OPTION VALUE="GQ">Equatorial Guinea<OPTION VALUE="ER">Eritrea<OPTION VALUE="EE">Estonia<OPTION VALUE="ET">Ethiopia<OPTION VALUE="FK">Falkland Islands<OPTION VALUE="FO">Faroe Islands<OPTION V	ALUE="FJ">Fiji<OPTION VALUE="FI">Finland<OPTION VALUE="FR">France<OPTION VALUE="GF">French Guiana<OPTION VALUE="PF">French Polynesia<OPTION VALUE="TF">French Southern Territories<OPTION VALUE="GA">Gabon<OPTION VALUE="GM">Gambia<OPTION VALUE="GE">Georgia<OPTION VALUE="DE">Germany<OPTION VALUE="GH">Ghana<OPTION VALUE="GI">Gibraltar<OPTION VALUE="GR">Greece<OPTION VALUE="GL">Greenland<OPTION VALUE="GD">Grenada<OPTION VALUE="GP">Guadeloupe<OPTION VALUE="GU">Guam<OPTION VALUE="GT">Guatemala<OPTION VALUE="GN">Guinea<OPTION VALUE="GW">Guinea-Bissau<OPTION VALUE="GY">Guyana<OPTION VALUE="HT">Haiti<OPTION VALUE="HM">Heard Island and McDonald Islands<OPTION VALUE="VA">Holy See (Vatican City State)<OPTION VALUE="HN">Honduras<OPTION VALUE="HK">Hong Kong<OPTION VALUE="HU">Hungary<OPTION VALUE="IS">Iceland<OPTION VALUE="IN">India<OPTION VALUE="ID">Indonesia<OPTION VALUE="IR">Iran<OPTION VALUE="IQ">Iraq<OPTION VALUE="IE">Ireland<OPTION VALUE="IL">Israel<OPTION VALUE="IT">Italy<OPTION VALUE="JM">Jamaica<OPTION VALUE="JP">Japan<OPTION VALUE="JO">Jordan<OPTION VALUE="KZ">Kazakstan<OPTION VALUE="KE">Kenya<OPTION VALUE="KI">Kiribati<OPTION VALUE="KW">Kuwait<OPTION VALUE="KG">Kyrgystan<OPTION VALUE="LA">Lao<OPTION VALUE="LV">Latvia<OPTION VALUE="LB">Lebanon<OPTION VALUE="LS">Lesotho<OPTION VALUE="LR">Liberia<OPTION VALUE="LY">Libyan Arab Jamahiriya<OPTION VALUE="LI">Liechtenstein<OPTION VALUE="LT">Lithuania<OPTION VALUE="LU">Luxembourg<OPTION VALUE="MO">Macau<OPTION VALUE="MK">Macedonia (FYR)<OPTION VALUE="MG">Madagascar<OPTION VALUE="MW">Malawi<OPTION VALUE="MY">Malaysia<OPTION VALUE="MV">Maldives<OPTION VALUE="ML">Mali<OPTION VALUE="MT">Malta<OPTION VALUE="MH">Marshall Islands<OPTION VALUE="MQ">Martinique<OPTION VALUE="MR">Mauritania<OPTION VALUE="MU">Mauritius<OPTION VALUE="YT">Mayotte<OPTION VALUE="MX">Mexico<OPTION VALUE="FM">Micronesia<OPTION VALUE="MD">Moldova<OPTION VALUE="MC">Monaco<OPTION VALUE="MN">Mongolia<OPTION VALUE="MS">Montserrat<OPTION VALUE="MA">Morocco<OPTION VALUE="MZ">Mozambique<OPTION VALUE="MM">Myanmar<OPTION	VALUE="NA">Namibia<OPTION VALUE="NR">Nauru<OPTION VALUE="NP">Nepal<OPTION VALUE="NL">Netherlands<OPTION VALUE="AN">Netherlands Antilles<OPTION VALUE="NC">New Caledonia<OPTION VALUE="NZ">New Zealand<OPTION VALUE="NI">Nicaragua<OPTION VALUE="NE">Niger<OPTION VALUE="NG">Nigeria<OPTION VALUE="NU">Niue<OPTION VALUE="NF">Norfolk Island<OPTION VALUE="KP">North Korea<OPTION VALUE="MP">Northern Mariana Islands<OPTION VALUE="NO">Norway<OPTION VALUE="OM">Oman<OPTION VALUE="PK">Pakistan<OPTION VALUE="PW">Palau<OPTION VALUE="PA">Panama<OPTION VALUE="PG">Papua New Guinea<OPTION VALUE="PY">Paraguay<OPTION VALUE="PE">Peru<OPTION VALUE="PH">Philippines<OPTION VALUE="PN">Pitcairn<OPTION VALUE="PL">Poland<OPTION VALUE="PT">Portugal<OPTION VALUE="PR">Puerto Rico<OPTION VALUE="QA">Qatar<OPTION VALUE="RE">Reunion<OPTION VALUE="RO">Romania<OPTION VALUE="RU">Russian Federation<OPTION VALUE="RW">Rwanda<OPTION VALUE="SH">Saint Helena<OPTION VALUE="KN">Saint Kitts and Nevis<OPTION VALUE="LC">Saint Lucia<OPTION VALUE="PM">Saint Pierre and Miquelon<OPTION VALUE="VC">Saint Vincent and the Grenadines<OPTION VALUE="WS">Samoa<OPTION VALUE="SM">San Marino<OPTION VALUE="ST">Sao Tome and Principe<OPTION VALUE="SA">Saudi Arabia<OPTION VALUE="SN">Senegal<OPTION VALUE="SC">Seychelles<OPTION VALUE="SL">Sierra Leone<OPTION VALUE="SG">Singapore<OPTION VALUE="SK">Slovakia<OPTION VALUE="SI">Slovenia<OPTION VALUE="SB">Solomon Islands<OPTION VALUE="SO">Somalia<OPTION VALUE="ZA">South Africa<OPTION VALUE="GS">South Georgia<OPTION VALUE="KR">South Korea<OPTION VALUE="ES">Spain<OPTION VALUE="LK">Sri Lanka<OPTION VALUE="SD">Sudan<OPTION VALUE="SR">Suriname<OPTION VALUE="SJ">Svalbard and Jan Mayen Islands<OPTION VALUE="SZ">Swaziland<OPTION VALUE="SE">Sweden<OPTION VALUE="CH">Switzerland<OPTION VALUE="SY">Syria<OPTION VALUE="TW">Taiwan<OPTION VALUE="TJ">Tajikistan<OPTION VALUE="TZ">Tanzania<OPTION VALUE="TH">Thailand<OPTION VALUE="TG">Togo<OPTION VALUE="TK">Tokelau<OPTION VALUE="TO">Tonga<OPTION VALUE="TT">Trinidad and Tobago<OPTION VALUE="TN">Tunisia<OPTION VAL	UE="TR">Turkey<OPTION VALUE="TM">Turkmenistan<OPTION VALUE="TC">Turks and Caicos Islands<OPTION VALUE="TV">Tuvalu<OPTION VALUE="UG">Uganda<OPTION VALUE="UA">Ukraine<OPTION VALUE="AE">United Arab Emirates<OPTION VALUE="GB">United Kingdom<OPTION VALUE="US">United States<OPTION VALUE="UM">United States Minor Outlying Islands<OPTION VALUE="UY">Uruguay<OPTION VALUE="UZ">Uzbekistan<OPTION VALUE="VU">Vanuatu<OPTION VALUE="VE">Venezuela<OPTION VALUE="VN">Viet Nam<OPTION VALUE="VG">Virgin Islands (British)<OPTION VALUE="VI">Virgin Islands (U.S.)<OPTION VALUE="WF">Wallis and Futuna Islands<OPTION VALUE="EH">Western Sahara<OPTION VALUE="YE">Yemen<OPTION VALUE="YU">Yugoslavia<OPTION VALUE="ZR">Zaire<OPTION VALUE="ZM">Zambia<OPTION VALUE="ZW">Zimbabwe
+					</SELECT>
+	        </td>
+	      </tr>
+	      <tr valign=top class=s1 ID="phoneRow">
+	        <td>&nbsp;</td>
+	        <td>Phones:</td>
+	        <td colspan=2>
+					<input name="phone1" type="text" size="20">
+	          <input name="phone2" type="text" size="20">
+	        </td>
+	      </tr>
+			<tr><td>&nbsp;</td></tr>
+	      <tr><td colspan="4"><h2>Participation</h2></td></tr>
+	      <tr class=s2>
+	        <td>&nbsp;</td>
+	        <td colspan="3">
+					<input type="checkbox" name="invited" value="is_invited"/>
+					I am an invited speaker<br />
+					
+					<input type="checkbox" name="sponsor" value="is_sponsor"/>
+					I am attending as part of the sponsorship package<br />
+	        </td>
+	       </tr>
+			<tr><td>&nbsp;</td></tr>
+	      <tr><td colspan="4"><h2>Other requirements</h2></td></tr>
+	      <tr>
+				<td colspan="4">Accomodation and food are provided. Please state here any particular requirements...</td>
+	      </tr>
+			<tr class=s1>
+	        <td>&nbsp;</td>
+	        <td>...for accomodation</td>
+	        <td colspan="2"><input name="accommodation" type="text" size="40"></td>
+	      </tr>
+	      <tr class=s1>
+	        <td>&nbsp;</td>
+	        <td>...for diet</td>
+	        <td colspan="2"><input name="diet" type="text" size="40"></td>
+	      </tr>
+	      <tr>
+	        <td colspan="4">&nbsp;</td>
+	      </tr>
+			<tr>
+				<td colspan="4">
+	         <table cellpadding=4 id="registerTable">
+						<tr>
+							<td>
+								<input type="button" name="send" value="CLICK HERE TO REGISTER" style='{font-size:18}' onClick='validateComplementaryForm()'>
+							</td>
+							<td id="errorMsg"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table></td></tr></table>
+		</form>
+	</div>
+</div>
+</body>
+</html>

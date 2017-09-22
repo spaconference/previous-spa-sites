@@ -1,0 +1,227 @@
+<HTML>
+
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+
+<TITLE>OT99 Session</TITLE>
+
+</HEAD>
+
+<BODY BGCOLOR=ffffff>
+<TABLE><TR BGCOLOR=0080ff><TD>&nbsp;<A HREF=/ot99 target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>OT99</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=/ot99/programme.html target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>programme</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=/ot99/people target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>people</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=/ot99/bookOnline.html target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>Book</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=Sowatskey_Nathan38.htm OT=back><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>&lt;--</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=Vinoksi_Steve32.htm OT=fwd><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>--&gt;</B></FONT></A>&nbsp;</TD>
+</TR></TABLE>
+<HR>
+
+
+
+
+<B><FONT FACE="Verdana" SIZE=3><P ALIGN="CENTER"></P>
+
+</B></FONT><FONT FACE="Verdana" SIZE=4><P ALIGN="CENTER">XML Messaging at Chase Manhattan Bank Global Markets</P>
+
+</FONT><B><FONT FACE="Verdana" SIZE=3><P ALIGN="CENTER"></P>
+
+</B></FONT><FONT FACE="Verdana" SIZE=2><P ALIGN="CENTER">A Case Study for OT99</P>
+
+<P ALIGN="CENTER"></P>
+
+<P ALIGN="CENTER"><A HREF=/ot99/people/jsullivan-card.html OT=a>John O'Sullivan</A></P>
+
+
+
+<P ALIGN="JUSTIFY">XML was developed as a web-friendly successor to SGML for generalised document content markup. However, its flexibility in modelling semantic content is leading to increased use as a more general medium for data exchange. </P>
+
+
+
+<P ALIGN="JUSTIFY">Chase Manhattan Global Markets has many applications deployed on its primary trading floors in New York and London which perform functions such as trade capture, position tracking, profit and loss calculation, value at risk calculation, and pricing for a wide range of wholesale financial products. These front office applications run on desktop systems. In the back office applications run on mainframes and minis and handle confirmation, settlements and payments for the trades done by the front office. File transfer and file sharing are the primary means of inter application messaging. Each application defines its own message formats; these formats specify messages as fixed length blocks of text, with the message fields occurring at fixed offsets and being of fixed widths. </P>
+
+<P ALIGN="JUSTIFY"></P>
+
+<P ALIGN="JUSTIFY">Clearly the existing solutions to our application's messaging requirements are brittle and support intensive. To remedy this the Global Markets Technical Architecture Group are now building the ASAP Messaging System (AMS). AMS will connect applications running on a variety of platforms, and implemented in several programming languages. AMS is built on IBM's MQ series, which provides the guaranteed delivery and queueing across platforms that we need to make our inter application messaging more resilient. But MQ series says nothing about message formats; to MQ messages are just strings. So how should those strings be formatted?</P>
+
+<P ALIGN="JUSTIFY"></P>
+
+<P ALIGN="JUSTIFY">Candidate message formats evaluated by the AMS team included XML, ASN.1 and a home brewed option. XML won out for several reasons. It's an industry standard supported by third party tools, that has backing from all the major vendors. It is human readable. It enables us to put semantics into messages, and so make them self describing. XML supports optional elements, and elements that may occur a varying number of times. This supports dissent between sending and receiving applications over message content. The flexibility of XML will enable many different Chase applications to agree on, for instance, a single foreign exchange trade message format that has many optional parts.</P>
+
+<P ALIGN="JUSTIFY"></P>
+
+<P ALIGN="JUSTIFY">This case study includes a detailed discussion of  the Content Model developed for AMS messages,  the selection of a third party XML parser, and the message formatting tools that Chase has developed. Those tools translate Java and C++ objects, as well as C, COBOL and Natural data structures, to and from XML.<B> </P>
+
+<P ALIGN="JUSTIFY"></P>
+
+<P ALIGN="JUSTIFY">Who is this session for?</P>
+
+</B><P ALIGN="JUSTIFY">Architects investigating and defining messaging middleware standards for their organisations: developers faced with the problem of integrating disparate systems with complex information flows.</P>
+
+<P ALIGN="JUSTIFY"></P>
+
+<B><P ALIGN="JUSTIFY">What will participants get from the session?</P>
+
+</B><P ALIGN="JUSTIFY">If previously unfamiliar with XML, participants will acquire a basic reading knowledge of XML. Delegates will come away with an understanding of the particular issues involved in using XML for messaging data transfer rather than generalised markup, in particular, the importance of a well-defined content model. They will also learn criteria upon which to base the selection of tools and technologies for XML.</P>
+
+<P ALIGN="JUSTIFY"></P>
+
+<B><P ALIGN="JUSTIFY">Session numbers</P>
+
+</B><P ALIGN="JUSTIFY">Unlimited</P>
+
+<P ALIGN="JUSTIFY"></P>
+
+<B><P ALIGN="JUSTIFY">Session materials</P>
+
+</B><P ALIGN="JUSTIFY">The presentation material will be made available for the conference documentation. In addition a short XML primer will be produced. This will present three or four examples of XML for practice in reading the format: commentary explaining the features of XML introduced in each will be printed on the following page.</P>
+
+<P ALIGN="JUSTIFY"></P>
+
+<B><P ALIGN="JUSTIFY">Session format</P>
+
+</B><P ALIGN="JUSTIFY">The session will consist largely of a presentation supported by PowerPoint slides. An exercise will be included to providing enough basic reading ability in XML to follow the discussion.</P>
+
+<P ALIGN="JUSTIFY"></P>
+
+<B><P ALIGN="JUSTIFY">Timetable</P>
+
+</B><P ALIGN="JUSTIFY"></P></FONT>
+
+<TABLE BORDER CELLSPACING=1 CELLPADDING=7 WIDTH=654>
+
+<TR><TD WIDTH="10%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">00</FONT></TD>
+
+<TD WIDTH="90%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">Introduction</FONT></TD>
+
+</TR>
+
+<TR><TD WIDTH="10%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">05</FONT></TD>
+
+<TD WIDTH="90%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">Whatís wrong with the current solution?</FONT></TD>
+
+</TR>
+
+<TR><TD WIDTH="10%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">10</FONT></TD>
+
+<TD WIDTH="90%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">Exercise - XML Primer </P>
+
+<I><P ALIGN="JUSTIFY">In pairs, participants read and discuss the examples of XML provided: their guesses and assumptions verified and corrected by commentaries on the following pages (no peeking!). This will be followed by a brief round-up before proceeding with the case study</I></FONT></TD>
+
+</TR>
+
+<TR><TD WIDTH="10%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">20</FONT></TD>
+
+<TD WIDTH="90%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">Choice of messaging format</FONT></TD>
+
+</TR>
+
+<TR><TD WIDTH="10%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">25</FONT></TD>
+
+<TD WIDTH="90%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">Content model</FONT></TD>
+
+</TR>
+
+<TR><TD WIDTH="10%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">40</FONT></TD>
+
+<TD WIDTH="90%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">Choice of parser</FONT></TD>
+
+</TR>
+
+<TR><TD WIDTH="10%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">45</FONT></TD>
+
+<TD WIDTH="90%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">Tools</FONT></TD>
+
+</TR>
+
+<TR><TD WIDTH="10%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">50</FONT></TD>
+
+<TD WIDTH="90%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">A message registry</FONT></TD>
+
+</TR>
+
+<TR><TD WIDTH="10%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">55</FONT></TD>
+
+<TD WIDTH="90%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">Future developments</FONT></TD>
+
+</TR>
+
+<TR><TD WIDTH="10%" VALIGN="TOP">
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">60</FONT></TD>
+
+<TD WIDTH="90%" VALIGN="TOP">
+
+<I><FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY">Questions</I></FONT></TD>
+
+</TR>
+
+</TABLE>
+
+
+
+<FONT FACE="Verdana" SIZE=2><P ALIGN="JUSTIFY"></P>
+
+<B><P ALIGN="JUSTIFY">Session deliverables</P>
+
+</B><P ALIGN="JUSTIFY">There are no deliverables from this session.</P>
+
+<P ALIGN="JUSTIFY"></P>
+
+<B><P ALIGN="JUSTIFY">Presenter</P>
+
+</B><P><A HREF=/ot99/people/jsullivan-card.html OT=a>John O'Sullivan</A></P>
+
+<P>24 Stanmore Rd</P>
+
+<P>London N15 3PS</P>
+
+<P>0181 888 5693</P>
+<HR>
+<TABLE><TR BGCOLOR=0080ff><TD>&nbsp;<A HREF=/ot99 target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>OT99</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=/ot99/programme.html target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>programme</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=/ot99/people target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>people</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=/ot99/bookOnline.html target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>Book</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=Sowatskey_Nathan38.htm OT=back><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>&lt;--</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=Vinoksi_Steve32.htm OT=fwd><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>--&gt;</B></FONT></A>&nbsp;</TD>
+</TR></TABLE>
+</HTML>

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OT2004</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="ot.css" />
+	<script type="text/javascript" src="x/x.js"></script>
+	<script type="text/javascript" src="x/ot.js"></script>
+</head>
+
+<body>
+<!--#include file="leftmenu.html" -->
+<div id="top">
+	<a href="register.shtml" class="topmenu">registration</a> - 
+	<a href="organisers.shtml" class="topmenu">contact</a>&nbsp;
+</div>
+<div id="content">
+	<div id="contentcontent">
+
+		<br />
+		<br />
+		<img src="images/sessionformatshead.gif" width="463" height="18" border="0"><br />
+		
+
+The Object Technology conference has a tradition of active participation. We encourage conference sessions that bring people together to work and learn and in most cases, sessions are highly interactive, involving participants and session leaders on an equal footing. The types of session that typically make up the programme are described here, although if you are proposing a session and want to do something different, we always welcome new suggestions. 
+<br />
+<a name="WS"><h2>Workshop</h2></a>
+<h3>75 or 150 minutes</h3>
+Workshops are sessions in which participants work in a structured way on a topic set by the workshop organiser. At the end of the workshop, the participants, in conjunction with the workshop organiser, would normally produce and make available to other participants some conclusions and, ideally, suggestions for avenues worthy of further investigation. 
+Workshops may take many different forms and submitters are free to propose their own structure and process. It is very important that proposals are explicit about the process that will be followed. 
+<br /><br />
+<a name="TU"><h2>Tutorial</h2></a>
+<h3>75 or 150 minutes</h3>
+A tutorial consists of a presentation on a clearly focussed topic which is aimed at a defined category of software professional. For example a tutorial could be aimed at experienced project managers, or at professionals actively working on object-oriented design projects. You should have a clear idea of what insights your participants will take away, and why they will find these interesting. 
+While tutorials are expected to contain a certain amount of formal lecturing, you should try to incorporate a degree of interaction between participants, for example by including a quiz or questionnaire.
+<br /><br />
+<a name="GB"><h2>Goldfish Bowl</h2></a>
+<h3>75 or 150 minutes</h3>
+A goldfish bowl provides an effective means of exploring the breadth of opinion on a given topic. The session is started by a small discussion group (say four or five people) consisting of specially invited participants, with the rest of the participants forming an audience. Spare places in the discussion group are available, and members of the audience may take up these places when they feel they have a contribution to make. Members of the discussion group leave their places when they have had their say, making room for new participants. 
+The session should produce documentary output of the conclusions reached, typically in the form of a poster.
+<br /><br />
+<a name="CS"><h2>Case Study</h2></a>
+<h3>75 or 150 minutes</h3>
+A case study session aims to describe real-life experiences and lessons learnt in implementing object technology. Discussion of failures as well as successes is welcome. The experiences described can be drawn from any aspect of object technology projects. 
+Useful topics to address in a case study session would be: background to why object technology was used; report on the experience of using object technology; what went wrong and why; what went well and why; what lessons have been learnt from the experience.
+<br /><br />
+<a name="SI"><h2>Simulation</h2></a>
+<h3>75 or 150 minutes</h3>
+Given the complexity of the real-world environment in which we practice software, it is often not possible to reflect clearly on the way we work or to expweriment with new approaches. Using simulations and games howwever allows us to think about these situations with increased clarity. A simulation leader will be responsible for producing a clear and concise summary of the purpose, rules, and assumptions of the game. Some work on reflecting on the results of the game and its implications for real-world practice should also be included. The output from the sessions is likely to include both summary results from the simulation and a summary of its real-world implications. 
+<br /><br />
+<a name="TT"><h2>Think Tank</h2></a>
+<h3>75 or 150 minutes</h3>
+A think-tank session consists of a small group of people meeting to solve a particular problem or to find an agreed position on some issue. Think-tank sessions are intensive, focused and produce concrete output in the form of a poster for other conference participants. 
+The session leader is responsible for the process of the session, for any materials that may be needed, and for ensuring that the poster is produced.
+<br /><br />
+<a name="WG"><h2>Working Group</h2></a>
+<h3>6 hours elapsed</h3>
+A working group is formed to conduct a detailed exploration of some aspect of object technology, to identify how that aspect of the technology can be advanced, and then to put in motion the work needed to achieve this advance. Working groups are run to encourage the exchange of ideas between object technology practitioners with the aim of generating or encouraging progress that is applicable to the software community at large. A leader of a working group may require some pre-conference input from participants (submission of a position paper or preparation of a pattern for review, for example). 
+<br /><br />
+Formal working group sessions take place on Sunday afternoon, before the main part of the conference. Groups may continue to meet during and after the conference
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OT2004</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="ot.css" />
+	<script type="text/javascript" src="x/x.js"></script>
+	<script type="text/javascript" src="x/ot.js"></script>
+</head>
+
+<body>
+<!--#include file="leftmenu.html" -->
+<div id="top">
+	<a href="register.shtml" class="topmenu">registration</a> - 
+	<a href="organisers.shtml" class="topmenu">contact</a>&nbsp;
+</div>
+<div id="content">
+	<div id="contentcontent">
+
+		<br />
+		<br />
+		<img src="images/locationhead.gif" width="225" height="18" border="0"><br />
+		<br />
+		OT2004 will take place at the
+		<a href="http://www.robinsonexec.com" target="_blank">Robinson Centre</a>, 
+		St.Neots, Cambridge, UK.<br />
+		<br />
+		The conference session rooms and main
+accommodation are provided as part of the
+excellent facilities offered by the Robinson
+Centre. Meals and accommodation are of
+a high standard and are included in the
+price of the conference. Given the
+intensive and highly interactive nature of
+the conference, we are able to offer a
+fantastic rate that includes accommodation
+and all meals, allowing you to stay onsite
+for the whole of the conference. Book early
+to avoid missing out on the onsite
+accommodation.
+<br><br>
+For more information about the centre, including a location map, <a href="robinson.pdf">click here</a>.
+</div>
+</body>
+</html>

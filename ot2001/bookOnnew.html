@@ -1,0 +1,547 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>OT2001 Booking</TITLE> <META NAME="Author" CONTENT="Alan Wills">
+	 <META NAME="GENERATOR" CONTENT="Mozilla/3.01Gold (Win95; I) [Netscape]"> <SCRIPT LANGUAGE="JavaScript">
+
+	<!-- hide from non-scripting browsers
+
+	function xvalue (menu)
+
+	{	str= menu.options[menu.selectedIndex].text;
+
+		if (str.length > 0)
+
+		{
+
+			n= parseInt(str.substring(1, str.length));
+
+			return n;
+
+		}
+
+		else return 0;
+
+	}
+
+	function compute (form)
+
+	{
+
+		form.total.value=   xvalue(form.fee1) 
+
+				+ xvalue(form.fee2) 
+
+				+ xvalue(form.fee3);
+
+		// form.vat.value= Math.round(form.total.value / 0.175);
+
+		//	form.total.value= parseInt(form.fee.value) 
+		//		+ parseInt(form.vat.value);
+
+
+	}
+
+	// end hiding -->
+
+
+	
+	
+	 </SCRIPT> 
+  </HEAD> 
+  <BODY BGCOLOR="ffffff"> 
+	 <P><A HREF="/">[OT2001]</A>
+
+<!--A HREF=proposal.html>[Lead a session]</A-->
+		<A HREF="programme.html">[Programme]</A> <A
+		HREF="organisers.html">[Organisation]</A> <A HREF="people">[People]</A>
+		<A HREF="wiki">[Discussion]</A> </P> 
+	 <P> </P> 
+	 <TABLE CELLSPACING="3" CELLPADDING="3" WIDTH="100%"> 
+		<TR VALIGN="TOP"> 
+		  <TD><IMG SRC="Image/tomtowertop.gif" WIDTH="72" HEIGHT="121"></TD> 
+		  <TD ALIGN="RIGHT" VALIGN="TOP"><B><I><FONT
+			 SIZE="+4">Booking</FONT></I></B> 
+			 <P>Book online <!-- by phone, fax or post --></P></TD> 
+		  <TD ALIGN="RIGHT">
+
+<!--<A HREF="/"><IMG BORDER=0 SRC="ot-medium.gif" HEIGHT=174 WIDTH=240
+ALT="OT2001: 2-4 April 2001"></A>
+-->
+			 <TABLE ALIGN="right" WIDTH="120" BGCOLOR="ffffff"> 
+				<TR> 
+				  <TD><A HREF="button.html" TARGET="button"><IMG
+					 SRC="ot-button.gif" WIDTH="102" HEIGHT="92" BORDER="0"><BR>Tell your colleagues
+					 about OT2001 --- put this button on your website!</A></TD> 
+				</TR> 
+			 </TABLE> </TD> 
+		</TR> 
+	 </TABLE>
+
+<!------- END OF HEADER -------------------------->
+<!-- 
+
+<TABLE width="100%">
+
+<TR><TD><IMG SRC="Image/christchurch.gif" ALIGN=LEFT></TD>
+
+<TD><H1><I>Technology</I></H1>
+
+<H1><I>Process</I></H1>
+
+<H1><I>People</I></H1>
+
+<H1><I>Practice</I></H1>
+
+</FONT>
+
+</TD>
+
+</TR></TABLE>
+
+-->
+	 <P><B>OT2001 will take place in Oxford, 2-4 April 2001. <BR>Accommodation
+		and evening events, included in the participation fee, will be provided at
+		<A HREF="www.chch.ox.ac.uk">Christ Church College</A>, Oxford. </B> </P> <HR> 
+	 <FORM METHOD="POST" ACTION="http://www.iee.org.uk/cgi-bin/confindex.cgi">
+		<INPUT VALUE="Please click here to register online" TYPE="SUBMIT">
+		<INPUT TYPE="HIDDEN" NAME="confName" VALUE="OT2001"> </FORM> <HR>
+<P>
+Alternatively, please use the form below to register by post.
+</P>
+<!------- BOOKING FORM ------------------------- -->
+	 <TABLE BGCOLOR="c0c0ff" BORDER="0" CELLSPACING="0"> 
+		<TR> 
+		  <TD> 
+			 <FORM ACTION="scripts/mailForm" NAME="bform">
+				<INPUT NAME="archive" VALUE="ot2001book" TYPE="hidden">
+				<INPUT NAME="to" VALUE="book@ot2001.org" TYPE="hidden">
+
+<!--INPUT name=faxto value=441612573292 type=hidden -->
+				<INPUT NAME="from" VALUE="bookForm@ot2001.org" TYPE="hidden">
+				<INPUT NAME="subject" VALUE="OT2001 Booking" TYPE="hidden">
+				<INPUT NAME="thankyou"
+				 VALUE="Thanks for your booking. You will receive confirmation by post soon."
+				 TYPE="hidden"> <INPUT NAME="next" VALUE="/" TYPE="hidden">
+				<INPUT NAME="report" VALUE="
+<PARTICIPANT>
+   <TITLE>$title1</TITLE> 
+   <NAME1>$gname1</NAME1>
+   <NAME2>$fname1</NAME2>
+   <FEE>$fee1</FEE>
+   <IEE>$iee1</IEE>
+</PARTICIPANT>
+<PARTICIPANT>
+   <TITLE>$title2</TITLE> 
+   <NAME1>$gname2</NAME1>
+   <NAME2>$fname2</NAME2>
+   <FEE>$fee2</FEE>
+   <IEE>$iee2</IEE>
+</PARTICIPANT>
+<PARTICIPANT>
+   <TITLE>$title3</TITLE> 
+   <NAME1>$gname3</NAME1>
+   <NAME2>$fname3</NAME2>
+   <FEE>$fee3</FEE>
+   <IEE>$iee3</IEE>
+</PARTICIPANT>
+
+<FEE><NET>$fee<VAT>$vat<TOTAL>$total</FEE>
+<COMPANY>
+  <NAME>$company</NAME>
+  <ADDRESS>
+     $addr1<br>$addr2<br>$addr3<br>$addr4<br>$addr5
+  </ADDRESS>
+  <PHONE>$phone</PHONE>
+  <FAX>$fax</FAX>
+  <EMAIL>$email</EMAIL>
+  <MSG>$msg</MSG>
+</COMPANY>
+" TYPE="hidden">
+				<INPUT NAME="validate"
+				 VALUE="$fee1+$fee2+$fee3 == $fee && && $total==$fee+$vat" TYPE="hidden">
+				<INPUT NAME="thankyou"
+				 VALUE="Thanks for your booking. You will receive confirmation by post soon. (Contact book@ot2001.org if not.) "
+				 TYPE="hidden"> 
+				<TABLE> 
+				  <TR> 
+					 <TD COLSPAN="5"><FONT COLOR="800000"><B><I>Participants (you
+						first, please):</I></B></FONT></TD> 
+				  </TR> 
+				  <TR> 
+					 <TD><I>Title</I></TD> 
+					 <TD><I>Given name</I></TD> 
+					 <TD><I>Family name</I></TD> 
+					 <TD><I>BCS/IEE Membership Number</I></TD> 
+					 <TD><I>Fee</I></TD> 
+				  </TR> 
+				  <TR> 
+					 <TD><INPUT TYPE="text" NAME="title1" SIZE="4" VALUE="M"></TD> 
+					 <TD><INPUT TYPE="text" NAME="gname1" SIZE="15"></TD> 
+					 <TD><INPUT TYPE="text" NAME="fname1" SIZE="19"></TD> 
+					 <TD><INPUT TYPE="text" NAME="job1" SIZE="19"></TD> 
+					 <TD>
+
+	<!-- onChange gives a problem with some browsers - options property disappears with any event handler
+
+	     <SELECT name="fee1" onChange="compute(this.form)">
+
+	-->
+						<SELECT NAME="fee1" SIZE="1"> 
+						  <OPTION VALUE="none"> </OPTION> 
+						  <OPTION VALUE="978 oops, bcs">&pound;978 OOPS/BCS </OPTION>
+						  
+						  <OPTION VALUE="1320 standard">&pound;1320 Standard
+							 </OPTION> 
+						  <OPTION VALUE="450 academic">&pound;450 Academic </OPTION> 
+						  <OPTION VALUE="400 leader">&pound;400 Session leader
+							 </OPTION> 
+						</SELECT></TD> 
+				  </TR> 
+				  <TR> 
+					 <TD><INPUT TYPE="text" NAME="title2" SIZE="4" VALUE="M"></TD> 
+					 <TD><INPUT TYPE="text" NAME="gname2" SIZE="15"></TD> 
+					 <TD><INPUT TYPE="text" NAME="fname2" SIZE="19"></TD> 
+					 <TD><INPUT TYPE="text" NAME="job2" SIZE="19"></TD> 
+					 <TD> 
+						<SELECT NAME="fee2"> 
+						  <OPTION VALUE="none"> </OPTION> 
+						  <OPTION VALUE="978 oops, bcs">&pound;978 OOPS/BCS </OPTION>
+						  
+						  <OPTION VALUE="1320 standard">&pound;1320 Standard
+							 </OPTION> 
+						  <OPTION VALUE="450 academic">&pound;450 Academic </OPTION> 
+						  <OPTION VALUE="400 leader">&pound;400 Session leader
+							 </OPTION> 
+						</SELECT></TD> 
+				  </TR> 
+				  <TR> 
+					 <TD><INPUT TYPE="text" NAME="title3" SIZE="4" VALUE="M"></TD> 
+					 <TD><INPUT TYPE="text" NAME="gname3" SIZE="15"></TD> 
+					 <TD><INPUT TYPE="text" NAME="fname3" SIZE="19"></TD> 
+					 <TD><INPUT TYPE="text" NAME="job3" SIZE="19"></TD> 
+					 <TD> 
+						<SELECT NAME="fee3"> 
+						  <OPTION VALUE="none"> </OPTION> 
+						  <OPTION VALUE="978 oops, bcs">&pound;978 OOPS/BCS </OPTION>
+						  
+						  <OPTION VALUE="1320 standard">&pound;1320 Standard
+							 </OPTION> 
+						  <OPTION VALUE="450 academic">&pound;450 Academic </OPTION> 
+						  <OPTION VALUE="400 leader">&pound;400 Session leader
+							 </OPTION> 
+						</SELECT></TD> 
+				  </TR> 
+				  <TR> 
+					 <TD COLSPAN="3"> <I>Please let us know any dietary preferences
+						or other requirements:<I><BR> <TEXTAREA NAME="msg" COLS="40" ROWS="4" WRAP="physical"></TEXTAREA> </I></I></TD> 
+					 <TD ALIGN="right"><I>Participation fees UK &pound;</I></TD> 
+					 <TD><INPUT TYPE="text" NAME="total" SIZE="7">
+						<INPUT TYPE="button" NAME="exec" VALUE="Calculate"
+						 ONCLICK="compute(this.form)"> </TD> 
+				  </TR>
+
+<!--
+
+<TR>
+
+	<TD  align=right><I>UK VAT @ 17.5%</I></TD>
+
+	<TD><INPUT type=text name=vat size=7></TD>
+
+</TR>
+
+<TR>
+
+	<TD  align=right>
+
+	<I><B>Total UK &#163;</B></I></TD>
+
+	<TD><INPUT type=text name=total size=7></TD>
+
+</TR>
+-->
+				  <TR> 
+					 <TD COLSPAN="3"> <B><I><FONT
+						COLOR="800000">Contact:</FONT></I></B> 
+						<TABLE> 
+						  <TR> 
+							 <TD ALIGN="right" COLSPAN="2"><I>Organisation</I></TD> 
+							 <TD COLSPAN="3"><INPUT TYPE="text" NAME="company"
+								SIZE="30"></TD> 
+						  </TR> 
+						  <TR VALIGN="top"> 
+							 <TD ALIGN="right" COLSPAN="2"><I>Full postal
+								address</I></TD> 
+							 <TD COLSPAN="3">
+								<INPUT TYPE="text" NAME="addr1" SIZE="30"><BR>
+								<INPUT TYPE="text" NAME="addr2" SIZE="30"><BR>
+								<INPUT TYPE="text" NAME="addr3" SIZE="30"><BR>
+								<INPUT TYPE="text" NAME="addr4" SIZE="30"><BR>
+								<INPUT TYPE="text" NAME="addr5" SIZE="30"> </TD> 
+						  </TR> 
+						  <TR> 
+							 <TD ALIGN="right" COLSPAN="2"><I>Telephone</I></TD> 
+							 <TD COLSPAN="3"><INPUT TYPE="text" NAME="phone"
+								SIZE="30"></TD> 
+						  </TR> 
+						  <TR> 
+							 <TD ALIGN="right" COLSPAN="2"><I>Fax</I></TD> 
+							 <TD COLSPAN="3"><INPUT TYPE="text" NAME="fax"
+								SIZE="30"></TD> 
+						  </TR> 
+						  <TR> 
+							 <TD ALIGN="right" COLSPAN="2"><I>Email</I></TD> 
+							 <TD COLSPAN="3"><INPUT TYPE="text" NAME="email"
+								SIZE="30"></TD> 
+						  </TR> 
+						</TABLE> </TD> 
+					 <TD COLSPAN="2"> 
+						<TABLE BORDER="1"> 
+						  <TR> 
+							 <TD><B><I><FONT COLOR="800000">Participation
+								fees</FONT></I></B></TD> 
+							 <TH>Pre 1 Dec 00</TH> 
+							 <TH>After 1 Dec 00</TH> 
+						  </TR> 
+						  <TR> 
+							 <TD>Standard</TD> 
+							 <TD>UK &pound; 1320</TD> 
+							 <TD>UK &pound; 1452</TD> 
+						  </TR> 
+						  <TR> 
+							 <TD>OOPS/BCS/IEE member</TD> 
+							 <TD>UK &pound; 978</TD> 
+							 <TD>UK &pound; 1076</TD> 
+						  </TR> 
+						  <TR> 
+							 <TD>Academic</TD> 
+							 <TD>UK &pound; 450</TD> 
+							 <TD>UK &pound; 506</TD> 
+						  </TR> 
+						  <TR> 
+							 <TD>Session leader</TD> 
+							 <TD>UK &pound; 400</TD> 
+							 <TD>UK &pound; 440</TD> 
+						  </TR> 
+						</TABLE> 
+						<P> </P> 
+						<TABLE BORDER="2" BORDERCOLOR="800000"> 
+						  <TR> 
+							 <TD>
+								<INPUT TYPE="text" SIZE="2" NAME="sundinners" VALUE="1"> </TD> 
+							 <TD>How many of your party will <BR>have dinner on the
+								Sunday evening <BR>immediately before the conference? </TD> 
+						  </TR> 
+						</TABLE> </TD> 
+				  </TR> 
+				  <TR> 
+					 <TD> </TD> 
+				  </TR> 
+				</TABLE><HR>
+
+<!-- SUNDAY SESSIONS
+<table><tr><td>
+On the Sunday afternoon preceding the main programme, there will be three
+
+6-hour working groups, aimed at moving forward practical solutions in 
+
+specific areas of current widespread interest.
+
+Please see the <A href=programme.html>programme</A>.
+
+
+
+<P> To help us plan the event, please let us know whether you might
+
+be interested in taking part in one of these working groups:
+</td><td>
+
+<TABLE bgcolor=ffffff>
+<TR valign=top><TD><input name=sunday value=manns type=checkbox></TD>
+ <TD><A HREF=programme/123_Manns_Mary.htm>Patterns into Organisations</A>
+</TD></TR>
+<TR valign=top><TD><input name=sunday value=horan type=checkbox></TD>
+ <TD><A HREF="programme/150_Horan_Bernard.htm" OT=a>XML</a>
+</td></tr>
+<tr><TD><input name=sunday value=horan type=checkbox></td>
+<td><A HREF="programme/106_Devos_Martine.htm">Oxford Patterns Excursion</A>
+</TD></TR>
+</TABLE>
+</td></tr></table>
+ -------------------------------------->
+<!-- So that the most can be achieved on the day,
+
+you will be asked to send a short statement of the nature of your
+
+experience or interest in the topic in advance.
+
+<P>
+
+
+
+Which of the Sunday workshops would you be interested to participate in?
+
+(This is an intial expression of interest. You will be sent more details
+
+and asked to confirm, nearer the time.)
+
+<TABLE>
+
+<TR><TD><input name=sunday value=weir type=checkbox>
+
+</TD><TD>
+
+	Software architectures for reuse
+
+</TD></TR><TR><TD>
+
+	<input name=sunday value=wills type=checkbox> 
+
+</TD><TD>
+
+	Patterns for the software development process
+
+</TD></TR><TR><TD>
+
+	<input name=sunday value=dyson type=checkbox> 
+
+</TD><TD>
+
+	Patterns for distributed systems
+
+</TD></TR><TR><TD>
+
+	<input name=sunday value=kirsopp type=checkbox>
+
+</TD><TD>
+
+	Metrics for project control
+
+</TD></TR>
+
+</TABLE>
+
+
+
+-->
+<!--
+<HR>
+<table bgcolor=ffa0a0 width=100%><tr><td>
+<CENTER><INPUT type=submit name=book value="Click here to book your place"></CENTER>
+</td></tr></table>
+<HR>
+-->
+				<TABLE> 
+				  <TR> 
+					 <TD> 
+						<H2>Payment --- fill in one option</H2> 
+						<TABLE BORDER="1"> 
+						  <TR> 
+							 <TD> 
+								<H4>Cheque enclosed<INPUT TYPE="checkbox"
+								  NAME="cheque"></H4> </TD> 
+							 <TD ROWSPAN="2"> 
+								<H4>Credit Card</H4> Visa
+								<INPUT TYPE="checkbox" NAME="visa">&nbsp;&nbsp; Mastercard
+								<INPUT TYPE="checkbox" NAME="visa">&nbsp;&nbsp; AmEx
+								<INPUT TYPE="checkbox" NAME="visa"><BR> <INPUT TYPE="text" SIZE="4"
+								NAME="cc1">&nbsp; <INPUT TYPE="text" SIZE="4" NAME="cc2">&nbsp;
+								<INPUT TYPE="text" SIZE="4" NAME="cc3">&nbsp;
+								<INPUT TYPE="text" SIZE="4" NAME="cc4">&nbsp; expiry:
+								<INPUT TYPE="text" SIZE="2" NAME="ccexp1">/<INPUT TYPE="text" SIZE="2"
+								NAME="ccexp2"><BR> Card holder: <INPUT TYPE="text" SIZE="20" NAME="ccname"><BR>
+								Card Address if different from above: <TEXTAREA NAME="msg" COLS="40" ROWS="4" WRAP="physical"></TEXTAREA> </TD> 
+						  </TR> 
+						  <TR> 
+							 <TD> 
+								<H4>Company purchase order number:</H4>
+								<INPUT TYPE="text" NAME="poNumber" SIZE="20"> </TD> 
+						  </TR> 
+						</TABLE> </TD> 
+				  </TR> 
+				</TABLE> </FORM> </TD> 
+		</TR> 
+	 </TABLE> 
+	 <TABLE> 
+		<TR> 
+		  <TD ALIGN="RIGHT" VALIGN="TOP"><B><I><FONT COLOR="#800000"
+			 SIZE="+1">How to book </FONT></I></B></TD> 
+		  <TD> <B>Fill in the form. Print it and send (with cheque or company
+			 Purchase Order if appropriate) to: </B> 
+			 <TABLE> 
+				<TR> 
+				  <TD>OT2001<BR>Institution of Electrical Engineers, ks(c)<BR> PO
+					 Box 96<BR>STEVENAGE<BR>SG1 2SD<BR>UK 
+					 <P> <B>or fax including credit card details to +44 (0) 1438 742
+						792 </B></P></TD> 
+				</TR> 
+			 </TABLE> </TD> 
+		</TR> 
+		<TR> 
+		  <TD ALIGN="RIGHT" VALIGN="TOP"><B><I><FONT COLOR="#800000"><FONT
+			 SIZE="+1">Participation fees</FONT></FONT></I></B></TD> 
+		  <TD VALIGN="TOP"> 
+			 <P>Fees are in UK pounds and include VAT at 17.5%.</P> 
+			 <P>Participation fees include all conference documentation,
+				accommodation, breakfast, luncheon, dinner, and diversions. The reduced fees
+				shown for Pre December 2000 apply only to bookings for which payment is
+				received by the OT2001 office before 1 December 2000.</P> </TD> 
+		</TR> 
+		<TR> 
+		  <TD ALIGN="RIGHT" VALIGN="TOP"><B><I><FONT COLOR="#800000"><FONT
+			 SIZE="+1">Payment</FONT></FONT></I></B></TD> 
+		  <TD ALIGN="LEFT" VALIGN="TOP">Payment for registration is required in
+			 Sterling in advance of the Conference, and can be made by cheque or money order
+			 made payable to IEE and crossed or by Credit Card. Credit facilities will only
+			 be considered upon receipt of an official order. </TD> 
+		</TR> 
+		<TR> 
+		  <TD ALIGN="RIGHT" VALIGN="TOP"><B><I><FONT COLOR="#800000"><FONT
+			 SIZE="+1">Cancellations</FONT></FONT></I></B></TD> 
+		  <TD ALIGN="LEFT" VALIGN="TOP"> In the event of cancellation, and
+			 provided that written notice is received within seven days prior to the event,
+			 a refund of 75% of the registration fee can be made. If no notice of
+			 cancellation is received, no refund can be made. No refunds can be made in
+			 respect of the charges for accommodation and social events. Delegates will be
+			 liable for services booked but not paid for. </TD> 
+		</TR> 
+		<TR> 
+		  <TD ALIGN="RIGHT" VALIGN="TOP"><B><I><FONT COLOR="#800000"><FONT
+			 SIZE="+1">Accommodation</FONT></FONT></I></B></TD> 
+		  <TD ALIGN="LEFT" VALIGN="TOP">Conference participants are encouraged to
+			 use the residential facilities offered, in order to enjoy informal meetings and
+			 discussions outside the organised conference sessions. The costs for the
+			 facilities are included in the participation fees given aboce. Full details of
+			 the facilities, which incllude accommodation in student quarters and meals, are
+			 send with confirmation of your booking. </TD> 
+		</TR> 
+	 </TABLE> <HR WIDTH="100%"> 
+	 <P><A HREF="/"><IMG SRC="ot00-small.gif" HEIGHT="44" WIDTH="60"
+		ALIGN="LEFT"></A><A HREF="index.html"> </A> <A HREF="proposal.html">[Lead a
+		session]</A> <A HREF="programme.html">[Programme]</A> <A
+		HREF="organisers.html">[Organisation]</A> <A HREF="people">[People]</A> </P> 
+	 <P ALIGN="RIGHT"><FONT SIZE="-1">Web site host: <A HREF="/">TriReme
+		International Ltd</A></FONT> </P> 
+	 <TABLE BORDER="1"> 
+		<TR> 
+		  <TD>Office use</TD> 
+		</TR> 
+		<TR> 
+		  <TD>C/B no&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD> 
+		  <TD>Amount&nbsp;&nbsp;&nbsp;&nbsp;</TD> 
+		</TR> 
+		<TR> 
+		  <TD>Cheque no</TD> 
+		  <TD>C/P</TD> 
+		</TR> 
+		<TR> 
+		  <TD>Customer
+			 no&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+		  
+		  <TD>Invoice
+			 no&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+		  
+		</TR> 
+	 </TABLE> </BODY>
+</HTML>

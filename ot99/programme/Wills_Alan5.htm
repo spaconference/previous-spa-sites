@@ -1,0 +1,136 @@
+<HTML><HEAD><TITLE>OT 99 Proposal</TITLE><BODY BGCOLOR=ffffff>
+<TABLE><TR BGCOLOR=0080ff><TD>&nbsp;<A HREF=/ot99 target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>OT99</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=/ot99/programme.html target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>programme</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=/ot99/people target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>people</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=/ot99/bookOnline.html target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>Book</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=Watkins_Kevin6.htm OT=back><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>&lt;--</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=Winder_Russel15.htm OT=fwd><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>--&gt;</B></FONT></A>&nbsp;</TD>
+</TR></TABLE>
+<HR>
+
+<H1 align=center>Meaningful models for Enterprise Components</H1>
+<H4 align=center>Tuesday 9:00
+&nbsp;&nbsp;Workshop        </H4><H3 align=center>How to define common models when interconnecting diverse components; and how to ensure conformance.</H3>
+<CENTER><H2><A HREF=/ot99/people/awillstrireme-card.html OT=a>Alan Cameron Wills</A></H2></CENTER>
+<P align=left><BLOCKQUOTE><P>
+Building a common business model is the first step towards getting the diverse systems in a large enterprise to talk to each other. The same first step is necessary before building a kit of components. 
+<P>
+Many architectural teams start with a data or entity-relational model of the business. The benefit is that, once the corporation's systems are moved toward the common standard, information about a Customer can be moved from a spreadsheet in Sparshott to a database in Darjeeling and still retain the same fields (name, address, and so on). 
+<P>
+There are several drawbacks. The existing systems may have to be altered; it may be difficult to cope with extra information; but worst of all, the fields, though the same in all locations, may easily be interpreted differently by different applications. What an application in India does with the third Date field may be different from what's expected by a component in Canada. Local designers will tend to hammer their own data into the corporate standard form, distorting it on the way. There are also business rules that, without clear expression, will be flouted by individual applications, causing havoc in others to which the information is transmitted.
+<P>
+How should the architecture express these meanings and rules in a useful way, that will be adhered to in practice by application writers? How do we check conformance to them? How do we allow them to be extended locally, and over time? Object oriented definitions are some of the answer, though only part. And most published business modeling techniques say little about validating existing and new components against a common model.
+<P>
+We'll explore the techniques in this workshop. The material will be based on the Catalysis approach, of which the presenter is an author.
+<P>
+</BLOCKQUOTE>
+<TABLE width=100%><TR VALIGN=TOP OT=a><TD width=25%>
+<H4><A HREF=/ot99/people/awillstrireme-card.html OT=a>Alan Cameron Wills</A></H4>
+</TD><TD width=75%><P>
+        <A HREF=/ot99/people/awillstrireme-card.html OT=a>Alan Cameron Wills</A> has been a consultant and trainer
+		in object technology since 1990. He is (with Desmond
+		D'Souza) author of the Catalysis approach to object
+		component based development. He is technical director
+		of TriReme International Ltd.
+<P>
+
+</TD></TR><TR VALIGN=top><TD OT=dt><H3>Topics</H3></TD><TD  OT=dd><UL><P>
+Modeling
+<LI> Context: CBD, enterprise computing; Component kits
+<LI> Problems with pure entity models; an example
+<LI> Constraints
+<LI> Operations and postconditions
+<LI> Unlocalised but polymorphic operations
+<LI> Temporal constraints ­ interpretations of statecharts
+Implementation
+<LI> CORBA, COM, EJB, transactions
+<LI> Relation to Client-Server & 3-tier
+<LI> Adapters
+<LI> Verification of existing and new components
+Migration
+<LI> Existing and new components
+<LI> Extension and changes
+<P>
+</UL>
+</TD></TR><TR VALIGN=top><TD OT=dt><H3>Benefits</H3></TD><TD  OT=dd>This workshop will benefit you if you are involved in:
+<P>
+<LI> Building a component based system
+<LI> Defining how different systems or departments in your company talk to each other
+<LI> Architecture involving several or many legacy systems
+<LI> Business knowledge management
+<LI> Quality Assurance in component or general system design
+<P>
+The workshop will enhance our understanding of:
+<LI> How to ensure that business departments and software components can talk to and work with each other, and yet retain their own local terminology and procedures.
+<LI> How to build flexibility into the model, so that it can keep pace with business changes, especially in terms of extensions and alterations in the rules.
+<LI> Practical validation of a system or component against a business model.
+<P>
+<TABLE width=100% OT=limits><TR BGCOLOR=80ffff><TD width=20%><B>Level:</B> intermediate - advanced   </TD><TD><B>Audience:</B> you aspire to CMM Level 3 at least</TD></TR></TABLE>
+</TD></TR><TR VALIGN=top><TD OT=dt><H4>Material</H4></TD><TD  OT=dd>
+        Slides with notes will be prepared in advance and available on my website. Will be linked from this page.
+<P>
+	Will include exercise material.
+
+</TD></TR><TR VALIGN=top><TD OT=dt><H4>Delivery</H4></TD><TD  OT=dd>
+
+</TD></TR><TR VALIGN=top><TD OT=dt><H4>Format</H4></TD><TD  OT=dd>
+<P>
+	Cycle of: introduce topic, short exercise or discussion, review.
+<P>
+	The purpose of the exercises is to provide space to focus on the issues, rather than to work fully through a problem.
+<P>
+
+</TD></TR><TR VALIGN=top><TD OT=dt><H4>Structure</H4></TD><TD  OT=dd>
+<P>
+<P>00  Introductions - Me, Catalysis, background to this work
+<P>
+<P>10  Components and component kits; legacy systems and adaptors
+<P>
+<P>20  Business entity models -- benefits and drawbacks
+<P>
+<P>25  Correspondence between common model and component internal models
+	Modeling and defining the adaptor.
+<P>
+<P>35  Short Exercise: mapping models
+<P>
+<P>50  Practical adaptors to relational systems etc
+<P>
+<P>60	Constraints; basic business rules
+<P>
+<P>70  Short exercise: add constraints to model
+<P>
+<P>80  Verifying conformance to model via mapping
+<P>
+<P>90  Break<P>
+<P>
+<P>110 Dynamic semantics of entities: intro
+<P>
+<P>120 Operation pre/postconditions; inheritance rules
+<P>
+<P>130 Non-localised polymorphic action specs
+<P>
+<P>135 Verifying conformance to op specs
+<P>
+<P>140 Generalised dynamic specs: effects
+<P>
+<P>145 Short exercise: generalised action specs
+<P>
+<P>155 Generalised models with templates
+<P>
+<P>160 Short exercise: generalising and applying a model
+<P>
+<P>170 Wrap-up<P>
+<P>
+<P>180 End<P>
+<P>
+</UL>
+</TD></TR></TABLE>
+<HR>
+<TABLE><TR BGCOLOR=0080ff><TD>&nbsp;<A HREF=/ot99 target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>OT99</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=/ot99/programme.html target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>programme</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=/ot99/people target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>people</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=/ot99/bookOnline.html target=_top><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>Book</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=Watkins_Kevin6.htm OT=back><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>&lt;--</B></FONT></A>&nbsp;</TD>
+<TD>&nbsp;<A HREF=Winder_Russel15.htm OT=fwd><FONT FACE=Arial COLOR=ffffff SIZE=-1><B>--&gt;</B></FONT></A>&nbsp;</TD>
+</TR></TABLE>
+</HTML>

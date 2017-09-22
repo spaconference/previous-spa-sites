@@ -1,0 +1,107 @@
+<HTML>
+<HEAD>
+    <TITLE>Component-Based Development -- intro</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<H5><A HREF="http://www.sis.port.ac.uk/bcs-oops/ot97/"><IMG SRC="../../up.gif"
+WIDTH="14" HEIGHT="14" ALIGN=bottom NATURALSIZEFLAG="3" BORDER="0">OT97</A><A HREF="home.html"><IMG SRC=
+"../../up.gif" WIDTH="14" HEIGHT="14" ALIGN=bottom NATURALSIZEFLAG="3" 
+BORDER="0">OT97 Working Group</A> <A HREF="cbd.html"><IMG SRC="../../up.gif"
+WIDTH="14" HEIGHT="14" ALIGN=bottom NATURALSIZEFLAG="3" BORDER="0">CBD Main
+Page</A> </H5>
+<H1>Component Based Development </H1>
+<H3><A HREF="/ot97/people/sjhKent-card.html">Stuart Kent</A> and <A HREF="/ot97/people/wills-card.html">Alan
+Wills</A> </H3>
+<A HREF="home.html"><H4>This is the introductory paper to a working group at OT97. 
+<BR>If you're interested in taking part, click here.</H4></A>
+Re-use is the lead reason for taking up OT, surveys show. But OT by itself
+is just an enabler.<BR>
+OT and re-use will reduce costs if well applied. If badly done, it <I>increases</I>
+costs.<BR>
+Costs always increase in the short term: much capital investment is required
+to move to a re-use culture.
+<HR>
+<H2>What is re-use?</H2>
+<A HREF="kent_wills02.html">Building and maintaining a library of generic
+components</A>.<BR>
+<IMG SRC="image17.gif" WIDTH="410" HEIGHT="194" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+<BR>
+Unfortunately, requires: 
+<UL>
+<LI>Investment (i.e. initial expenditure) 
+<LI>Specialised architectural skills 
+<LI>Restructuring of project finance and workforce 
+</UL>
+<H2><A HREF="kent_wills03.html">Components need stricter specification</A></H2>
+<UL>
+<LI>Component-building is about plugging things together --- well-defined
+interfaces required 
+<LI>More restricted or no informal communication between suppliers and users
+<LI>Components need tools need precise semantics 
+</UL>
+<IMG SRC="image16.gif" WIDTH="396" HEIGHT="88" ALIGN=bottom NATURALSIZEFLAG=
+"3">
+<H4><A HREF="kent_wills04.html">Specification by pre/postconditions</A>
+--</H4>
+<UL>
+<LI>Describe how each message affects state of object (and outputs) 
+</UL>
+<PRE>	interface Financial_Instrument
+	{	Money	balance ();				// read-only
+		Money	maxPayOut ();				// read-only
+		Money	balanceMinLimit ();		// read-only
+		void	payIn (Money amount)
+			pre				
+			post	// increases the balance by the amount paid in
+					balance == old.balance + amount ;
+		void	payOut (Money amount)
+			pre	// this spec applies if payout is allowed
+				// and this amount is available in account
+				maxPayOut &gt; amount
+				&amp;&amp; balance - amount &gt; balanceMinLimit
+			post	// decreases the balance by the amount paid out
+				balance == old.balance - amount	 ;
+		}</PRE>
+<UL>
+<LI>The state-changing operations are specified in terms of the read-only
+&quot;attributes&quot; 
+<LI>Postcondition relates states before and after - note use of &quot;old&quot;
+version of &quot;self&quot; 
+<LI>Pre &amp; postconditions stripped before presenting to compiler! 
+</UL>
+<H4>Consequences</H4>
+<UL>
+<LI>More investment in documentation 
+<LI>more reliable re-use 
+</UL>
+<H2>Many components are not single objects or classes</H2>
+If 'component' means a coherent piece of design effort, then what do we
+expect to see in a component?<BR>
+Objects, clusters of classes, updates to classes, models, designs, plans,
+architectures, patterns, ....<BR>
+Pure server objects can be described in isolation: stacks, widgets, databases
+all accept requests from any kind of client, return the results, and expect
+nothing inparticular of their clients.<BR>
+But a very great deal of significant work is about relationships and collaborations
+between objects. As evidence, see any book on patterns. To encapsulate these
+pieces of design effort in a component, you have to say something about
+each of the participating objects and the roles they play.
+<H4>Frameworks</H4>
+<A HREF="http://www.cs.man.ac.uk/rood-bin/c/03Intro/50fworks/01fworks">Frameworks</A> are a convenient notational device which allows us to express
+the combination required when several roles are imposed on one object. They
+are used to describe collaborations and other packages of design.<BR>
+Frameworks formalise the collaborations and other relationships at the core
+of patterns. A pattern describes how to use a framework.<BR>
+<IMG SRC="image15.gif" WIDTH="448" HEIGHT="227" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+<HR>        <A HREF="http://www.trireme.com/ot97/debate/cbd.html">Click
+here to see and add followup comments.</A><BR>
+<H5><A HREF="http://www.sis.port.ac.uk/bcs-oops/ot97/"><IMG SRC="../../up.gif"
+WIDTH="14" HEIGHT="14" ALIGN=bottom NATURALSIZEFLAG="3" BORDER="0">OT97</A><A HREF="home.html"><IMG SRC=
+"../../up.gif" WIDTH="14" HEIGHT="14" ALIGN=bottom NATURALSIZEFLAG="3" 
+BORDER="0">OT97 Working Group</A> <A HREF="cbd.html"><IMG SRC="../../up.gif"
+WIDTH="14" HEIGHT="14" ALIGN=bottom NATURALSIZEFLAG="3" BORDER="0">CBD Main
+Page</A> </H5>
+</BODY>
+</HTML>

@@ -1,0 +1,65 @@
+TD, P, H1, H2, H3, H4, LI
+{
+   font-family: "Lucida Sans", Arial, sans-serif;
+   
+}
+
+H1, H2, H3, H4
+{
+    font-style: italic;
+}
+   
+TABLE.bg, TD.bg
+{
+   background-color: #401487;
+}
+
+.LMargin
+{
+    background-color: #401487;
+}
+
+.LMText
+{
+    color: #ffffff;
+}
+
+.c
+{ background-color: #c0aad1;
+}
+
+.price
+{ text-align: right;
+}
+
+.bg
+{
+   color: #401487;
+}
+
+H1, H2, H3, H4
+{
+   color: #401487;
+}
+
+.white
+{
+    color: #ffffff;
+}
+
+.lmbutton
+{
+    font-family: Arial, sans-serif;
+    text-align: left;
+    color: white;
+    font-size: smaller;
+}
+
+.dt
+{
+    font-family: "Lucida Sans", Arial, sans-serif;
+    text-align: right;
+    color: #600000;
+    font-style: italic;
+    font-weight: bold;
+}

@@ -1,0 +1,124 @@
+<HTML><HEAD><TITLE>OT 99 Proposal</TITLE><BODY BGCOLOR=ffffff>
+<table OT=name><tr><td bgcolor=000000><b><font color=ffffff>134</font></b></td><td OT=nav><A href=133_Parsons_Dave.htm><img src=prvs.gif border=0></a><a href=../programme.html><img src=up.gif border=0></a><a href=135_Poels_Geert.htm><img src=next.gif border=0></a>
+</td></table>
+<H1 align=center>Bugbears</H1>
+<H4 align=center>Workshop                170 minutes</H4><H3 align=center>Serious bugs without localised causes<P>
+</H3>
+<CENTER><H2><A HREF=http://www.soc.staffs.ac.uk/~cmrdrp>Duncan Pierce</A></H2></CENTER>
+<P align=left><BLOCKQUOTE><P>
+Some bugs can be tracked down to the method or even the single line of
+code that causes them.  Once found, these are usually easily fixed.
+Unfortunately, some are properties of the system as a whole: no one
+subsystem, class or method is responsible for them.  Leaking memory
+and other resources, overflowing the stack and freezing the user
+interface even while idle are common consequences.  Problems may also
+appear even before run-time as fundamental conflicts in the way the
+components in a system work, making part of the development effort a
+damage-limitation exercise.
+<P>
+Bugs like these can be very expensive to find and correct (being
+impossible to localise), and may appear very late in development as
+bug-free subsystems are combined for the first time.  This can lead to
+a lot of back-tracking.  Even worse, in these conditions there may be
+a strong temptation to kludge around the problem.
+<P>
+</BLOCKQUOTE>
+<H4><A HREF=http://www.soc.staffs.ac.uk/~cmrdrp>Duncan Pierce</A> (<A HREF=mailto:D.R.Pierce@staffs.ac.uk>D.R.Pierce@staffs.ac.uk</A>)</H4>
+<TABLE width=100%><tr valign=top><TD width=25%>
+<A HREF=http://www.soc.staffs.ac.uk>Staffordshire University</A><BR>
+</TD><TD width=75%><P>
+I am now completing a PhD thesis on "Foundations of Software Reuse",
+an analysis of the principles underlying software reuse: from
+strategic organisational objectives behind the development, purchase
+and reuse of infrastructure software, to technical problems posed by
+evolving requirements in the presence of sharing and unintended
+emergent phenomena such as multiple event-loop conflicts.  The design
+and implementation of software and the collective structure of
+reusable artifacts plays a pivotal role in determining reusability at
+organisational level, and forms the focus of my research.
+<P>
+I have degrees from Southampton University and Oxford University, and
+have previously worked as a system architect.
+<P>
+</TD></TR></TABLE>
+<H3>Topics</H3><UL><P>
+<LI> Introduction to non-local problems: lots of local correctness does
+  not lead to global correctness.
+<P>
+<LI> The difference between localisable bugs and bugbears: bugbears are
+  the consequence of interaction between parts.
+<P>
+<LI> Why bugbears can have serious consequences, especially for long or
+  large projects, and projects using components that are not open to
+  modification.
+<P>
+<LI> How system development leads us to quickly skip over the "big
+  picture" from which bugbears arise, and so miss seeing the potential
+  for them to arise.  This can also happen when components are
+  "opaque" - when we do not know how they operate internally.
+<P>
+<LI> Examples of problems that have arisen in practice.
+<P>
+<LI> Analysis of the classes of bugbear, leading to practical suggestions
+  for how to tackle the problem.  Where possible, these will be
+  expressed using antipatterns.
+<P>
+</UL>
+<H3>Benefits</H3><P>
+Participants will learn what "bugbears" are, how they appear in
+systems, why their presence is so hard to foresee, and why we cannot
+trace localised causes for them.  Participants will also see some
+examples of "bugbears" and how they were caused.
+<P>
+The purpose of the workshop is to identify ways in which they can be
+brought to light earlier or avoided completely within the context of
+modern development techniques, methods and technology.
+<P>
+The results of the workshop will be formulated as antipatterns to aid
+recognition of problems and guide avoidance strategies.
+<P>
+<P>
+<TABLE width=100%><TR BGCOLOR=80ffff><TD width=80%>
+<B>Session:</B> Workshop                170 minutes
+</TD><TD width=20%>
+<B>Level:</B> advanced
+</TD></TR><TR BGCOLOR=80ffff><TD>
+<B>Audience:</B> <P>
+The workshop is aimed at all software designers/developers concerned
+with large systems, increasing software reuse, or interested in
+purchasing strategic software resources from outside vendors.
+<P>
+
+</TD><TD>
+<B>Max</B> 24 (6 groups of 4)
+</TD></TR></TABLE>
+<H4>Material</H4>
+<P>
+No material will be required in advance of the session itself.
+<P>
+
+<H4>Delivery</H4>
+<P>
+Results of the workshop will be recorded in poster form, and
+transcribed (after the event) into antipattern form (a description of
+a problem, means for identifying when it is present, and a refactored
+solution that explains how to improve the situation) by the organiser.
+<P>
+These will be published via a web site, and possibly via the OOPS
+Newsletter.  Posters may be made available during the conference.
+<P>
+
+<H4>Format</H4>
+<P>
+There will be an initial introductory "lecture", since it seems likely
+that many participants will be unfamiliar or will not have thought
+deeply about these issues.  This will be followed by group work
+<P>
+The participants will work in groups to examine a variety of issues
+which lead to these late-breaking emergent problems.  Group work is
+intended to help participants pool their experiences.
+<P>
+
+<hr> <table OT=name><tr><td bgcolor=000000><b><font color=ffffff>134</font></b></td><td OT=nav><A href=133_Parsons_Dave.htm><img src=prvs.gif border=0></a><a href=../programme.html><img src=up.gif border=0></a><a href=135_Poels_Geert.htm><img src=next.gif border=0></a>
+</td></table>
+</BODY></HTML>

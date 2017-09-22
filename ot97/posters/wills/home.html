@@ -1,0 +1,63 @@
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+</HEAD>
+<BODY BGCOLOR="#b3e1fc" LINK="#0000c8">
+<H2><IMG SRC="image4.gif" WIDTH="116" HEIGHT="76" ALIGN=right NATURALSIZEFLAG=
+"3" ALT="WS12 Tuesday 14:30--17:30" BORDER="0">Building models from</H2>
+<H1>Generic Frameworks</H1>
+<H3><A HREF="/ot97/people/wills-card.html">Alan Wills</A></H3>
+<A HREF="http://www.trireme.com/">TriReme International Ltd</A><BR>
+<H3>The Problem</H3>
+<H6>John Cameron described this problem in his excellent talk at OT96.</A>
+I am called upon to model a plumbing company, in preparation for designing
+a job scheduling system. The essential requirements are that plumbers must
+not be allocated to simultaneous jobs, and a suitably skilled plumber must
+be allocated to each job. <BR>
+As part of my specification of the system, I draw this model:<BR>
+<IMG SRC="image3.gif" WIDTH="466" HEIGHT="248" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+The next job would be to go into the use-cases and decide what operations
+the system must perform; and after that, to get into the design. But I feel
+that in this model I've captured the essence of what the system is about,
+and quite precisely too.<BR>
+<BR>
+Now suppose I get another piece of modelling work from a training company.
+It has various lecture rooms, each with different installed facilities -
+computers, whiteboards, soundproofing, etc. All their courses last one week,
+and they need to ensure that lecture rooms aren't overbooked, and that each
+course is allocated to a room that has the appropriate facilities. Of course,
+I soon recognise that this is a very similar problem to the plumbers. A
+quick solution is to cut and paste and relabel the boxes and lines.<BR>
+<BR>
+But I'd like the two models (plumbing and training) to be specialisations
+of a single model. That way, if I later have any new insights about resource
+allocation in general, they can automatically be adopted within the two
+specific models.<BR>
+<IMG SRC="image2.gif" WIDTH="497" HEIGHT="210" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+The questions are, 
+<UL>
+<LI>What's in the &quot;general model&quot; ?
+<LI>What is the means by which it is specialised to form the particular
+models?
+</UL>
+<H3>The Wrong Answer</H3>
+My first bright idea is to make some superclasses:<BR>
+<IMG SRC="image1.gif" WIDTH="409" HEIGHT="125" ALIGN=bottom NATURALSIZEFLAG=
+"3"><BR>
+Then the specialisation is just a question of ignoring the classes I'm not
+interested in for a particular application.<BR>
+<BR>
+But this ain't right. In this model, a training Room can be allocated to
+a plumbing Job; and a Plumber could be expected to have an OHP.
+<H3>The Right Answer</H3>
+The general model should be (I contend) a<B> template or modelling </B>framework,
+from which the specific models can be generated. Modelling frameworks make
+very powerful re-usable design components.<P>
+<A HREF="http://www.trireme.com/papers/50fworks/" target="_top">This paper</A> describes modelling frameworks and their use in more detail.<P>
+<B>In the workshop,</B> we'll explore some of these ideas by trying out
+several examples - bring your ideas too, please!<BR>
+<A HREF="/ot97/debate/wills.html"><H3>Click here to start the discussion before the conference</H3></A>
+</BODY>
+</HTML>

@@ -1,0 +1,63 @@
+# OT Programme Tags   (don't change this title --- it's a check line)
+
+# This file maps submission numbers to accepted session names
+# The session numbers are in /cgi-bin/otsubs.pl
+
+39 WG1
+13 WG2
+16 WG3
+90 WG4
+91 TU11
+
+42 TU1
+21 WS1
+43 WS2
+81 TT1
+70 CS1
+12 TU2
+85 TU9
+
+66 WS3
+77 WS4
+38 WS5
+68 WS6
+2  WS7
+
+84 PL1
+
+88 XX2
+
+83 PL2
+
+65 WS8
+62 WS9
+19 WS10
+28 CS2
+25 TU3
+74 TU4
+27 TU5
+
+40 WS11
+14 GB1
+52 WS12
+45 SI1
+24 CS3
+89 WS13
+87 TU10
+26 WS14
+18 WS19
+
+86 PL3
+
+10 WS15
+31 TT2
+5  XX3
+80 WS16
+4  WS17
+41 TU7
+9  TU8
+
+75 TT3
+67 WS18
+5  XX1
+58 CS4

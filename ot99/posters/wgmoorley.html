@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>Beyond Observer - OT '98 Working Group</TITLE>
+   <META NAME="Generator" CONTENT="Lotus Word Pro">
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.0Gold (Win95; I) [Netscape]">
+   <META NAME="Author" CONTENT="Paul Dyson">
+   <META NAME="KeyWords" CONTENT="Distribution, Synchronisation, Observer Pattern">
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+
+<A HREF="wgwills.html"><IMG SRC="/ot98/prvs.gif"></A>
+<A HREF="/ot98/programme.html"><IMG SRC="/ot98/up.gif"></A>
+<A HREF="wgkirsopp.html"><IMG SRC="/ot98/next.gif"></A>
+
+<H1 ALIGN=CENTER>Beyond Observer</H1>
+
+<H2 ALIGN=CENTER>Working Group</H2>
+
+<H3 ALIGN=CENTER><A HREF="#leaders">Paul Dyson and Andy Moorley</A></H3>
+
+<H2>Introduction</H2>
+
+<P>The gang-of-four's Observer pattern describes how we can define a one-to-many
+dependency between objects so that, when the object changes, all its dependants
+are notified of this change. The purpose of this dependency is to achieve
+consistency of state between loosely coupled objects as exemplified by
+the Model-View-Controller framework used in Smalltalk-80.</P>
+
+<P>This loose coupling of objects is one of the defining characteristics
+of systems built with CORBA or COM/DCOM where dependant objects may exist
+in different process on the same machine, or on a different machine separated
+by a Lan or Wan. In the context of a distributed environment, many of the
+issues dealt with by Observer become far more complicated, for example:</P>
+
+<LI>Local mapping of subjects to observer may become prohibitively expensive
+when there are many observers with complex references for each subject</LI>
+
+<LI>Observers and subjects may appear and disappear unpredictably</LI>
+
+<LI>Point-point update notification from subject to observer may become
+prohibitively expensive when there are many observers with complex references
+for each subject</LI>
+
+<P>New issues are also introduced such as the synchronisation of subjects
+and observers operating asynchronously.</P>
+
+<H2>Purpose and objectives</H2>
+
+<P>The purpose of this working group is to explore the issues of consistent
+state and synchronisation in distributed environments. The type of questions
+we'll deal with include:</P>
+
+<LI>What mechanisms can we use for notifying changes to interested observers?
+When is one of these more appropriate that another?</LI>
+
+<LI>What are the security and validation issues of synchronisation between
+collaborating distributed objects (particularly over and intranet or the
+Internet)?</LI>
+
+<LI>What are the issues of load balancing and reliable notification?</LI>
+
+<LI>What are the implications of distributed transaction processing in
+ensuring consistent state and synchronisation?</LI>
+
+<P>In answering these and other questions we will look to formulate a skeleton
+pattern language or design-decision tree (DDT). This language or DDT will
+attempt to capture the shared knowledge and experiences of the working
+group in solving these problems. This language or DDT will form the basis
+of a poster for the conference and will be distributed to all members of
+the group following the conference.</P>
+
+<H2>Taking part</H2>
+
+<P>In order to join this working group you need to submit a position paper
+to one of the <A HREF="#leaders">sessions leaders</A>. Possible form for
+this paper include: an experience report, a set of requirements for distributed
+object synchronisation in a system, or a list of questions and partial
+answers. A typical paper would be between 3-10 pages long and would contain
+some indication of the authors experience in this area (which might be
+none, some or lots!) and the specific issues they want to deal with in
+the group. Papers should be emailed to one or both of the <A HREF="#leaders">session
+leaders</A> by 20th March in either plain text, html or pdf format, and
+will be distributed to all members of the group 2-3 weeks before the conference
+takes place.</P>
+
+<H2><A NAME="leaders"></A>Session Leaders</H2>
+
+<P><A HREF="http://www.trireme.com/ot98/people/pdyson-card.html">Paul Dyson</A>
+has, with Bruce Anderson, run two successful workshops on 'Design Variation
+and Architecture' at previous Object Technology conferences. Paul has also
+presented papers and posters on patterns and architecture at a number of
+international conferences including OOPSLA and OOP. Paul has recently joined
+Cumulus Systems Ltd., a software house that develops systems for the financial
+sector. Cumulus is currently developing an integrated front and back office
+product in a totally OT-based environment based around a CORBA ORB, ODBMS
+and Smalltalk.</P>
+
+<P>Paul Dyson, Cumulus Systems Ltd., 1 High Street, Rickmansworth, Herts.,
+WD3 1ET, UK. Tel: +44.1923.720477. <A HREF="mailto:paul@cumulus.co.uk">paul@cumulus.co.uk</A></P>
+
+<P><A HREF="http://www.trireme.com/ot98/people/amoorley-card.html">Andy
+Moorley</A> has jointly run successful workshops on Subjectivity and 'ORBs
+and ODBMs' at OT '96 and '97. Andy is now with JP Morgan (London) where
+he is working on an OO derivatives risk management system based on Smalltalk,
+ODBMS and ORB technology. He has both architectural and development roles
+in this project.</P>
+
+<P>Andy Moorley, JP Morgan, PO Box 161, 60 Victoria Embankment, London.
+EC4Y 0JP, UK. Tel: +44.171.353.8658. <A HREF="mailto:moorley_andy@jpmorgan.com">moorley_andy@jpmorgan.com</A></P>
+<HR>
+<A HREF="wgwills.html"><IMG SRC="/ot98/prvs.gif"></A>
+<A HREF="/ot98/programme.html"><IMG SRC="/ot98/up.gif"></A>
+<A HREF="wgkirsopp.html"><IMG SRC="/ot98/next.gif"></A>
+
+
+</BODY>
+</HTML>

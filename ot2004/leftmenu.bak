@@ -1,0 +1,39 @@
+<div id="left">
+	<div id="leftcontent">
+		<a href="index.shtml"><img src="images/otlogo.gif" width="169" height="115" border="0" alt="OT2004"></a><div class="menustrap">
+		<!-- the two statements on the previous line musn't have any space between them -->
+		Advancing Software Practice</div>
+		<div class="menu">
+			<br>
+			<a href="index.shtml" class="menu">Conference</a><br>
+			<a href="register.shtml" class="menu">Registration</a><br>
+			<a href="programme.shtml" class="menu">Programme</a><br>
+<!--			<a href="speakers.shtml" class="menu">Speakers</a><br>	-->
+			<a href="organisers.shtml" class="menu">Organisers</a><br>
+			Discussion
+			<div class="submenu">
+			- <a href="http://www.spa2005.org/cgi-bin/wiki.pl" class="submenu">Wiki home</a><br>
+			- <a href="people.shtml" class="submenu">OT people</a><br>
+			</div>
+<!--			<a href="sponsors.shtml" class="menu">Sponsors</a><br> -->
+			<a href="location.shtml" class="menu">Location</a><br>
+			<br>
+			<br>
+			Previous conferences
+			<div class="submenu">
+			- <a href="../ot2003/" class="submenu">OT2003</a><br>
+			- <a href="../ot2002/" class="submenu">OT2002</a><br>
+			- <a href="../ot2001/" class="submenu">OT2001</a><br>
+			- <a href="../ot2000/" class="submenu">OT2000</a><br>
+			- <a href="../ot99/" class="submenu">OT99</a><br>
+			- <a href="../ot98/" class="submenu">OT98</a><br>
+			- <a href="../ot97/" class="submenu">OT97</a>
+			</div>
+		</div>
+		<div class="menubottom">
+			Organised by BCS OOPS<br>
+			<a href="http://www.bcs-oops.org.uk">
+				<img src="images/smallbcslogo.gif" width="37" height="36" border="0" alt="BCS">
+			</a></div>
+	</div>
+</div>

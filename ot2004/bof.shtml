@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OT2004</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="ot.css" />
+	<script type="text/javascript" src="x/x.js"></script>
+	<script type="text/javascript" src="x/ot.js"></script>
+</head>
+
+<body>
+<!--#include file="leftmenu.html" -->
+<div id="top">
+	<a href="register.shtml" class="topmenu">registration</a> - 
+	<a href="organisers.shtml" class="topmenu">contact</a>&nbsp;
+</div>
+<div id="content">
+	<div id="contentcontent">
+
+		<br />
+		<br />
+		<img src="images/bofshead.gif" width="537" height="22" border="0"><br />
+
+		<h2>What is a BOF?</h2>
+		"Birds of a Feather" sessions are meetings that you organise at the conference, about topics that you want to discuss.<br />
+		<br />
+		The OT conference is a great place for knowledge sharing between all participants, not just the session leaders.
+		BOF sessions are an important and popular way of doing this.<br />
+		<br />
+		<h2>How do I set up a BOF?</h2>
+		Several slots are available for BOFs on each day of the programme. There will be a noticeboard on which to
+		propose BOFs so that interested delegates can sign up. The organisers will assign rooms.<br />
+		<br />
+		<h2>How do I run a BOF?</h2>
+		Any way you like!<br />
+		<br />
+		If there are just a few participants, have a chat in the bar. If there are more, start by outlining your
+		thoughts or questions, and then let others contribute. Begin by clarifying the general topic, and a list
+		of areas to deal with.<br />
+		<br />
+		Some of you will be more familiar with organising meetings than others. If you need any help organising or
+		running your BOF, the conference committee will be very happy to help.<br />
+		<br />
+		<h2>Why would I run a BOF?</h2>
+		You might organise and run a BOF if:
+		<ul>
+			<li>You want to discuss a specific technique, tool, or pattern or technology.</li>
+			<li>You want to get some reaction a new idea you have had. </li>
+			<li>You're looking for a new job! </li>
+			<li>You need help with a project. </li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
