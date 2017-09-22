@@ -1,0 +1,53 @@
+body { 
+	background-color: #FFF; text-align: center;
+	font-family: verdana, arial, sans-serif; }
+
+#container {
+	background-color: #dfe; border: 1px black solid; margin-left: auto; margin-right: auto; width: 700px; margin-top: 30px;
+	text-align: left; }
+  
+#banner { background-color: #0b5; border-width: 0; height: 99px; margin: 0; padding: 0; }
+
+#menu {
+	background-color: #ccc; border-bottom: 1px black solid; border-top: 1px black solid; clear: both; padding: 4px 3px 2px; }	
+
+#main {
+	float: left; padding: 8px; width: 540px; font-size: 12px; line-height: 150%; } 
+
+#sidebar {
+	float: right; padding: 8px 10px 0 0; width: 130px; line-height: 100%; 
+	font-family: verdana, arial, sans-serif; font-size: 11px; } 
+
+.sidebar-box {
+	background-color: #eee; border: 1px solid black; padding: 5px; margin: 0 0 8px;
+	font-size: 10px; }	
+
+.sidebar-img {
+	background-color: #eee; margin: 0 0 8px; padding: 0; }
+
+.sidebar-logo { font-family: verdana, arial, sans-serif; font-size: 11px; }
+
+a.sidebar-logo { font-weight: bold; text-decoration: none; color: #333; padding: 0}
+
+#footer {
+	border-top: 1px black solid; clear: both; padding: 5px 10px 5px; margin: 0 35px;
+	font-size: 10px; text-align: center; }
+
+.news-box {
+	background-color: #eee; border: 1px red dashed; float: right; margin: 0 0 5px 5px; padding: 5px; width: 200px;
+	font-size: 11px; color: #000; line-height: 120%; }	
+
+.inline-box {
+	background-color: #eee; border: 2px dotted black; margin: 10px 45px; padding: 5px;
+	font-size: 12px; color: #000; line-height: 125%; }
+
+h1 { font-size: 18px; margin: 0 0 3px; padding: 0; }
+h2 { font-size: 16px; margin: 0 0 3px; padding: 0; }
+h3 { color: #082; font-size: 14px; margin: 0; padding: 0; line-height: 120%; }
+h4 { font-size: 13px; margin: 0; padding: 0; line-height: 120%; }
+
+.org-left { color: #082; font-weight: bold; vertical-align: top}
+
+a { color: #096; }
+a:hover { color: #4b6; background-color: #b0ffb0; }
+#banner a:hover { background-color: transparent; }

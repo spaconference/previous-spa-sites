@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA Conference - Domain Annotations</title>
+	<link rel="stylesheet" href="../spa.css" />
+	<style>
+		body,td,input,textarea,select,.form {font: 11px verdana, arial, sans-serif; }
+		.important {font-size: 12px; font-weight: bold; }
+		.button {font-size: 13px; font-weight: bold; }
+		td.section, .section {font-size: 13px; font-weight: bold; background-color: #ddd}
+		.errors { font-size: 11px; color: red; font-weight: bold; line-height: 150%; }
+		.formcontent { width: 600px; align: center; margin-left: 40px; text-align: left }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="../spa2006.css" />
+</head>
+<body>
+<div id="container">
+	<div id="banner">
+		<img src="../images/bannerright.gif" style="float: right" alt="SPA2006 conference">
+		<a href="../programme.html"><img src="../images/bannerleft.gif" alt="SPA2006 conference" border="0"></a></div><!-- no whitespace before /div to avoid IE6 mis-displaying! -->
+	<div class="formcontent">
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="600">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA Conference session: Domain Annotations</h1>
+	</td></tr>
+	<tr><td>One-line description:</td><td colspan="3">Discussion of the use of domain specific annotations (attributes) to enhance domain models</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>&nbsp;</td><td colspan="3"><a href="/" target="_blank">Session materials</a></td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>Session format:</td>
+		<td colspan="3">Case study [<a href="../sessionformats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">Modern development platforms provide annotations that can be added to various language elements. (We use the Java term annotation as we feel it describes the concept more precisely than the term attribute which is used on the .NET platform.) The developer community is still exploring the use of annotations but we can identify several distinct usage patterns. We have also learned some lessons and have principles that guide our use of annotations.<br />
+<br />
+This session will explain different patterns of annotation usage. The key contribution of the session is a detailed discussion of a pattern that we have found during the development of an enterprise application and have used successfully since. We call this pattern Domain Annotations, and the idea is to enhance the domain model with domain specific annotations that can be used for a variety of purposes. This pattern has not played a major role in public debate yet but we have found that it is one of the most powerful usages of annotations. <br />
+<br />
+We will present several examples from a real world application, and we also plan to use the last third of this session to run a Goldfish Bowl discussion to exchange ideas about the use of annotations with the participants.<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">General software development background, understanding of Java or C#. Experience with .NET attributes and/or Java 5 annotations may be helpful but is not required. This topic is closely related to Domain-Driven Design and as such some knowledge of domain modelling would be beneficial.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">- Overview of the use of annotations and the lessons (good and bad) we've learned so far. This should help attendees to improve their use of annotations and hopefully avoid making mistakes that others have made before.<br />
+-  Introduction to the concept of domain annotations. This should give attendees a powerful new tool for domain modelling. This is especially useful for people who are interested in Domain-Driven Design.<br />
+- An understanding of how other developers use annotations in their projects (based on Goldfish Bowl discussion).</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">Some slides that support the presentation part. Code that shows the design of the project on which we first used domain annotations.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">0:00 - 0:05 General introduction, waiting for people to get in, etc.<br />
+0:05 - 0:10 Whirlwind tour of annotations on the J2SE and .NET platforms<br />
+0:10 - 0:30 Discussion of different types of annotations, lessons learnt, etc.<br />
+0:30 - 0:50 Discussion of domain annotations<br />
+0:50 - 1:15 Goldfish Bowl discussion involving participants<br />
+<br />
+The discussions of the annotations will be backed by a few slides, which we will co-present, creating a dialogue. We'll show the sample code in an IDE and will explain how the annotations are used and how they affect the runtime behaviour of the application.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">If there is interest we will maintain a wiki space for further discussion after the session. In any case we will make the presentation slides and, more importantly, the code available on a web page.<br />
+<br />
+If the Goldfish Bowl discussion yields new usage patterns of annotations we will document these on a web page.<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">This is a new session. We have used this style of annotations internally for a while but only realised in recent discussions with people like Eric Evans that this constitutes an innovation. We are not planning to hold this session at another conference before SPA 2006.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+</table>
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="680">
+	<tr><td class="section" colspan="3" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. Erik Doernenburg<i><br>ThoughtWorks, Inc.</i><br /><br />Erik Doernenburg is a senior developer and technical architect at ThoughtWorks, Inc. where he is helping clients with the design and implementation of large-scale enterprise solutions. Based on his experience with J2EE, Microsoft .NET and other environments, Erik is currently exploring patterns of enterprise software, focusing on service-oriented architectures.
+
+His career in enterprise software began in the early nineties on the NeXTSTEP platform and Erik has been an advocate of agile, test-driven, object-oriented development and Open Source software for many years. He holds a degree in Informatics from the University of Dortmund and has studied Computer Science and Linguistics at the University College Dublin.</td></tr>
+	<tr><td>2. Mike Royle<i></i><br /><br /></td></tr>
+	<tr><td>3. </td></tr>
+</table>
+<br><br>
+	</div>
+</div>
+</body>
+</html>

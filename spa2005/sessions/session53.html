@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA2005 - Proposal</title>
+	<link rel="stylesheet" href="../spa.css" />
+	<style>
+		body,td,input,textarea,select,.form {font: 11px verdana, arial, sans-serif; }
+		.important {font-size: 12px; font-weight: bold; }
+		.button {font-size: 13px; font-weight: bold; }
+		td.section, .section {font-size: 13px; font-weight: bold; background-color: #ddd}
+		.errors { font-size: 11px; color: red; font-weight: bold; line-height: 150%; }
+		.formcontent { width: 600px; align: center; margin-left: 40px; text-align: left }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="spa.css" />
+</head>
+<body>
+<div id="banner">
+	<div style="float: left;"><a href="../index.html"><img src="../images/spa2005logo.gif" width="145" height="98" border="0"></a></div>
+	<div id="topright"><img src="../images/tppp.gif" width="192" height="84" border="0"></div>
+	<div id="headtext"><img src="../images/spa2005-heading.gif" width="402" height="72" border="0" align="top"></div>
+</div>
+<div id="separator"></div>
+<div class="formcontent">
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="680">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA2005 session: Aspect Oriented Programming (AOP) in Java</h1>
+	</td></tr>
+	<tr><td>One-line description:</td><td colspan="3">A survey of tools used to support aspect oriented programming in Java and report of experiences gained, followed by a practical to give a rough idea of the tools using the source code samples provided</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>Session format:</td>
+		<td colspan="3">Workshop [<a href="../sessionformats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">In object oriented software, business logic is encapsulated in business objects. However, implementation requirements can obscure this clean encapsulation. Beside  the business logic itself, many objects also contain code such as logging statements, which do not belong to the business logic. This tangles the code, which makes it more difficult to understand, maintain and reuse. AOP addresses this problem by moving the implementation aspects out of the business objects. Tools to implement AOP for several programming languages have been introduced.<br />
+<br />
+This session gives a short summary of the ideas and terminology of AOP in general  and the implementation of Aspects for Java. An overview of four different AOP tools for Java is given, discussing the implementation used in the tools and their  advantages and disadvantages for various kinds of software projects.<br />
+<br />
+In the subsequent practical, the participants explore up to four different AOP tools using worked examples. For each of the four tools, the mode of operation is explained using a single slide. Each participant then has time to explore and complete the example using one of the tools. Prepared examples using ant scripts will be provided.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">Architects, designers and developers involved in the development of Java  systems, who want to have an overview of AOP tools in Java and get a rough feeling for existing AOP tools. At least one participant in each group (see below) should bring their own laptop with JDK 1.4.2, Java 5 and Apache Ant installed.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">* Come away with basic knowledge about available AOP tools for Java and some  sample code<br />
+<br />
+* A deeper understanding of how different AOP tools for Java work and which of them might be interesting for future use in a project<br />
+<br />
+* First practical experience with an AOP tool</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">* Presentation slides<br />
+<br />
+* A simple code example for each of the tools discussed, including build script (paper and electronic formats will be provided)</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">* Introduce the objectives of the session<br />
+<br />
+* Present the basic ideas and terminologies for AOP<br />
+<br />
+* Explain the basic technology of how AOP can be implemented for Java<br />
+<br />
+* Discuss four available tools. For each tool, a summary shows how aspects are  implemented, which artifacts are used and how the aspects are implemented  from definition to runnable code.<br />
+<br />
+* Present a summary of the tools discussed, including advantages and  disadvantages<br />
+<br />
+* Sum up by outlining again the objectives of the session and naming the ways in which they have been addressed<br />
+<br />
+* Ask the audience for their views and take questions, if time remains<br />
+<br />
+* Introduction to the practical<br />
+<br />
+* Split the participants up into groups (individuals is possible as well). Each group starts using one of the four tools to make first experiences. If enough time is left, a second tool can be used. While using the tool, each group lists questions, remarks, positive and negative points about the tool<br />
+<br />
+* The important lessons learned, questions and remarks are briefly presented by each group at the end of the tutorial<br />
+<br />
+00:00 - 00:05 - Objectives<br />
+00:05 - 00:25 - Basic terminology of AOP and implementation basics for Java<br />
+00:25 - 00:35 - Discussion of tool 1<br />
+00:35 - 00:45 - Discussion of tool 2<br />
+00:45 - 00:55 - Discussion of tool 3<br />
+00:55 - 01:05 - Discussion of tool 4<br />
+01:05 - 01:15 - Summary of the tools discussed and summary of session; Q&A<br />
+01:15 - 01:20 - Coffee break<br />
+01:20 - 01:30 - Short introduction to the exercises provided and their objectives<br />
+01:30 - 01:35 - Split the audience into up to four groups (one per tool)<br />
+01:35 - 02:05 - Work through example using tool<br />
+02:05 - 02:25 - Each group presents their remarks, positive and negative experiences made with the tool (five minutes per group)<br />
+02:25 - 02:30 - Summary of session</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">* The presentation material<br />
+<br />
+* Code samples including build script for each tool<br />
+<br />
+* Questions asked and answers given<br />
+<br />
+* Flip charts containing summary of experiences with each tool<br />
+<br />
+* A list of the questions, remarks, positive and negative points about the tools, ideas and suggestions provided by the participants during the  closing discussion will be provided by e-mail <br />
+<br />
+* The BCS SPA SG Wiki will be used to facilitate further exchange of information among the participants</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">Merged from proposal ID 53 and 54.<br />
+<br />
+Note: This session was proposed principally by Cornel Studach - I am co-presenting.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td class="section" colspan="4" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. <a href="/cgi-bin/wiki.pl?browse=ImmoHuneke">Immo Hüneke</a><i><br>Zuhlke Engineering Ltd</i></td>
+		<td>2. <a href="/cgi-bin/wiki.pl?browse=CornelStudach">Cornel Studach</a><i><br>Zuhlke Engineering Ltd.</i></td>
+		<td>3. </td>
+	</tr>
+</table>
+<br><br>
+</div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA Conference - Session</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="http://www.spaconference.org/spa2013/spaconference.css" />
+	</head>
+<body>
+  <div id="form-page">
+    <div id="banner">
+        <div id="toplinks">
+            <a href="http://www.bcs-spa.org">BCS SPA home &gt;&gt;</a>
+            <br />
+            <a href="http://www.spaconference.org/spa2013/"><a href="http://www.spaconference.org/spa2013/../scripts/myprofile.php">My SPA &gt;&gt;</a>
+			<br />
+        </div>
+
+        <div id="logo">
+            <a href="http://www.spaconference.org/spa2013/"><img height="88" width="523" src="http://www.spaconference.org/spa2013/images/spa-header-web.png" /></a>
+        </div>
+    </div>
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="600">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA Conference session: Property-Based Test-Driven Development (As If You Meant It)</h1>
+	</td></tr>
+	<tr><td><b>One-line description:</b></td><td colspan="3">How does property-based testing change the TDD process compared to example-based testing?</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td><b>Session format:</b></td>
+		<td colspan="3">Workshop [<a href="http://www.spaconference.org/spa2013/formats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">When TDD was introduced in the late 1990s, it was described in terms of example-based testing tools, such as the xUnit family of frameworks. Since then, property-based testing tools have become widely available. Originating with the QuickCheck library for Haskell, property-based testing tools have now been ported to all major languages (and many minor languages).<br />
+<br />
+The TDD community has not embraced property-based testing. TDD practitioners "triangulate"  a property of the system by testing it against multiple examples, selected manually. Because such tests do not explicitly define the property being tested, there is little scope for automatically selecting test data. It is easy for the programmer to write tests that do not have good condition/decision coverage. A reader of the test must infer the property implied by the test from the example data the programmer selected and the name of the test.<br />
+<br />
+Conversely, property-based testing literature has focused on testing for quality assurance. The literature does not describe property-based testing tools being used to drive development - focus attention, measure progress, and obtain design feedback. (Saff's article on JUnit theories is a notable exception).<br />
+<br />
+How does a property-based testing tool affect the TDD process & the designs that the process drives? Let’s find out!<br />
+<br />
+Questions we'd like to explore include:<br />
+<br />
+ * How do we get from examples to properties? Do we always need to start with examples and generalise to properties, or can we start with properties in some cases? And if so, when, and when not?<br />
+<br />
+ * How do we change properties as the system grows? Can we start with simple properties and generalise or specialise them? How does that compare to adding additional examples one at a time?<br />
+<br />
+ * Can property-based testing drive design, and if so how? If we focus on properties, do we get different designs than if we focus on examples? Are some design styles easier than others to describe in terms of properties?<br />
+<br />
+ * Top-down/outside-in vs. bottom-up/inside-out: does property based testing work better</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">- Developers<br />
+- Proficient in any language (as long as they can find a property-based testing library for it and somebody to pair with)<br />
+- Experienced in test-driven development<br />
+- Ideally will have already attended Keith Braithwaite's "TDD As If You Meant It" workshop so we can compare & contrast doing the same exercise with different kinds of testing</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">To learn how property-based testing tools can (or maybe cannot) fit into the TDD process.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">A QuickCheck implementation for Python. http://pypi.python.org/pypi/factcheck/1.1.0.0<br />
+<br />
+A list of QuickCheck implementations for various languages. https://gist.github.com/4147916<br />
+<br />
+Further reading:<br />
+<br />
+[CH2000] Koen Claessen and John Hughes (2000). “QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs.” Proc. Of International Conference on Functional Programming (ICFP), ACM SIGPLAN. http://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf<br />
+<br />
+[SB2006] David Saff, Marat Boshernitsan, The Practice of Theories: Adding “For-all” Statements to “There-Exists” Tests, Submitted to IEEE Software, Special Issue on Test-Driven Development. http://shareandenjoy.saff.net/2006/12/new-paper-practice-of-theories.html</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">Hands-on coding, in pairs, with occasional breaks for discussion.<br />
+<br />
+We will split the room. Half will work in an "outside-in" TDD style. The other half working in "inside-out".<br />
+<br />
+A wrap up at the end to compare how things went for the outside-in and inside-out teams and collect lessons learned in poster form.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Detailed timetable:</b></td><td colspan="3" valign="top">0:00 – 0:20 Presentation. Introduce the rules of TDD as if you meant it, property-based testing tools & property-based TDD with QuickCheck, JUnit 4 Theories, or similar tools.  A demo of writing and running a property-based test.<br />
+0:20 - 0:25 - Organise into pairs based on experience and language choice. Split the room into the inside-out and outside-in teams.<br />
+0:25 – 1:00 – First coding period. (Presenters go around encouraging<br />
+participants to follow the rules of TDD As If You Meant It).<br />
+1:00 – 1:15 – Discussion. What’s hard? How does it compare to TDD with<br />
+examples? Anyone got *anywhere*? Share what we’ve learned.<br />
+1:15 – 2:30 Continue coding, maybe trying a new approach based on what<br />
+everyone has shared.<br />
+2:30 – 3:00 Show and Tell & discussion.<br />
+* How do property-based testing tools change TDD?<br />
+* Do some coding styles, languages or problems make it easier to use<br />
+property-based testing in a TDD style?<br />
+* Does property-based testing push your design in any particular direction?<br />
+* How can we change the exercise to better explore property-based TDD?<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">Posters and/or a blog post collecting what the participants discovered about how to fit property-based testing into the TDD process and how their designs were affected by the different toolset.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">This session has been run at XP Day London 2012.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td class="section" colspan="4" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. <a href="/scripts/people.php?username=NathanielPryce">Nat Pryce</a><i><br>Technemetis Ltd.</i></td>
+		<td>2. <a href="/scripts/people.php?username=KeithBraithwaite">Keith Braithwaite</a><i><br>Zuhlke Ltd</i></td>
+		<td>3. </td>
+	</tr>
+</table>
+<br><br>
+</div>
+</body>
+</html>

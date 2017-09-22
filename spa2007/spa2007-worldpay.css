@@ -1,0 +1,95 @@
+body { color:#333; background-color:white; margin:0 0 0 0px; padding:0 0 0 0px; font:12px verdana, arial, sans-serif; 
+}
+
+/* Three horizontal stripes */
+#banner { max-width: 790px; height: 161px; padding:0px; margin: 10px 0 0 10px; min-width: 750;
+	 width:expression(document.body.clientWidth > 800 ? 800 : (document.body.clientWidth < 750 ? 750 : document.body.clientWidth ));
+}
+#mainbody { float: left;
+	 max-width: 790px; 
+	 width: expression(document.body.clientWidth > 800 ? 800 : document.body.clientWidth );
+}
+
+#footer { clear: both; border-top: 1px solid black; text-align: center; margin-top: 15px; padding: 5px 0px; font-size: 11px;
+	 max-width: 790px; width:expression(document.body.clientWidth > 800 ? 800 : document.body.clientWidth );
+}
+
+/* three columns in the header */
+#logo {float: left; }
+#topright {float: right; right: 10px; top:0px; text-align: right; margin: 0px 10px 0; } 
+#topright a {font: bold 10px/150% verdana,arial,sans-serif; color: #666; text-decoration: none; }
+#header { }
+/* Across the bottom of the header */
+#photobanner { height: 48px; background-image: url("/i/79767/photos.gif"); position:relative; border: 1px black solid; 
+	margin: 0 10px 10px 0 !important; 
+	margin: 0 20px 10px 0; 
+	clear: both;
+}
+
+/* three columns in the main section */
+.nav {
+	font: bold 11px/250% arial,sans-serif; color: #666; text-decoration: none; 
+	float: left;
+	top: 162px;
+	margin: 7px 0 0 8px;
+	display: inline;
+	width: 50px;
+}
+
+.content {
+	position:relative;
+	margin:10px 190px 0px 170px !important;
+	margin:0px 170px 0px 170px;
+	display:inline-block; padding-left:2px;
+}
+
+#right { text-align: center; float: right; width:158px; top:171px; 
+	right: 0;
+	right:expression(document.body.clientWidth > 800 ? document.body.clientWidth - 800 : 0 );
+}
+
+
+/* Text styles */
+h1 { margin: 10px 0px 5px; color: #333; font: bold 16px arial, sans-serif; }
+h2 { margin: 10px 0px 5px; color: #333; font: bold 14px arial, sans-serif; }
+h3 { margin: 10px 0px 5px; color: #333; font: bold 12px arial, sans-serif; }
+
+a:link { color: #00f;}
+a:visited {color:#00f;}
+a:hover {background-color:#bdf;}
+ 
+/* Boxes at the right with drop shadows... */
+.alpha-shadow-right {
+	clear: both; float:right; background: url(images/shadow.gif) no-repeat bottom right;
+	margin: 14px -6px 0 0px !important;
+	margin: 14px 2px 0 0px ;
+}
+
+.alpha-shadow-left {
+	clear: both; float:left; background: url(images/shadow.gif) no-repeat bottom right; margin: 14px 0 0 0; }
+
+.first-inner {
+  background: url(images/shadow2.png) no-repeat left top !important;
+  background: url(images/shadow2.gif) no-repeat left top;
+  float: left; padding: 0 6px 6px 0;
+}
+
+.innersidebox { border: 1px solid #666; font: 10px/100% verdana, arial, sans-serif; width: 130px; }
+
+.innerquote { border: 1px solid #666; font: 11px verdana, arial, sans-serif; color: #333; padding: 10px; 
+	width: 100px !important; 
+	width: 120px; 
+}
+
+.sideboxbody { padding: 10px; }
+
+.sideboxhead { background-color: #f60; padding: 3 0px; font: bold 16px arial, sans-serif; color: #fff; }
+
+/* Box for highlighted stuff at top right of main text */	
+.extrabox { position: relative; float: right; margin: 0 0 25px 20px; }
+
+a.plain, a.plain:visited { color: #000; text-decoration: none; border: 0px; }
+
+.stoppress { border: 5px solid #f99; background-color: #fee; vertical-align: middle; padding: 5px;}
+a.stoppress, a.stoppress:visited { font-weight: bold; border: none; }
+

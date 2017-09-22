@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA2005 - Proposal</title>
+	<link rel="stylesheet" href="../spa.css" />
+	<style>
+		body,td,input,textarea,select,.form {font: 11px verdana, arial, sans-serif; }
+		.important {font-size: 12px; font-weight: bold; }
+		.button {font-size: 13px; font-weight: bold; }
+		td.section, .section {font-size: 13px; font-weight: bold; background-color: #ddd}
+		.errors { font-size: 11px; color: red; font-weight: bold; line-height: 150%; }
+		.formcontent { width: 600px; align: center; margin-left: 40px; text-align: left }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="spa.css" />
+</head>
+<body>
+<div id="banner">
+	<div style="float: left;"><a href="../index.html"><img src="../images/spa2005logo.gif" width="145" height="98" border="0"></a></div>
+	<div id="topright"><img src="../images/tppp.gif" width="192" height="84" border="0"></div>
+	<div id="headtext"><img src="../images/spa2005-heading.gif" width="402" height="72" border="0" align="top"></div>
+</div>
+<div id="separator"></div>
+<div class="formcontent">
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="680">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA2005 session: Rightsizing your unittests</h1>
+	</td></tr>
+	<tr><td>One-line description:</td><td colspan="3">Workshop for finding the 'right' size for a unit test.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>Session format:</td>
+		<td colspan="3">Workshop [<a href="../sessionformats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">With the growing popularity of XUnit unit testing has become common practice. However unit tests are written in many different ways; some like their units small, many somewhat larger. All this independent of the goal of the unit test in question (merely testing purpose or as a design technique).<br />
+<br />
+Largely we recognize three different approaches. The first takes a class as a unit and makes use of mockobjects extensively to enable the class to be totally separated from it's environment and testing both the provided and required interfaces of the class. <br />
+<br />
+The second approach takes small groups of classes as a unit and aims to reduce the effort to separate the classes from their environment. <br />
+<br />
+Thirdly, we often see the second approach degenerate in a form where large chunks of the business /domain logic is tested in one go and stubs or mockobjects are used substitute resources suh as a datamanagement layer. <br />
+<br />
+Some say that using mockobjects extensively helps improving your design, for using mocking extensively keeps you focused on reducing logical dependencies.  Others feel that using small groups of classes as a unit makes them go faster, as mockobjects allow refactoring without the need for changing the test, even if the refactoring is one like "extract class" or "hide delegate".  <br />
+<br />
+In this session we aim to find the 'right' size for a unit test. We will explore these three aproaches using a number of examples, with the goal of discovering when each is appropriate.<br />
+<br />
+We will work on real tests on real code but note that this is not a session to promote the use of mocks!<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">Developers/ Architects/ Development Coaches. Preferably the attendants have some experience in unit testing / TDD.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">Participants will learn what issues to consider and when to apply different approaches to unit testing <br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">None</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">Schedule<br />
+<br />
+00:00 - 00:15 Introductory presentation<br />
+00:16 - 00:45 Walkthrough examples<br />
+00:46 - 01:15 Group evaluation and exercise 1<br />
+break<br />
+01:16 - 02:00 Group evaluation and exercise 2<br />
+02:01 - 02:20 Facilitated open discussion<br />
+02:21 - 02:30 Wrap-up summary<br />
+<br />
+Using code examples to explore useful measures, groups will chose features to evaluate about the test examples, and apply them.  Attendees may bring their laptops, as this may help in the session (though not necessary).</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">Poster, and feedback trough wiki (XPDeveloper/ XP-NL)</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">None</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td class="section" colspan="4" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. <a href="/cgi-bin/wiki.pl?browse=RobWestgeest">Rob Westgeest</a><i><br>Agidem</i></td>
+		<td>2. <a href="/cgi-bin/wiki.pl?browse=PaulSimmons">Paul Simmons</a><i><br>Rochester Software House</i></td>
+		<td>3. </td>
+	</tr>
+</table>
+<br><br>
+</div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA Conference - Session</title>
+	<style>
+		body,td,input,textarea,select,.form {font: 11px verdana, arial, sans-serif; }
+		.important {font-size: 12px; font-weight: bold; }
+		.button {font-size: 13px; font-weight: bold; }
+		td.section, .section {font-size: 13px; font-weight: bold; background-color: #ddd}
+		.errors { font-size: 11px; color: red; font-weight: bold; line-height: 150%; }
+		.formcontent { width: 600px; align: center; margin-left: 40px; text-align: left }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="http://www.spaconference.org/spa2010/spa2010.css" />
+	</head>
+<body>
+<div id="banner">
+  <div id="logo"><a href="http://www.spaconference.org/spa2010/index.html"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/furniture/spa2010topleftlogo.gif" width="118" height="80" style="border: none" alt="SPA2010 logo"/></a></div>
+  <div id="topright">
+    <a href="http://www.bcs-spa.org">BCS-SPA home</a><br />
+    <a href="http://www.spaconference.org/spa2010/../scripts/myprofile.php">Registered member login >></a><br />
+  </div>
+  <div id="header">
+    <img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/furniture/header.gif" width="377" height="47"  alt="Software practice advancement 2010"/><br /><br />
+    <img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/furniture/four-ts.gif" width="539" height="21"  alt="Technology, practice, process, people"/>
+  </div>
+<div id="photobanner"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/4.jpg"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/3.jpg"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/9.jpg"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/2.jpg"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/10.jpg"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/6.jpg"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/1.jpg"></div></div>
+<div class="formcontent">
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="600">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA Conference session: Succeed With Large Refactorings - The Mikado Method</h1>
+	</td></tr>
+	<tr><td><b>One-line description:</b></td><td colspan="3">Learn how to work with large refactorings and redesign without loosing the business focus.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td><b>Session format:</b></td>
+		<td colspan="3">Workshop (150 mins) [<a href="http://www.spaconference.org/spa2010/formats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">Abstract:<br />
+For any code-base, ill- or well-structured, there usually comes a time when you must change large portions of it to meet new functional requirements, a new business model, or just refactor it to make it read better. But when these change become too extensive, it is easy to get lost in a jungle of dependencies, or on a sea of broken code.<br />
+<br />
+This session will present The Mikado Method, a systematic approach to create a map to your changes, using just pen-and-paper. It helps you visualize, plan and perform business-value-focused refactorings over several iterations, without ever having a broken code-base in the process. It enhances communication, collaboration and learning on a software development team, and it helps any individual stay on track.<br />
+<br />
+The Mikado Method:<br />
+Code almost always depend on other pieces of code, hence one change often requires another in an entangled web. When working with software, one usually has to perform a series of refactorings before making the core change to the software, be it to enable adding a new feature or just making a part of the code read better.<br />
+<br />
+This works like the game Mikado (pick-up sticks), where you have to pick up lower scoring sticks in a certain order to reach the higher scoring Mikado stick.<br />
+<br />
+You can build your map of changes using analysis. We would like to present a less demanding way to build the map: 'The Naive Approach':<br />
+<br />
+   1. You set up a goal for your change.<br />
+   2. Naively implement that goal, as you would wish it to be.<br />
+   3. Compilers, tests, analysis and common sense will then show you immediate problem areas with your naive solution.<br />
+   4. Resolutions to those immediate problems are noted as prerequisites to the goal.<br />
+   5. The current changes are reverted using e.g. a versioning system or undo.<br />
+   6. The prerequisites are now new goals. Repeat 2)-6) for each goal until you find no prerequisites.<br />
+   7. Continue perform changes that have no prerequisites. You will eventually have cleared the prerequisites of other changes that now can be performed. Repeat this step until done, or continue from 2) if you find new prerequisites.<br />
+<br />
+<br />
+This can be described as a depth-first recursion of refactoring dependencies.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">Audience:<br />
+Developers that need to work their way out of messy code while continuously delivering new functionality. <br />
+<br />
+Prerequisites:<br />
+Ability to read and understand Java code. Intermediate programming skills in some language. Basic knowledge of refactorings.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">Participants will get an easy-to-use tool to perform large and focused changes to their code bases. The tool helps to stay on track both over time and in coordinating a team.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">A small code-base for the actual coding.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">Contents and time line:<br />
+This session contains some theory, but focuses mostly on hands-on working with code.<br />
+<br />
+Part 1 is essential, part 2 will give hands-on practice and a deeper understanding. Part 3 is optional.<br />
+   </td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Detailed timetable:</b></td><td colspan="3" valign="top">Part 1: Tutorial (30 min)<br />
+ * Introduction to the method and to refactorings (10 min)<br />
+ * The presenters demonstrates the method on an example problem (15 min)<br />
+ * Q&A (5 min)<br />
+<br />
+Part 2: Dojo: Practice in pairs (60-90 min)<br />
+ * Repeating the same problem in pairs<br />
+ * Breaks for reflection and discussion<br />
+   <br />
+Part 3: Dojo: Free form (45-90 min)<br />
+ * Working on code in pairs or randori, using own code or repeating the example problem<br />
+ * Breaks for reflection and discussion<br />
+<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top"></td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">Once run as a 45 minute theoretical session at Scandinavian Developer Conference: http://www.scandevconf.se/ and a few times as company internal workshops.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td class="section" colspan="4" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. <a href="/cgi-bin/wiki.pl?browse=OlaEllnestam">Ola Ellnestam</a><i><br>Agical</i></td>
+		<td>2. <a href="/cgi-bin/wiki.pl?browse=DanielBrolund">Daniel Brolund</a><i><br>Agical</i></td>
+		<td>3. </td>
+	</tr>
+</table>
+<br><br>
+</div>
+</body>
+</html>

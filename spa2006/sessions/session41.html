@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA Conference - Inversion of Control Containers in Java</title>
+	<link rel="stylesheet" href="../spa.css" />
+	<style>
+		body,td,input,textarea,select,.form {font: 11px verdana, arial, sans-serif; }
+		.important {font-size: 12px; font-weight: bold; }
+		.button {font-size: 13px; font-weight: bold; }
+		td.section, .section {font-size: 13px; font-weight: bold; background-color: #ddd}
+		.errors { font-size: 11px; color: red; font-weight: bold; line-height: 150%; }
+		.formcontent { width: 600px; align: center; margin-left: 40px; text-align: left }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="../spa2006.css" />
+</head>
+<body>
+<div id="container">
+	<div id="banner">
+		<img src="../images/bannerright.gif" style="float: right" alt="SPA2006 conference">
+		<a href="../programme.html"><img src="../images/bannerleft.gif" alt="SPA2006 conference" border="0"></a></div><!-- no whitespace before /div to avoid IE6 mis-displaying! -->
+	<div class="formcontent">
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="600">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA Conference session: Inversion of Control Containers in Java</h1>
+	</td></tr>
+	<tr><td>One-line description:</td><td colspan="3">How IOC changes software application development and how to use IOC based on containers available for Java.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>&nbsp;</td><td colspan="3"><a href="/" target="_blank">Session materials</a></td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>Session format:</td>
+		<td colspan="3">Workshop [<a href="../sessionformats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">Today, business components typically run inside some sort of container, which provides the components with a standard runtime environment and a set of generally useful services.  Containers help to standardise the form of business components and reduce redundancy between them, so helping components to be integrated to form applications.<br />
+<br />
+J2EE and .NET both provide sophisticated containers for their components, residing within application servers.  However, the complexity and development difficulties that such containers bring with them have recently led to a number of so-called "lightweight" or "inversion of control" (IoC) containers being developed, which allow Java components to be hosted less intrustively and with less development and runtime overhead.<br />
+<br />
+This session will introduce the idea of application component containers and will answer a number of questions about IoC containers including the services that various containers provide, the benefits of using them and the limitations that they have.<br />
+<br />
+The content of the session will include:<br />
+<br />
+- A short history of IOC containers<br />
+- An explanation of the Inversion of Control pattern that the containers implement<br />
+- A discussion of the different ways to implement IOC (Constructor, setter etc.)<br />
+- A discussion of IoC when compared to its main alternative, the Service Locator<br />
+- A comparison of lightweight versus heavy containers (such as J2EE)<br />
+- An explanation of how such containers make testing simpler, by facilitating the<br />
+  use of Mock Objects<br />
+- A discussionn of the limits of IOC containers (there is no silver bullet!)<br />
+- An introduction to some of the current containers.<br />
+<br />
+The presentation material will be illustratedby two extensive practical exercises that will allow participants to get to grips with an IoC container implementation.<br />
+<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">To benefit most from the session, participants should have developed Java  applications using J2EE containers and/or the service locator pattern. Against this background, the exercises allow participants to understand how IOC containers change the design of an application. Technically, participants should be proficient in Java and should bring a laptop with them to the session, ideally with a recent JDK and IDE installed.<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">- Understand when to use a lightweight or a heavyweight container.<br />
+- Understand the different flavours of IOC and their advantages and disadvantages.<br />
+- Understand how IOC containers can simplify the design of applications.<br />
+- Understand how IOC containers affect unit testing.<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">- Slides<br />
+- Software, including a number of Java IOC containers<br />
+- Exercises with detailed instructions, skeleton files and solutions<br />
+<br />
+In the first exercise, a sample application will be deployed in an IOC containers. Different groups can use different containers and compare their in the discussion. The second exercise consists of the migration of a sample application to IOC and to compare differences in the design of the application before and after the migration. <br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">Following a presentation, participants will work on two exercises. After the exercises participants share their experiences in a discussion.<br />
+<br />
+ 00 -  30  presentation<br />
+ 30 -  75  setup and first exercise<br />
+ 75 -  90  break<br />
+ 90 - 105  presentation of second exercise<br />
+105 - 140  second exercise<br />
+140 - 150  discussion<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">Solutions to exercises.<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">none</td></tr>
+	<tr><td>&nbsp;</td></tr>
+</table>
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="680">
+	<tr><td class="section" colspan="3" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. Wolf Schlegel<i><br>Valtech UK</i><br /><br />Part time go player. The mug shot shows me on a train from Blackpool to York in autumn 2005 which probably explains the maniac expression on my face.</td></tr>
+	<tr><td>2. Eoin Woods<i><br>UBS Investment Bank</i><br /><br />Eóin Woods has been working in software engineering of some sort since 1990.  He has worked for a number of companies in that time, including Ford, Group Bull, Sybase, InterTrust and Zuhlke, as well as working as an independent consultant for a spell. Today, Eoin is employed as an internal consultant architect by a global investment bank, where he works across the business lines of the bank as project needs arise. 
+
+For those who were wondering, you pronounce Eóin's name "Owen".  It's an Irish name (Eóin originally hailing from Northern Ireland).  To find out more about Irish names, take a look at http://www.faqs.org/faqs/cultures/irish-faq/part09/.</td></tr>
+	<tr><td>3. </td></tr>
+</table>
+<br><br>
+	</div>
+</div>
+</body>
+</html>

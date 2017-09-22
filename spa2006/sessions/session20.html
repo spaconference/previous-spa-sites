@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA Conference - Guidance on the choices for persistence</title>
+	<link rel="stylesheet" href="../spa.css" />
+	<style>
+		body,td,input,textarea,select,.form {font: 11px verdana, arial, sans-serif; }
+		.important {font-size: 12px; font-weight: bold; }
+		.button {font-size: 13px; font-weight: bold; }
+		td.section, .section {font-size: 13px; font-weight: bold; background-color: #ddd}
+		.errors { font-size: 11px; color: red; font-weight: bold; line-height: 150%; }
+		.formcontent { width: 600px; align: center; margin-left: 40px; text-align: left }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="../spa2006.css" />
+</head>
+<body>
+<div id="container">
+	<div id="banner">
+		<img src="../images/bannerright.gif" style="float: right" alt="SPA2006 conference">
+		<a href="../programme.html"><img src="../images/bannerleft.gif" alt="SPA2006 conference" border="0"></a></div><!-- no whitespace before /div to avoid IE6 mis-displaying! -->
+	<div class="formcontent">
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="600">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA Conference session: Guidance on the choices for persistence</h1>
+	</td></tr>
+	<tr><td>One-line description:</td><td colspan="3">A session to examine the impact of the choice of persistence mechanism and to generate some guidance for others.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>&nbsp;</td><td colspan="3"><a href="/" target="_blank">Session materials</a></td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>Session format:</td>
+		<td colspan="3">Workshop [<a href="../sessionformats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">This session is a workshop to compare knowledge of the impact of the persistence mechanism used by an implementation and to produce guidance for those about to make this decision.<br />
+<br />
+There are many reasons why a standard approach to persistence is unsuitable, for example:<br />
+- Extremely sparse data, i.e. patient records<br />
+- Extensibility requirements<br />
+- Complex domain models<br />
+<br />
+In this case choosing the right persistence mechanism is difficult. There are a large number of persistence mechanisms available to choose from, for example: <br />
+- O/R mapping tools like Hibernate and TopLink,<br />
+- frameworks like EJB/Entity Beans,<br />
+- custom persistence code.<br />
+<br />
+There are also many underlying technologies on which these mechanisms are based:<br />
+- Relational, Object and more recently XML databases,<br />
+- Serialization,<br />
+- Vanilla relational, EAV, and other schemas. <br />
+<br />
+This session will seek to discover the mechanisms that have been used by the group, the forces for the choice of the mechanism used, the benefits and the consequences of the choices.  For example:<br />
+<br />
+- Performance/Scalability<br />
+- Extensibility<br />
+- Cost<br />
+- Model complexity<br />
+- Not invented here<br />
+- etc.<br />
+<br />
+This information will be used to derive a set of notes to guide those considering the options for a persistence mechanism on a project.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">Architects, Designers, Developers, anyone who has a role in deciding on or implementing a solution based on a persistence mechanism.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">A detailed knowledge of the forces for choosing, and the benefit and consequences of using a particular persistence mechanism. <br />
+<br />
+An insight into the technical problems that can be solved and those caused by using a particular persistence mechanism.<br />
+<br />
+Guidance for making the choice in the future.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">Session slides for introducing the session and timetable.<br />
+<br />
+Flipcharts and pens.<br />
+<br />
+A standard domain model (such as a library) to allow illustration of technical problems.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">This session will be made up of a number of exercises to discover the group experiences and to derive notes for the guidance of others.  Some exercise will be performed as a single group and others performed in smaller groups.  For some exercises a interview approach will be taken to allow the most information to be gathered in the time available.  A smaller audience will be handled by performing all exercises as a single group.<br />
+<br />
+00:00-00:15 Introduction<br />
+State the aims of the session, outline the exercises and timetable and provide a brief summary of my experiences with persistence mechanisms.<br />
+<br />
+00:15-00:30 Audience Experience<br />
+The group will list the persistence mechanisms they have experience with, which will be recorded on a flipchart.  The aim of this exercise is to establish the range of experience of the group and to provide the working set for the workshop.<br />
+<br />
+00:30-00:50 Categories<br />
+Working as a group the persistence mechanisms recording in the first exercise will be grouped into categories.  The aim is to identify similar mechanisms to allow the group to more easily examine the differences between mechanisms groups rather than the entire set of persistence meachanisms used by the group.<br />
+<br />
+00:50-01:30 Forces on choice<br />
+Working in smaller groups the forces on the choice of persistence mechanism will be discovered using an interview approach within the groups.  This should include the technical, organizational or other drivers that influenced the decision.  It will be especially interesting to find forces that could only be solved by a particular mechanism or the process by which a decision was reached if there was no clear option.  <br />
+<br />
+Part of this exercise may be run as a single group if the smaller groups complete early or if there are especially interesting forces to discuss. <br />
+<br />
+01:30-01:45 Break<br />
+<br />
+01:45-02:10 Successes/Failures<br />
+Working in smaller groups this exercise will determine where a persistence mechanism was successful or where it failed.  It will be useful to find where problems occurred and how these were avoided or overcome. It will be especially interesting to discoverer situations where one persistence mechanism was replaced by another and the reasons for this.<br />
+<br />
+02:10-02:30 Presentation<br />
+A short presentation will be given by each group to the other groups about their findings.<br />
+<br />
+02:30-02:50 Guidance<br />
+Working as a single group this exercise will aim to provide guidance based on the information discovered during the session.  It is hoped that it should be possible to define a set of forces that should influence the choice of persistence mechanism and the impact of using a particular mechanism.  This will be documented on flipcharts and will be the immediate session output.<br />
+<br />
+02:50-03:00 Wrap-up<br />
+Session wrap-up and collection of materials.<br />
+<br />
+<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">The immediate output of the session will be some guidance notes on flipcharts for the wall.<br />
+<br />
+The outputs of each exercise will be documented on the conference Wiki.<br />
+<br />
+A document will be prepared after the conference based on the outputs of the session (including the exercises and the guidance notes) which will be emailed to the participants and made available on the conference WiKi.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">None.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+</table>
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="680">
+	<tr><td class="section" colspan="3" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. Tony Barrett-Powell<i><br>Oracle Corporation UK Ltd.</i><br /><br />Tony Barrett-Powell has been involved in software development since 1990, mainly working in C, C++ and Java languages focused on object orientated techniques.  Over the last five years Tony has become more focused on the software development process as his experience has shown him agile processes are a factor in project success. 
+
+With his free time, which is minimal nowadays, he enjoys composing music, reading and watching films. </td></tr>
+	<tr><td>2. </td></tr>
+	<tr><td>3. </td></tr>
+</table>
+<br><br>
+	</div>
+</div>
+</body>
+</html>

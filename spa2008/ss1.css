@@ -1,0 +1,116 @@
+/* Start of CMSMS style sheet 'spa2008' */
+body { color:#333; background-color:white; margin:0 0 0 0px; padding:0 0 0 0px; font:12px verdana, arial, sans-serif }
+
+/* Three horizontal stripes */
+#banner { width: 789px; height: 181px; padding:0px; margin: 10px 0 0 10px; }
+#mainbody { width: 789px; margin: 10px 0 0 10px; }
+#footer { clear: both; border-top: 1px solid black; text-align: center; margin-top: 15px; padding: 5px 0px; font-size: 11px; width: 789px; }
+
+/* three columns in the header */
+#logo {float: left; }
+#topright {float: right; right: 10px; top:0px; text-align: right; 
+   margin: 0 10px 0 !important;
+   margin: 0 5px 0; } 
+#topright a {font: bold 10px/150% verdana,arial,sans-serif; color: #666; text-decoration: none; }
+#header { margin: 0 0 10px 140px; font-size: 13px; }
+/* Across the bottom of the header */
+#photobanner { height: 80px;
+	border: 1px black solid;
+	margin: 0 10px 20px 0; 
+	clear: both;
+}
+
+/* three columns in the main section */
+.nav {
+	font: bold 11px/250% arial,sans-serif; color: #666; text-decoration: none; 
+	float: left;
+	margin: 7px 0 0 0;
+	display: inline;
+	width: 50px;
+}
+
+.content {
+	position:relative;
+	padding-left:2px;
+	width: auto !important;
+	width: 100%;
+	overflow: visible;
+	margin:0px 170px 0px 170px;
+}
+
+.widecontent {
+	position:relative;
+	padding-left:2px;
+	width: auto !important;
+	width: 100%;
+	margin:0px 8px 0px 170px;
+	overflow: visible;
+}
+
+/* Fix for problem that IE has with italics. Thanks to http://www.positioniseverything.net/explorer/italicbug-ie.html */
+em { overflow: auto; height: 1%; }
+
+#right { text-align: center; float: right; top:171px; width:152px;
+	width: 142px !important;
+	width: 150px;
+	}
+
+/* news items */
+.NewsSummary { text-align: left }
+.NewsSummaryPostdate {}
+.NewsSummaryLink {font-weight: bold }
+.NewsSummaryCategory {}
+.NewsSummaryAuthor {}
+.NewsSummaryContent
+.NewsSummarySummary {}
+.NewsSummaryMorelink {}
+
+/* Text styles */
+h1 { margin: 10px 0px 5px; color: #333; font: bold 16px arial, sans-serif; }
+h2 { margin: 10px 0px 5px; color: #333; font: bold 14px arial, sans-serif; }
+h3 { margin: 10px 0px 5px; color: #333; font: bold 12px arial, sans-serif; }
+
+a:link { color: #00f;}
+a:visited {color:#00f;}
+a:hover {background-color:#bdf;}
+ 
+/* News wrapper at the right */
+.sideboxouter { border: 1px solid #666; font: 10px/110% verdana, arial, sans-serif; width: 130px; text-align: left; margin-bottom: 10px; }
+#right h1 { font: 11px/110% verdana, arial, sans-serif; font-weight: bold; margin: 0; }
+
+.innermainbox { border: 1px solid #666; font: 10px/110% verdana, arial, sans-serif; width: 200px; }
+
+.innerquote { border: 1px solid #666; font: 11px verdana, arial, sans-serif; color: #333; padding: 10px; 
+	width: 100px !important; 
+	width: 120px; 
+}
+
+.sideboxheader { background-color: #f60; padding: 5 3px; font: bold 12px verdana, arial, sans-serif; color: #fff; text-align: center;}
+.sideboxbody { padding: 4px;}
+
+/* Box for highlighted stuff at top right of main text */	
+.extrabox { position: relative; float: right; margin: 0 0 25px 20px; }
+
+a.plain, a.plain:visited { color: #000; text-decoration: none; border: 0px; }
+
+.stoppress { border: 5px solid #f99; background-color: #fee; vertical-align: middle; padding: 5px;}
+a.stoppress, a.stoppress:visited { font-weight: bold; border: none; }
+
+table#spalayout {border: 0px; padding: 5px; spacing: 0px; font:12px verdana, arial, sans-serif; text-decoration: none;}
+table#spalayout th {	color: #f60; font-weight: bold; text-align: left; vertical-align: top}
+table { font:12px verdana, arial, sans-serif; text-decoration: none; border: 1px}
+.spalayoutheaders {color: #f60; font-weight: bold; text-align: left;}
+.spalayoutsmalltext {font-size: 10px; color: #000; text-decoration: none;}
+
+.spalayouthideabletext, a.spalayouthideabletext  {font-size: 10px; color: #000; text-decoration: none; font-style: italic; display: none}
+
+.dayheading, .time {background-color: #b3d7ef; }
+.session, .dayheading, .time {font-size: 10px}
+
+.blog { border: 1px solid #666; padding:5px 5px 5px 5px; margin: 0 0 30px 0;
+ width: 273px !important;
+ width: 288px;}
+
+.blog embed, .blog img { display: none}
+/* End of 'spa2008' */
+

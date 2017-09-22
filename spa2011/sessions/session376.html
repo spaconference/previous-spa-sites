@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA Conference - Session</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="http://www.spaconference.org/spa2011/spaconference.css" />
+	</head>
+<body>
+  <div id="form-page">
+    <div id="banner">
+        <div id="toplinks">
+            <a href="http://www.bcs-spa.org">BCS SPA home &gt;&gt;</a>
+            <br />
+            <a href="http://www.spaconference.org/spa2011/"><a href="http://www.spaconference.org/spa2011/../scripts/myprofile.php">My SPA &gt;&gt;</a>
+			<br />
+        </div>
+
+        <div id="logo">
+            <a href="http://www.spaconference.org/spa2011/"><img height="88" width="523" src="http://www.spaconference.org/spa2011/images/spa-2011-header-web.png" /></a>
+        </div>
+    </div>
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="600">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA Conference session: Master of puppet(s) - Configuration management for developers, hands-on.</h1>
+	</td></tr>
+	<tr><td><b>One-line description:</b></td><td colspan="3">Experience automating systems administration for fun and profit </td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td><b>Session format:</b></td>
+		<td colspan="3">Tutorial (150 mins) [<a href="http://www.spaconference.org/spa2011/formats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">Inspired by the devops movement and a new breed of configuration management tools, we decided to be devops for a while. Learn from our success and failures, and get your hands clean with puppet, the configuration scripting tool that we used.<br />
+<br />
+Many of us already love continuous integration. Configuration management takes this a step further by allowing you to continuosly build complete servers, including but not limited to deploying your software. For instance we've automated installation of webserver and mailserver software, as well as compilation and configuration of a not very common object oriented database system, so that we can easily recreate a server in case of failure or growth... <br />
+<br />
+This is aimed at agile/BDD/TDD teams, but could be used for the more "traditional" approaches too. We started with puppet, without BDD, and found that at some point the complexity is enough to warrant tests. As bonus, if your client is available, you can prioritize and check sysadmin work by business value.<br />
+<br />
+Bring your laptop, and work with a pair through some exercises we've prepared. Take home a (virtual) machine and git repository with scripts that got you started, so you can continue what you learnt. </td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">Developers, anybody who is not afraid of a command line, a text editor and distributed version control.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">Recover quicker from disaster, scale up with grace when success strikes.<br />
+Configuration management, like TDD & BDD takes some time to learn, but saves  you a lot of time and frustration. Understand why your servers (or desktops) work the way they do, and document that understanding in executable form. <br />
+Don't make the same mistakes we did, and benefit from what we did well.<br />
+Learn how to create virtual machines on the fly reliably and repeatably, how to apply Behavior Driven Development to systems administration, and how to debug your configurations when something does not work as expected.<br />
+Learn new tools: puppet to automate configurations, vagrant to instantiate virtual machines on the fly and cucumber to let business needs drive server behaviour. </td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">- virtual machine or usb stick to get running quickly<br />
+- slide presentation documenting benefits, our experience and intro to exercises<br />
+- step-by-step instructions for exercises</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">presentation, exercises, some group working in the wrap-up</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Detailed timetable:</b></td><td colspan="3" valign="top">00:00 introduction, agenda & benefits<br />
+00:10 presentation: what is devops, what is cm, what is puppet, how can you go about getting the benefits.<br />
+00:25 live coding (prepared kata), demonstrate quick and repeatable installation of jenkins (formerly known as hudson) continuous integration server driven by behaviour (BDD with prepared cucumber features, the kata will mostly 'fill in the blanks' in the implementation). <br />
+00:50 break<br />
+00:60 hands-on exercise: installing apache as a front-end for jenkins. (introducing how to manage & install packages, custom files and how to turn arcane knowledge into executable documentation. ). We prepare cucumber Features & specs, participants make them pass one by one by creating a puppet recipe (some building blocks like configuration files provided).<br />
+1:25 break<br />
+1:30 live demo (prepared kata with explanation of concepts): BDD for systems administration with cucumber and puppet. Here we write a new feature and define behaviour for a partially existant configuration.<br />
+1:55 break <br />
+2:00 hands-on exercise: BDD - write a feature and its steps in cucumber, see it fail, turn on a recipe and see it pass (probably a small configuration item with big impact like a solid SSH or IPTables firewall configuration. Will provide building blocks for steps such as nmap port scanner or ruby ssh package, and we provide most of the recipe so participants can focus on BDD).<br />
+2:25 wrap-up : what will you try out at work after the conference? (with post-its to be stuck on poster when leaving).<br />
+2:30</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">- blog post<br />
+- photos<br />
+- poster</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">We ran the presentation part of this at Fosdem 2011 in Brussels, was fairly well received, inspired a few people to give puppet or chef a try in their place of work.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td class="section" colspan="4" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. <a href="/cgi-bin/wiki.pl?browse=WillemvandenEnde">Willem van den Ende</a><i><br>Living Software B.V.</i></td>
+		<td>2. <a href="/cgi-bin/wiki.pl?browse=StephanEggermont">Stephan Eggermont</a><i><br>Sensus</i></td>
+		<td>3. </td>
+	</tr>
+</table>
+<br><br>
+</div>
+</body>
+</html>

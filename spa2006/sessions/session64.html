@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA Conference - Test-First Development of Web Applications with XML</title>
+	<link rel="stylesheet" href="../spa.css" />
+	<style>
+		body,td,input,textarea,select,.form {font: 11px verdana, arial, sans-serif; }
+		.important {font-size: 12px; font-weight: bold; }
+		.button {font-size: 13px; font-weight: bold; }
+		td.section, .section {font-size: 13px; font-weight: bold; background-color: #ddd}
+		.errors { font-size: 11px; color: red; font-weight: bold; line-height: 150%; }
+		.formcontent { width: 600px; align: center; margin-left: 40px; text-align: left }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="../spa2006.css" />
+</head>
+<body>
+<div id="container">
+	<div id="banner">
+		<img src="../images/bannerright.gif" style="float: right" alt="SPA2006 conference">
+		<a href="../programme.html"><img src="../images/bannerleft.gif" alt="SPA2006 conference" border="0"></a></div><!-- no whitespace before /div to avoid IE6 mis-displaying! -->
+	<div class="formcontent">
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="600">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA Conference session: Test-First Development of Web Applications with XML</h1>
+	</td></tr>
+	<tr><td>One-line description:</td><td colspan="3">Report of a test methodology and the simple supporting toolset that have gradually evolved over a series of real-world projects.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>&nbsp;</td><td colspan="3"><a href="CS4/" target="_blank">Session materials</a></td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>Session format:</td>
+		<td colspan="3">Case study [<a href="../sessionformats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">One of the core XP quality practices is test-first development. Yet it can be hard to specify and agree rigorous tests early in a project where the service to be developed is a web application that will be delivered largely by configuring off-the-shelf components. Often, clients will assume that the vendors' rigorous QA testing of their products is sufficient to guarantee the correct working of the completed service - but delivery of the service may have entailed the writing of tens or even thousands of lines of configuration code (e.g. rules), whose correctness has to be tested.<br />
+<br />
+Until the platform has been delivered and deployed, at least in the development environment, it is usually not possible to understand properly how to interface the test harness to it, let alone how the internal logic works and therefore what test cases might be needed. Yet relying on user stories or business use-cases is usually insufficient as a specification of the tests to be carried out, because they leave out all the exception processing branches.<br />
+<br />
+The methodology described here can be applied successfully to any project with characteristics similar to the above. It allows test data and test cases (the "test model") to be specified in outline and gradually refined as more information becomes available. All the while, the human-readable test documentation can be re-generated on demand for review by the customer. Once the required level of detail has been input to the test model, theoretically the test harness can be generated and run automatically (this last step has yet to be proven in practice).<br />
+<br />
+The most recent application of this methodology has been during the implementation of an Internet content filter for a mobile ISP. Modelling of the tests began very early in the project and was successful in eliciting detailed requirements from the customer. Later, the HttpUnit product was selected as the means of implementing the tests, and translation of the test specification into Java code proved remarkably straightforward. Some results will be presented.<br />
+<br />
+If we were doing this again, we would try very hard to find a way of generating the unit test code from the XML of the test model instead of hand-translating. Although it saved effort in the first pass, maintaining the test specification in synch with the regression test suite has proved time-consuming and tedious.<br />
+<br />
+Everyone should be convinced of the benefits of test-first development by now. The technique presented here provides an additional level of abstraction, which has a number of benefits:<br />
+<br />
+* by modularising and orthogonalising the elements of the test model, it makes it much easier for multiple developers to collaborate on creating and maintaining the test harness<br />
+<br />
+* by abstracting the description of tests into XML, reusable test assets are created. From this model, both a human-readable test specification and (theoretically) an executable test harness can be generated<br />
+<br />
+* traceability of requirements to test cases and vice versa is easier to maintain and demonstrate, which makes it very straightforward to measure test coverage.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">Architects, designers, developers and test engineers involved in the development of Web-based and other systems, who understand the benefits of test-first development but want to spend less time programming and debugging the tests.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">* Understand the approach<br />
+<br />
+* Have sufficient knowledge and software resources to be able to attempt it on a project</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">* Presentation slides<br />
+<br />
+* Demonstration</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">The session consists largely of a case study, including a demonstration. This is preceded by a presentation about test-first development and the theory of the particular technique employed here. We conclude with a number of suggested avenues for further refinement of the technique, and hopefully some questions and answers.<br />
+<br />
+We would consider following up with a 75-minute practical workshop if the programme committee considers it worth the effort of preparing one.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">* The presentation material<br />
+<br />
+* Code samples - test specification generator, XML style sheets, test model fragments, test harness templates etc.<br />
+<br />
+* Questions asked and answers given, suggestions for further research (to be captured in the SPA2006 Wiki)<br />
+<br />
+* The BCS SPA SG Wiki will be used to facilitate further exchange of information among the participants</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">New session - not been done before.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+</table>
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="680">
+	<tr><td class="section" colspan="3" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. Immo Hüneke<i><br>Zuhlke Engineering Ltd</i><br /><br />I am a senior software architect at Zuhlke Engineering Ltd [http://www.zuhlke.com/]. I also try to keep up with my tasks as membership secretary and meetings organiser of the BCS SPA specialist group [http://www.bcs-spa.org/].</td></tr>
+	<tr><td>2. Cornel Studach<i><br>Zuhlke Engineering Ltd.</i><br /><br />!Projects:
+   *   Sensorics (electronics hardware)
+   *   Measuring systems (electronics hardware and software)
+   *   Industial control for production systems
+   *   e-business web applications
+   *   EAI messaging gateway
+   *   EAI application integration
+
+!Software Technologies:
+   *   Java J2SE, J2EE
+   *   XML
+   *   C#, ADO.NET, ASP.NET
+   *   LabVIEW
+
+!Main Education:
+
+   *   1999 – 2000, Fachhochschule Rapperswil, Software Engineering 
+   *   1985 – 1991, ETH, Zurich, Electronics and Communication Science
+
+!Patents
+   *   Digital filter to suppress sine interference in vault monitoring systems
+   *   Accelerometer for vault monitoring
+
+!Hobby
+   *   Saxophone: Listen to some sound samples here: http://www.studa.ch/saxquartett</td></tr>
+	<tr><td>3. </td></tr>
+</table>
+<br><br>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,269 @@
+/* ThemeSPAMenu Style Sheet */
+
+.ThemeSPAMenu,.ThemeSPASubMenuTable
+{
+	font-family:	verdana, arial, sans-serif;
+	font-size:	13px;
+
+	padding:	0;
+
+	white-space:	nowrap;
+	cursor:		default;
+}
+
+.ThemeSPASubMenu
+{
+	position:	absolute;
+	visibility:	hidden;
+
+	/*
+	   Netscape/Mozilla renders borders by increasing
+	   their z-index.  The following line is necessary
+	   to cover any borders underneath
+	*/
+	z-index:	100;
+	border:		0;
+	padding:	0;
+
+	overflow:	visible;
+	border:		1px solid #000; /* #8C867B; 
+
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#BDC3BD, Direction=135, Strength=4); */
+}
+
+.ThemeSPASubMenuTable
+{
+	overflow:	visible;
+}
+
+.ThemeSPAMainItem,.ThemeSPAMainItemHover,.ThemeSPAMainItemActive,
+.ThemeSPAMenuItem,.ThemeSPAMenuItemHover,.ThemeSPAMenuItemActive
+{
+	border:		1;
+	cursor:		default;
+	white-space:	nowrap;
+}
+
+.ThemeSPAMainItem
+{
+	background-color:	#ccc; /* #EFEBDE; */
+}
+
+.ThemeSPAMainItemHover,.ThemeSPAMainItemActive
+{
+	background-color:	#ccc;
+}
+
+.ThemeSPAMenuItem
+{
+	background-color:		#ccc; /* WHITE; */
+}
+
+.ThemeSPAMenuItemHover,.ThemeSPAMenuItemActive
+{
+	background-color:	#ccc;
+}
+
+
+/* horizontal main menu */
+
+.ThemeSPAMainItem
+{
+	padding:	1px;
+	border:		0;
+}
+
+td.ThemeSPAMainItemHover,td.ThemeSPAMainItemActive
+{
+	padding:	0px;
+	border:		1px solid #000;
+}
+
+.ThemeSPAMainFolderLeft,.ThemeSPAMainItemLeft,
+.ThemeSPAMainFolderText,.ThemeSPAMainItemText,
+.ThemeSPAMainFolderRight,.ThemeSPAMainItemRight
+{
+	background-color:	inherit;
+}
+
+/* vertical main menu sub components */
+
+td.ThemeSPAMainFolderLeft,td.ThemeSPAMainItemLeft
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	padding-left:	0px;
+	padding-right:	2px;
+
+	border-top:	1px solid #000;
+	border-bottom:	1px solid #000;
+	border-left:	1px solid #000;
+
+	background-color:	inherit;
+}
+
+td.ThemeSPAMainFolderText,td.ThemeSPAMainItemText
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	padding-left:	5px;
+	padding-right:	5px;
+
+	border-top:	1px solid #000;
+	border-bottom:	1px solid #000;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+td.ThemeSPAMainFolderRight,td.ThemeSPAMainItemRight
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	padding-left:	0px;
+	padding-right:	0px;
+
+	border-top:	1px solid #000;
+	border-bottom:	1px solid #000;
+	border-right:	1px solid #000;
+
+	background-color:	inherit;
+}
+
+tr.ThemeSPAMainItem td.ThemeSPAMainFolderLeft,
+tr.ThemeSPAMainItem td.ThemeSPAMainItemLeft
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	1px;
+	padding-right:	2px;
+
+	white-space:	nowrap;
+
+	border:		0;
+	background-color:	inherit;
+}
+
+tr.ThemeSPAMainItem td.ThemeSPAMainFolderText,
+tr.ThemeSPAMainItem td.ThemeSPAMainItemText
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	5px;
+	padding-right:	5px;
+
+	border:		0;
+	background-color:	inherit;
+}
+
+tr.ThemeSPAMainItem td.ThemeSPAMainItemRight,
+tr.ThemeSPAMainItem td.ThemeSPAMainFolderRight
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	0px;
+	padding-right:	1px;
+
+	border:		0;
+	background-color:	inherit;
+}
+
+/* sub menu sub components */
+
+.ThemeSPAMenuFolderLeft,.ThemeSPAMenuItemLeft
+{
+	padding: 0px;
+
+	border-top:	1px solid #000;
+	border-bottom:	1px solid #000;
+	border-left:	1px solid #000;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+.ThemeSPAMenuFolderText,.ThemeSPAMenuItemText
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	padding-left:	5px;
+	padding-right:	5px;
+
+	border-top:	1px solid #000;
+	border-bottom:	1px solid #000;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+.ThemeSPAMenuFolderRight,.ThemeSPAMenuItemRight
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	padding-left:	0px;
+	padding-right:	0px;
+
+	border-top:	1px solid #000;
+	border-bottom:	1px solid #000;
+	border-right:	1px solid #000;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+.ThemeSPAMenuItem .ThemeSPAMenuFolderLeft,
+.ThemeSPAMenuItem .ThemeSPAMenuItemLeft
+{
+	padding: 0px;
+	border:		0;
+	background-color:	#EFEFDE;
+}
+
+.ThemeSPAMenuItem .ThemeSPAMenuFolderText,
+.ThemeSPAMenuItem .ThemeSPAMenuItemText
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	5px;
+	padding-right:	5px;
+
+	border:		0;
+	background-color:	inherit;
+}
+
+.ThemeSPAMenuItem .ThemeSPAMenuFolderRight,
+.ThemeSPAMenuItem .ThemeSPAMenuItemRight
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	0px;
+	padding-right:	1px;
+
+	border:		0;
+	background-color:	inherit;
+}
+
+/* menu splits */
+
+.ThemeSPAMenuSplit
+{
+	margin:		2px;
+	height:		1px;
+	overflow:	hidden;
+	background-color:	inherit;
+	border-top:	1px solid #C6C3BD;
+}
+
+/* image shadow animation */
+
+/*
+	seq1:	image for normal
+	seq2:	image for hover and active
+
+	To use, in the icon field, input the following:
+	<img class="seq1" src="normal.gif" /><img class="seq2" src="hover.gif" />
+*/
+
+.ThemeSPAMenuItem img.seq1 { display: inline; }
+.ThemeSPAMenuItemHover seq2, .ThemeSPAMenuItemActive seq2 { display: inline; }
+.ThemeSPAMenuItem .seq2, .ThemeSPAMenuItemHover .seq1, .ThemeSPAMenuItemActive .seq1 { display: none; }

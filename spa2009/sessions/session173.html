@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA Conference - Session</title>
+	<style>
+		body,td,input,textarea,select,.form {font: 11px verdana, arial, sans-serif; }
+		.important {font-size: 12px; font-weight: bold; }
+		.button {font-size: 13px; font-weight: bold; }
+		td.section, .section {font-size: 13px; font-weight: bold; background-color: #ddd}
+		.errors { font-size: 11px; color: red; font-weight: bold; line-height: 150%; }
+		.formcontent { width: 600px; align: center; margin-left: 40px; text-align: left }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="http://www.spaconference.org/spa2009/spa2009.css" />
+	</head>
+<body>
+<div id="banner">
+  <div id="logo"><a href="http://www.spaconference.org/spa2009/index.html"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/furniture/spa2009topleftlogo.gif" width="118" height="80" style="border: none" alt="SPA2009 logo"/></a></div>
+  <div id="topright">
+    <a href="http://www.bcs-spa.org">BCS-SPA home</a><br />
+    <a href="http://www.spaconference.org/spa2009/../scripts/myprofile.php">Registered member login >></a><br />
+  </div>
+  <div id="header">
+    <img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/furniture/header.gif" width="377" height="47"  alt="Software practice advancement 2009"/><br /><br />
+    <img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/furniture/four-ts.gif" width="539" height="21"  alt="Technology, practice, process, people"/>
+  </div>
+<div id="photobanner"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/9.jpg"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/6.jpg"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/7.jpg"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/1.jpg"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/5.jpg"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/10.jpg"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/4.jpg"></div></div>
+<div class="formcontent">
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="600">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA Conference session: Scalable .NET Design Reviews through Automated Analysis</h1>
+	</td></tr>
+	<tr><td>One-line description:</td><td colspan="3">Using automated code analysis to provide high quality, high frequency design quality feedback</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>Session format:</td>
+		<td colspan="3">Tutorial (75 mins) [<a href="http://www.spaconference.org/spa2009/formats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">In evolutionary, feedback-driven approaches to design and architecture, we can expect the designs that emerge to be only as good as the standards we set and enforce for code quality.<br />
+<br />
+The sooner design problems can be detected, the easier they can be fixed through ongoing refactoring. <br />
+<br />
+Just as it is with functional test assurance, we quickly meet the practical limitations of manual design quality checking. Covering large amounts of code whilst searching for dozens of potential code smells is extremely labour intensive. Unsurprisingly, teams find that the effort and expense is too great, and even less surprisingly, the lack of design quality assurance soon becomes apparent in the quality of the emerging code.<br />
+<br />
+Our experiences with Test-driven Development have taught us the profoundly positive impact of having suites of automated regression tests that can cover our codebase in a tiny, tiny fraction of the time it would take to achieve the same coverage manually.<br />
+<br />
+Experiences with automated design quality checking suggests similar benefits can be reaped using tools like NDepend, Simian, Mono.Cecil, FxCop and similar.<br />
+<br />
+In this tutorial, I will review a 100,000+ line .NET code base (using NDepend for illustrative purposes), searching for a range of common code quality problems and constructing a refactoring "TO DO" list that can be prioritised and scheduled accordingly.<br />
+<br />
+I will then demonstrate how my automated review can be incorporated into an automated build process so that design quality checks can be run as routinely as developers run their build scripts.<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">Anyone who can follow C# and has an understanding of the .NET architecture. Familiarity with code smells and refactoring helpful.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">An understanding of how to use code analysis tools like NDepend to detect a range of common design problems, and an appreciation of how these techniques could help deliver higher quality, more maintainable code at lower overall costs.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">A community edition of NDepend on disks/USB keys, plus example source projects - with NUnit test coverage reports - to practice on. (And my own laptop, obviously!)<br />
+<br />
+NB: NDepend is a commercial product - with a free version for strictly non-commercial use. I am not affiliated with this product (though I am a heavy user of the tool.)</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">I'll start with a short overview to explain what I'm about to demonstrate, focusing on the benefits of the techniques.<br />
+<br />
+I'll then ask participants to group into pairs. I will demonstrate how to detect a very simple code smell using NDepend - e.g., long methods. <br />
+<br />
+The pairs will do the same on their own laptops.<br />
+<br />
+I will then demonstrate searching for 2 more common code quality problems, increasing in sophistication (the last one being looking for complex, untested and highly depended-upon methods)<br />
+<br />
+Finally, I'll show how to drive NDepend analysis from a NAnt build script and how to fail a build if quality standards aren't satisfied.<br />
+<br />
+While the audience works through the examples, we will also discuss some of the wider issues surrounding automated code quality analysis, such as the risk of false positives, organisational and managerial abuses of the outputs of analysis, and the current vagueness and lack of wide agreement on the exact meaning of many design principles and code "smells".</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Detailed timetable:</b></td><td colspan="3" valign="top">00:00 - 00:10 Explanation/Intro<br />
+00:10 - 00:30 Example One - Long Methods<br />
+00:30 - 00:40 Example Two - Excessive Coupling To Concrete Classes<br />
+00:40 - 00:50 Example Three - High Risk, Untested Code<br />
+00:50 - 01:05 Incorporating NDepend Analysis in a Build Script<br />
+01:05 - 01:15 Q&A & Discussion</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">Web Page with:<br />
+<br />
+* Slides<br />
+<br />
+* Video Capture of desktop w/ audio (I'll bring a mic)<br />
+<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top"></td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td class="section" colspan="4" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. <a href="/cgi-bin/wiki.pl?browse=JasonGorman">Jason Gorman</a><i><br>parlezuml.com</i></td>
+		<td>2. </td>
+		<td>3. </td>
+	</tr>
+</table>
+<br><br>
+</div>
+</body>
+</html>

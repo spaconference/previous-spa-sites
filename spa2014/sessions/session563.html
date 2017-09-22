@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA Conference - Session</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="http://www.spaconference.org/spa2014/spaconference.css" />
+	</head>
+<body>
+  <div id="form-page">
+    <div id="banner">
+        <div id="toplinks">
+            <a href="http://www.bcs-spa.org">BCS SPA home &gt;&gt;</a>
+            <br />
+            <a href="http://www.spaconference.org/spa2014/"><a href="http://www.spaconference.org/spa2014/../scripts/myprofile.php">My SPA &gt;&gt;</a>
+			<br />
+        </div>
+
+        <div id="logo">
+            <a href="http://www.spaconference.org/spa2014/"><img height="88" width="523" src="http://www.spaconference.org/spa2014/images/spa-header-web.png" /></a>
+        </div>
+    </div>
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="600">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA Conference session: The Power of Events</h1>
+	</td></tr>
+	<tr><td><b>One-line description:</b></td><td colspan="3">A look into the multidimensional capabilities of events</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td><b>Session format:</b></td>
+		<td colspan="3">Long tutorial [<a href="http://www.spaconference.org/spa2014/formats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">Event driven architecture is gaining in popularity. Reactive programming is quite often said to cause less headaches than imperative approaches. However, events can be used for so much more. In this tutorial, we explore a lot of the benefits that events give us - from decoupling, integration, and communication to lesser known (but quite a bit more impressive) ones like domain modelling, specification, and as a data storage mechanism. Auditing,  scalability, and migrations are other interesting areas where events can have an impact. In this tutorial we will see how we can reap these benefits, using clear and simple examples.<br />
+<br />
+Please bring a laptop with VirtualBox installed. A virtual machine with the necessary software will be provided. It would be even better if Vagrant is installed alongside VirtualBox. The guest operating system will be Windows Server 2008 R2 x64. As such, please ensure CPU virtualisation (VTX) is enabled in the BIOS. About 40GB of free space will be required for the VM. If you don't want to use the VM (or want an alternative if things go wrong), please have a Windows machine with Visual Studio 2012+ and Sql Server Standard / Express (2008 R2 or 2012) installed. We'll be pairing up in any case.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">Some programming experience in C# or Java can help, but is not necessary. Experience as a developer or architect will be beneficial.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">You will gain hands on experience in exploring the powerful features that events can provide us in software engineering.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">Instructions for the exercises, and code for a simple event store (open source), a framework to work with it, and a testing harness for the specifications.<br />
+<br />
+The coding parts will use some simple libraries that will be provided. I am polyglot these days, but have pretty much everything needed done in C#. I'll likely prepare a windows virtual machine that attendees can use during the day. All that would be required would be virtualbox and vagrant installed, and a simple vagrant up. If you feel the need, java libraries may also be provided, however, anybody with a java background should be able to use the C# library, as it (the library) has a simple api. The vagrant approach should result in minimal problems in software set up during the course. The vagrant box provided will consist of:<br />
+<br />
+Windows 8 Trial Edition<br />
+Visual Studio 2013 Express / Trial<br />
+Sql Server 2012 Express<br />
+An event store set up in Sql Server<br />
+Relevant VS Solutions for the exercises<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">Interactive discussions and hands on exercises.<br />
+<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Detailed timetable:</b></td><td colspan="3" valign="top">00:00-00:30<br />
+Discussion: A brief overview of Domain Driven Design, and introduction to Domain Events<br />
+<br />
+00:30-00:45<br />
+Break<br />
+<br />
+00:45-01:00<br />
+Discussion: Modelling with messages.<br />
+<br />
+01:00-01:45<br />
+Group Exercise: Modelling a domain using messages. Groups will explore a representative domain, identify domain events, and commands. They will identify information flows, and add payloads to their events and commands. From there, they will look at identifying aggregates with a view of achieving good cohesion. This is along the lines of Alberto Brandolini's Event Storming approach.<br />
+<br />
+01:45-02:00<br />
+Break<br />
+<br />
+02:00-02:25<br />
+Discussion: Messages in Testing. We will discuss how events and command can be used to specify systems, and their role in representing use cases as data. Once represented as data, the specifications can be used to drive automated tests, and generate documentation. This is an interesting take on behaviour driven development.<br />
+<br />
+02:25-3:00<br />
+Coding Exercise: Event Driven Testing and Documentation. We will take one of the message flows from the previous exercise, and code some specifications with them. Participants will use a lightweight library provided. We will use a simple program to generate documentation from the specifications. We will then wire-up the specification to the library to make them executable. Things will be kept nice and simple - the focus is not on practising TDD (or BDD), but rather getting an understanding in what's involved in message oriented testing.<br />
+<br />
+3:00-3:15<br />
+Break<br />
+<br />
+03:15-03:45<br />
+Discussion: Events as a storage mechanism. The concept of event sourcing will be put forward, and we will look at some code to help understand the concept in regards to aggregates. We will discuss what's involved in using events as storage in real world applications. <br />
+<br />
+3:45-4:15<br />
+Coding Exercise: Events as Storage. We will use a library and hook to to an in memory event store. We will implement some specifications created previously. We will then switch to using a sql event store which will result in persisted storage. <br />
+<br />
+4:15-4:30 <br />
+Break<br />
+<br />
+4:30-4:50<br />
+Discussion: Projections. We will discuss how we can use stored events to build viewcaches for querying. We will cover topics like how to get stored events over to projections, technologies to do so, push vs pull, ReST, simple and complex event processing, etc.<br />
+<br />
+4:50-5:15<br />
+Coding Exercise: Projections. We will build a few simple projections. This is vast topic in itself, and only the basics will be covered. <br />
+<br />
+5:15-end<br />
+Discussion on miscellaneous topics not already covered. For example, while we will have already discussed some scalability, consistency, concurrency, etc. issues, we will dive deeper. <br />
+<br />
+<br />
+The timelines are flexible, and some re-allocation will be done on the fly based on audience interests.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">A sample implementation of a project using events for storage, specifications, integration, etc.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">I have delivered sessions and tutorials with similar content at various national at international conferences and user groups.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td class="section" colspan="4" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. <a href="/scripts/people.php?username=AshicMahtab">Ashic Mahtab</a><i><br>Heartysoft Solutions Limited</i></td>
+		<td>2. </td>
+		<td>3. </td>
+	</tr>
+</table>
+<br><br>
+</div>
+</body>
+</html>

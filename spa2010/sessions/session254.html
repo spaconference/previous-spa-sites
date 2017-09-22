@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA Conference - Session</title>
+	<style>
+		body,td,input,textarea,select,.form {font: 11px verdana, arial, sans-serif; }
+		.important {font-size: 12px; font-weight: bold; }
+		.button {font-size: 13px; font-weight: bold; }
+		td.section, .section {font-size: 13px; font-weight: bold; background-color: #ddd}
+		.errors { font-size: 11px; color: red; font-weight: bold; line-height: 150%; }
+		.formcontent { width: 600px; align: center; margin-left: 40px; text-align: left }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="http://www.spaconference.org/spa2010/spa2010.css" />
+	</head>
+<body>
+<div id="banner">
+  <div id="logo"><a href="http://www.spaconference.org/spa2010/index.html"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/furniture/spa2010topleftlogo.gif" width="118" height="80" style="border: none" alt="SPA2010 logo"/></a></div>
+  <div id="topright">
+    <a href="http://www.bcs-spa.org">BCS-SPA home</a><br />
+    <a href="http://www.spaconference.org/spa2010/../scripts/myprofile.php">Registered member login >></a><br />
+  </div>
+  <div id="header">
+    <img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/furniture/header.gif" width="377" height="47"  alt="Software practice advancement 2010"/><br /><br />
+    <img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/furniture/four-ts.gif" width="539" height="21"  alt="Technology, practice, process, people"/>
+  </div>
+<div id="photobanner"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/5.jpg"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/3.jpg"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/7.jpg"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/2.jpg"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/6.jpg"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/8.jpg"><img src="http://www.spaconference.org/spa2010/uploads/images/spa2010/headersnaps/9.jpg"></div></div>
+<div class="formcontent">
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="600">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA Conference session: TDD at the System Scale</h1>
+	</td></tr>
+	<tr><td><b>One-line description:</b></td><td colspan="3">A hands-on tutorial teaching techniques for test-driven development at large scales, starting development with end-to-end tests at the system or system-of-systems level.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td><b>Session format:</b></td>
+		<td colspan="3">Long tutorial (330 mins) [<a href="http://www.spaconference.org/spa2010/formats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">If you address integration and system testing as early as possible in a project, the system you are building is always in a deployable state and the project can be more "agile" because new features can be put in front of users as soon as is deemed necessary.<br />
+<br />
+However, many teams applying TDD leave integration and system testing until late in the project because they find it too difficult to write tests that cope with the distributed architecture and concurrent behaviour of their system.<br />
+<br />
+This tutorial demonstrates how to test-drive development starting with end-to-end system-tests and avoid common pitfalls, including unreliable tests, tests that give false positives, slow-running tests and test code that becomes difficult to maintain as the system grows.<br />
+<br />
+This tutorial will answer the questions:<br />
+ * Where does system testing fits in to the TDD process?<br />
+ * How can I start with integration, packaging, deployment and end-to-end testing before the code to be integrated is written?<br />
+ * How do I cope with distribution and concurrency when testing from outside the system?<br />
+ * How do  tests drive architectural decisions?<br />
+ * How do tests improve the system's large-scale internal quality -- manageability, supportability, etc.?<br />
+<br />
+This exercise requires a laptop with a Java (JDK 1.6) development environment. However, the techniques taught are applicable to any language and environment.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">Experienced Java programmers with some experience of TDD.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">To learn some techniques for addressing tricky TDD issues: asynchrony, concurrency, system architecture.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">Example code, student notes.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">A combination of short presentations and hands-on programming exercises</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Detailed timetable:</b></td><td colspan="3" valign="top">To be completed...<br />
+<br />
+00:00 - 00:45 Introduction<br />
+<br />
+Overview of TDD: multiple cycles, TDD vs Unit-TDD, starting with end-to-end testing. <br />
+<br />
+Ports and adapters architecture, different kinds of tests exercising different scales of the architecture.<br />
+<br />
+Example real system (computation grid, AJAX GUI, pub/sub and reliable<br />
+messaging, databases, web services and  web cache hierarchy) to show<br />
+typical scale and physical architecture.<br />
+<br />
+Problem of end-to-end testing: you don't know how long anything will take or when it fails. Typical problems (flickering tests, false positives, slow tests, messy test code). This is a key feature of a distributed system. We address the problem in system tests in the same way as in distributed systems: timeouts. Concrete example in terms of the example system.<br />
+<br />
+<br />
+<br />
+00:45 - 01:00 Introduce simpler coding example: shopping till, get project set up.<br />
+<br />
+<br />
+Part I - Flickering Tests because of lost updates<br />
+<br />
+01:00 - 01:15 First exercise: run the tests. Should see occasional failure.<br />
+<br />
+Q: Can anyone explain why the test fails sometimes?<br />
+A: Because test is not synchronising with system before asserting its state.<br />
+<br />
+Introduce prober and assert-within-timeout concept. Succeed Fast vs<br />
+fixed timeouts. Max timeout in single place. Mention notifications vs.<br />
+polling in passing.<br />
+<br />
+<br />
+01:15 - 01:45 Exercise: fix and extend the tests.<br />
+<br />
+<br />
+Part II - Runaway Tests<br />
+<br />
+<br />
+example scenario: voucher to get free product<br />
+<br />
+<br />
+Part III - Testing that something does not happen<br />
+<br />
+example scenario: three-for-the-price-of-two (TPOT) deals<br />
+<br />
+<br />
+Part IV - How Tests Guide System Architecture (talk only)<br />
+<br />
+- externalise spontaneous behaviour<br />
+- add synchronisation and monitoring hooks</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top"></td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top"></td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td class="section" colspan="4" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. <a href="/cgi-bin/wiki.pl?browse=NathanielPryce">Nat Pryce</a><i><br>Technemetis Ltd.</i></td>
+		<td>2. <a href="/cgi-bin/wiki.pl?browse=SteveFreeman">Steve Freeman</a><i><br>M3P Ltd</i></td>
+		<td>3. </td>
+	</tr>
+</table>
+<br><br>
+</div>
+</body>
+</html>

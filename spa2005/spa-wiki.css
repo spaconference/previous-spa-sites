@@ -1,0 +1,38 @@
+.logo { float: left; padding: 0px 10px 0px 0px; background: #fff }
+
+.top-menu {
+	font-size: 9px; 
+	text-align: right;
+	font-family: verdana, arial, sans-serif;
+	line-height: 200%; 
+	margin: 7px 5px 7px 0px; height: 22px;}
+
+.title-bar { background: #e0e0e0; margin: 0px 0px 2px 0px; padding-left: 10px;  }
+.title-bar2 { background: #e0e0e0; margin: 0px 0px 2px 0px; padding-left: 10px;  }
+.title-text { color: red; font-size: 24px; font-weight: bold; color: red; }
+.edit-link { clear: right; float: right; font-size: 12px; text-align: right }
+
+.content { padding: 5px 5px 5px 40px; clear: left; }
+
+.footer { padding:1px 1px 0px 45px; background:#fff; }
+	
+.menu {
+		background:#e0e0e0;
+		padding:1px 1px 0px 45px;
+		border-top: 2px solid black;
+	    font-size:12px; font-style:normal; text-decoration:none;
+		font-family: verdana, arial, sans-serif;
+        text-align:general;
+		vertical-align:top;
+	}
+
+body {
+	font-family: verdana, arial sans-serif;
+	padding: 1px 1px 1px 1px;
+	font-size: 10pt; }
+	
+td { font-family: verdana, arial sans-serif; font-size: 12px; }
+h1 { font-size: 18pt; }
+h2 { font-size: 16pt; }
+h3 { font-size: 14pt; }
+h4 { font-size: 13pt; }

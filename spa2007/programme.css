@@ -1,0 +1,18 @@
+body,input,textarea,select,.form {font: 11px verdana, arial, sans-serif; padding: 5px; border-color: #333; }
+td.time, td.session {font: 10px verdana, arial, sans-serif; padding: 5px; border-color: #333; }
+table {border-collapse: collapse; border-width: 1; }
+.important {font-size: 12px; font-weight: bold; }
+.button {font-size: 13px; font-weight: bold; }
+td.section, .section {font-size: 13px; font-weight: bold; background-color: #dddddd; }
+.errors { font-size: 11px; color: red; font-weight: bold; line-height: 150%; }
+.formcontent { align: center; margin-left: 40px; text-align: left; }
+td.time { max-width: 50; }
+.dayheading {font-size: 13px; font-weight: bold; background-color: #00A3E6; }
+.progcontent {
+	position:relative;
+	margin:10px 0px 0px 170px !important;
+	margin:0px 10px 0px 170px;
+	padding-left:2px;
+	width: auto !important;
+	width: 100%;
+}

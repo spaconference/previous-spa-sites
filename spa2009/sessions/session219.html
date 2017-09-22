@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA Conference - Session</title>
+	<style>
+		body,td,input,textarea,select,.form {font: 11px verdana, arial, sans-serif; }
+		.important {font-size: 12px; font-weight: bold; }
+		.button {font-size: 13px; font-weight: bold; }
+		td.section, .section {font-size: 13px; font-weight: bold; background-color: #ddd}
+		.errors { font-size: 11px; color: red; font-weight: bold; line-height: 150%; }
+		.formcontent { width: 600px; align: center; margin-left: 40px; text-align: left }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="http://www.spaconference.org/spa2009/spa2009.css" />
+	</head>
+<body>
+<div id="banner">
+  <div id="logo"><a href="http://www.spaconference.org/spa2009/index.html"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/furniture/spa2009topleftlogo.gif" width="118" height="80" style="border: none" alt="SPA2009 logo"/></a></div>
+  <div id="topright">
+    <a href="http://www.bcs-spa.org">BCS-SPA home</a><br />
+    <a href="http://www.spaconference.org/spa2009/../scripts/myprofile.php">Registered member login >></a><br />
+  </div>
+  <div id="header">
+    <img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/furniture/header.gif" width="377" height="47"  alt="Software practice advancement 2009"/><br /><br />
+    <img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/furniture/four-ts.gif" width="539" height="21"  alt="Technology, practice, process, people"/>
+  </div>
+<div id="photobanner"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/4.jpg"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/9.jpg"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/5.jpg"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/8.jpg"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/2.jpg"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/1.jpg"><img src="http://www.spaconference.org/spa2009/uploads/images/spa2009/headersnaps/10.jpg"></div></div>
+<div class="formcontent">
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="600">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA Conference session: Acceptance Testing AJAX Web Applications through the GUI</h1>
+	</td></tr>
+	<tr><td>One-line description:</td><td colspan="3">This case study charts how our automated test programme with Selenium grew from a login/logout smoke test to a framework that runs 100+ user story tests as part of our agile development process.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>Session format:</td>
+		<td colspan="3">Tutorial (150 mins) [<a href="http://www.spaconference.org/spa2009/formats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">The Web 2.0 trend to create Rich Internet Applications (RIAs) has brought fresh challenges to testers: web browsers were never designed as test execution environments, yet applications are expected to work in an increasingly diverse set of platforms (2008 saw the introduction of IE8, Firefox 3 and Google Chrome).<br />
+<br />
+Whilst unit testing remains an important tenet of XP and Agile, additional GUI based tests are always necessary to ensure that the application works at the “user story” level.  Such GUI tests are often perceived as expensive and slow, and the tools that automate them have been criticized for offering little more than a low-level instruction set.<br />
+<br />
+Through our case study that uses Selenium, we will show that by applying User Centric Design (UCD) as a test structure it is possible to write higher-level tests that can be understood and modified by a Business Analyst.<br />
+<br />
+Having created these tests, we will examine ways to maximize the return on investment by applying tests beyond validating functionality to include portability, performance, regression, resilience etc.<br />
+<br />
+<br />
+Note: we would be keen to explore ways of making this a more interactive session, perhaps including hands-on portions where the audience use some of our tools and techniques to test an RIA and also solicit feedback on others' experiences in this area.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">*  Some familiarity with the browser DOM is useful, but not essential<br />
+*  Relevant to: Web Developers, Web Testers, Project Managers (anyone concerned with the robustness of AJAX web applications)<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">*  Illustrate how UCD test structure can assist with writing and test planning<br />
+*  Give engineers a basic understanding of what Selenium does<br />
+*  Give project managers a feel for the cost/benefits of GUI automation<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">*  PPT slides<br />
+*  A working RIA and Selenium test environment on a laptop (need connectivity to OHP)</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">We will use a web trading application as an example Rich Internet Application (technology similar to Gmail as it uses AJAX, JavaScript, DHTML) to illustrate what Selenium can do.<br />
+<br />
+We will first demonstrate where we started (our first test!) and contrast this with a more recent “UCD test” that has a straightforward anatomy that is meaningful to Business Analysts and can be drilled down to low-level Selenium instructions.<br />
+<br />
+The main section will be divided evenly between the following:<br />
+<br />
+Browser Mechanics – basic Selenium concepts to illustrate its use<br />
+Test Authoring – basic UCD concepts and how they can be applied to Selenium<br />
+Test Execution – ideas on how to run tests to get the most out of them<br />
+<br />
+Note: Though presented in a case study format, we would like to raise awareness of other technologies and practices that can solve similar problems.<br />
+<br />
+As the scope of the material is quite extensive, we would like to spin out more detailed discussion as BoF sessions.<br />
+<br />
+Alternatively, we could extend the session to 150 mins (or have a separate workshop 75 min session) to do more practical stuff - maybe an exercise using a basic Selenium script that logs in to Gmail and sends a message to the delegate, then repeat the exercise using UCD at a higher level of abstraction.<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Detailed timetable:</b></td><td colspan="3" valign="top">[This will now be a 150 minute session]<br />
+<br />
+0:00 – 0:05  Hellos<br />
+0:05 – 0:10  Survey: why are web applications difficult to test through the GUI?<br />
+0:10 – 0:30  Browser Mechanics – What does Selenium do?<br />
+0:30 – 1:50  Test Authoring – Making GUI tests easier to write<br />
+1:50 – 1:10  Test Execution – Increasing return on investment<br />
+1:10 – 1:15  Wrap-Up<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">A list of perceived reasons why web applications are difficult test, categorized into issues relating to browser mechanics, test authoring and test execution.<br />
+<br />
+In the Wrap-Up section, if there is enough interest we will invite further BoF discussion in the following areas:<br />
+<br />
+*  Browser Mechanics – tools and paradigms to facilitate GUI testing<br />
+*  Test Authoring – tools and paradigms to write tests<br />
+*  Test Execution – tools and paradigms to run tests<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">No history in the public domain, though we have been presenting this material to several clients to encourage best practices.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td class="section" colspan="4" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. <a href="/cgi-bin/wiki.pl?browse=AndrewMacLeod">Andrew MacLeod</a><i><br>Caplin Systems Ltd</i></td>
+		<td>2. <a href="/cgi-bin/wiki.pl?browse=PatrickMyles">Patrick Myles</a><i><br>Caplin Systems Ltd</i></td>
+		<td>3. </td>
+	</tr>
+</table>
+<br><br>
+</div>
+</body>
+</html>

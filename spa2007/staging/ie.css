@@ -1,0 +1,4 @@
+.first-inner {
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/shadow2.png', sizingMethod='crop');
+  background: none;
+}

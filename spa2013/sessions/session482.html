@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA Conference - Session</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="http://www.spaconference.org/spa2013/spaconference.css" />
+	</head>
+<body>
+  <div id="form-page">
+    <div id="banner">
+        <div id="toplinks">
+            <a href="http://www.bcs-spa.org">BCS SPA home &gt;&gt;</a>
+            <br />
+            <a href="http://www.spaconference.org/spa2013/"><a href="http://www.spaconference.org/spa2013/../scripts/myprofile.php">My SPA &gt;&gt;</a>
+			<br />
+        </div>
+
+        <div id="logo">
+            <a href="http://www.spaconference.org/spa2013/"><img height="88" width="523" src="http://www.spaconference.org/spa2013/images/spa-header-web.png" /></a>
+        </div>
+    </div>
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="600">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA Conference session: Top-K (in Haskell)</h1>
+	</td></tr>
+	<tr><td><b>One-line description:</b></td><td colspan="3">Look at and implement probabilistic data structures for real-time top-k problems.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td><b>Session format:</b></td>
+		<td colspan="3">150min workshop [<a href="http://www.spaconference.org/spa2013/formats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">Suppose you'd like to have real-time information on the top 10 discussions on your chat site, or the top 5 pictures on your gallery site.<br />
+<br />
+One option would be to keep a count of all the comments on discussions, or views on pictures. In most situations this would work great, but if in a single day you could expect millions of different pictures to be viewed, or thousands of different discussions to be conducted, you could start getting annoyed at all the data you're storing - after all, you only want the top 5 or 10, why store all the rest?!<br />
+<br />
+This is where probabilistic data structures come in. They aim to store the important data, and forget about the rest, and they result in rough rather than exact answers.<br />
+<br />
+We'll be looking at some of these data structures, and then giving them a whirl by implementing them, and hooking them up to some data streams, and seeing how good their answers are, and how much memory they're actually using up.<br />
+<br />
+Coding will be in Haskell.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">Basic Haskell.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">Probabilistic data structures are interesting and often not included when considering different problem solutions - you never know when they could come in handy.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">Slides.  Base code to get people started (github).  A data stream to play around with (probably will be a Haskell lib that generates an infinite stream on the fly).</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">Start with a presentation about probabilistic data structures from myself.  Then we'll split into groups and each implement a different one.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Detailed timetable:</b></td><td colspan="3" valign="top">00:00 - 00:15 presentation<br />
+00:15 - 01:00 implementing a top-k solution<br />
+01:00 - 01:15 trying out and tweaking our solutions with different sorts of input streams (often distribution or ordering of input stream can really affect how the data structure works)<br />
+01:15 - 01:30 discussion of strengths and weaknesses of different solutions</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">A program that outputs to stdout.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">No. The idea came because this is what I'm researching at work at the moment.  I'll be doing a presentation internally at work on the subject, but not a workshop.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td class="section" colspan="4" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. <a href="/scripts/people.php?username=EmilyGreen">Emily Green</a><i><br>SoundCloud</i></td>
+		<td>2. </td>
+		<td>3. </td>
+	</tr>
+</table>
+<br><br>
+</div>
+</body>
+</html>

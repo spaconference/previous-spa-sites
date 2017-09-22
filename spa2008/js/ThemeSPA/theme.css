@@ -1,0 +1,341 @@
+/* ThemeSPAMenu Style Sheet */
+
+.ThemeSPAMenu,.ThemeSPASubMenuTable
+{
+	font: bold 11px/150% arial,sans-serif; color: #666; text-decoration: none; 
+	background-color:	#fff;
+	cursor:		default;
+	white-space:	nowrap;
+}
+
+.ThemeSPASubMenu
+{
+	position:	absolute;
+	visibility:	hidden;
+
+	/*
+	   Netscape/Mozilla renders borders by increasing
+	   their z-index.  The following line is necessary
+	   to cover any borders underneath
+	*/
+	z-index:	100;
+	border:		0;
+	padding:	0;
+
+	/* the following property is only useful in IE */
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#DEDEDE,Direction=135,Strength=4);
+}
+
+.ThemeSPASubMenuTable
+{
+	border:		1px solid #999;
+}
+
+.ThemeSPAMenuItem,.ThemeSPAMenuItemHover,.ThemeSPAMenuItemActive
+{
+	cursor:		default;
+	white-space:	nowrap;
+}
+
+.ThemeSPAMainItem,
+.ThemeSPAMenuItem
+{
+	background-color:	#fff;
+}
+
+.ThemeSPAMainItemHover,
+.ThemeSPAMainItemActive,
+.ThemeSPAMenuItemHover,
+.ThemeSPAMenuItemActive
+{
+	background-color:	#bdf;
+}
+
+/* vertical main menu sub components */
+TD.ThemeSPAMainFolderLeft,TD.ThemeSPAMainItemLeft
+{
+	padding-left:	0px;
+	padding-right:	0px;
+
+	border-left:	1px solid #999;
+
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+TD.ThemeSPAMainFolderLeft,TD.ThemeSPAMainItemLeft,
+TD.ThemeSPAMainFolderText,TD.ThemeSPAMainItemText,
+TD.ThemeSPAMainFolderRight,TD.ThemeSPAMainItemRight
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	border-top:	1px solid #999;
+	border-bottom:	1px solid #999;
+
+	background-color:	inherit;
+}
+
+TD.ThemeSPAMainFolderLeft,TD.ThemeSPAMainItemLeft
+{
+	padding-right:	0px;
+	padding-left:	0px;
+	border-left:	1px solid #999;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+TD.ThemeSPAMainFolderText,TD.ThemeSPAMainItemText
+{
+	padding-right:	10px;
+	padding-left:	0px;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+TD.ThemeSPAMainFolderRight,TD.ThemeSPAMainItemRight
+{
+	padding-right:	0px;
+	padding-left:	0px;
+	border-right:	1px solid #999;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+TR.ThemeSPAMainItem TD.ThemeSPAMainFolderLeft
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	1px;
+	padding-right:	0px;
+
+	border:	0;
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+TR.ThemeSPAMainItem TD.ThemeSPAMainItemLeft
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	1px;
+	padding-right:	0px;
+
+	border:	0;
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+TR.ThemeSPAMainItem TD.ThemeSPAMainFolderText
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	0px;
+	padding-right:	10px;
+
+	border:	0;
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+TR.ThemeSPAMainItem TD.ThemeSPAMainItemText
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	0px;
+	padding-right:	10px;
+
+	border:	0;
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+TR.ThemeSPAMainItem TD.ThemeSPAMainItemRight
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	0px;
+	padding-right:	1px;
+
+	border:	0;
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+TR.ThemeSPAMainItem TD.ThemeSPAMainFolderRight
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	0px;
+	padding-right:	1px;
+
+	border:	0;
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+/* sub menus sub components */
+
+.ThemeSPAMenuFolderLeft,.ThemeSPAMenuItemLeft
+{
+	padding-left:	0px;
+	padding-right:	0px;
+
+	border-left:	1px solid #9C9A9C;
+
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+.ThemeSPAMenuFolderLeft,.ThemeSPAMenuItemLeft,
+.ThemeSPAMenuFolderText,.ThemeSPAMenuItemText,
+.ThemeSPAMenuFolderRight,.ThemeSPAMenuItemRight
+{
+	padding-top:	2px;
+	padding-bottom:	2px;
+	border-top:	1px solid #9C9A9C;
+	border-bottom:	1px solid #9C9A9C;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+.ThemeSPAMenuFolderLeft,.ThemeSPAMenuItemLeft
+{
+	padding-right:	0px;
+	padding-left:	2px;
+	border-left:	1px solid #9C9A9C;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+.ThemeSPAMenuFolderText,.ThemeSPAMenuItemText
+{
+	padding-right:	3px;
+	padding-left:	5px;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+.ThemeSPAMenuFolderRight,.ThemeSPAMenuItemRight
+{
+	padding-right:	0px;
+	padding-left:	0px;
+	border-right:	1px solid #9C9A9C;
+
+	background-color:	inherit;
+	white-space:	nowrap;
+}
+
+TR.ThemeSPAMenuItem TD.ThemeSPAMenuFolderLeft
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	3px;
+	padding-right:	0px;
+
+	border:	0;
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+TR.ThemeSPAMenuItem TD.ThemeSPAMenuItemLeft
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	3px;
+	padding-right:	0px;
+
+	border:	0;
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+TR.ThemeSPAMenuItem TD.ThemeSPAMenuFolderText
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-right:	3px;
+	padding-left:	5px;
+
+	border:	0;
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+TR.ThemeSPAMenuItem TD.ThemeSPAMenuItemText
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-right:	3px;
+	padding-left:	5px;
+
+	border:	0;
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+TR.ThemeSPAMenuItem TD.ThemeSPAMenuItemRight
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	0px;
+	padding-right:	1px;
+
+	border:		0;
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+TR.ThemeSPAMenuItem TD.ThemeSPAMenuFolderRight
+{
+	padding-top:	3px;
+	padding-bottom:	3px;
+	padding-left:	0px;
+	padding-right:	1px;
+
+	border:		0;
+	white-space:	nowrap;
+	background-color:	inherit;
+}
+
+.ThemeSPAMenuSplit
+{
+	margin:		2px;
+	height:		1px;
+	overflow:	hidden;
+	background-color:	inherit;
+	border-top:	1px solid #999;
+}
+
+/* image shadow animation */
+
+/*
+	seq1:	image for normal
+	seq2:	image for hover and active
+
+	To use, in the icon field, input the following:
+	<img class="seq1" src="normal.gif" /><img class="seq2" src="hover.gif" />
+*/
+
+.ThemeSPAMenuItem img.seq1
+{
+	display:	inline;
+}
+
+.ThemeSPAMenuItemHover seq2,
+.ThemeSPAMenuItemActive seq2
+{
+	display:	inline;
+}
+
+.ThemeSPAMenuItem .seq2,
+.ThemeSPAMenuItemHover .seq1,
+.ThemeSPAMenuItemActive .seq1
+{
+	display:	none;
+}

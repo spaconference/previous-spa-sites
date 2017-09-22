@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- the xmlns does effect the appearance so leave it in! -->
+<head>
+	<title>SPA2005 - Proposal</title>
+	<link rel="stylesheet" href="../spa.css" />
+	<style>
+		body,td,input,textarea,select,.form {font: 11px verdana, arial, sans-serif; }
+		.important {font-size: 12px; font-weight: bold; }
+		.button {font-size: 13px; font-weight: bold; }
+		td.section, .section {font-size: 13px; font-weight: bold; background-color: #ddd}
+		.errors { font-size: 11px; color: red; font-weight: bold; line-height: 150%; }
+		.formcontent { width: 600px; align: center; margin-left: 40px; text-align: left }
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="spa.css" />
+</head>
+<body>
+<div id="banner">
+	<div style="float: left;"><a href="../index.html"><img src="../images/spa2005logo.gif" width="145" height="98" border="0"></a></div>
+	<div id="topright"><img src="../images/tppp.gif" width="192" height="84" border="0"></div>
+	<div id="headtext"><img src="../images/spa2005-heading.gif" width="402" height="72" border="0" align="top"></div>
+</div>
+<div id="separator"></div>
+<div class="formcontent">
+<table align="center" border="0" cellspacing="0" cellpadding="3" width="680">
+	<tr><td width="24%"></td><td width="30%"></td><td width="16%"></td><td width="30%"></td></tr>
+	<tr><td colspan="4">
+		<h1>SPA2005 session: Embedded Domain-Specific Languages</h1>
+	</td></tr>
+	<tr><td>One-line description:</td><td colspan="3">How can we write explicit and usable domain-specific languages within conventional programming environments</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td>Session format:</td>
+		<td colspan="3">Think tank [<a href="../sessionformats.html" target="_blank">read about the different session types</a>]</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Abstract:</b></td><td colspan="3" valign="top">Paraphrasing Philip Greenspun, every significant program contains an ad-hoc informally-specified bug-ridden slow implementation of one or more domain-specific languages. While this is known in the dynamic language community (as Dick Gabriel pointed out during his keynote, lispers first write a language then use that to write the application), it's much less recognised in the static language communities where most of us work. <br />
+<br />
+We believe that implicit domain-specific languages should be made explicit as part of the development process so that they can be clarified and made easier to use. Often this has to be done within the programming language of the application, rather than as a separate language. The relevant techniques should be part of the arsenal of every mature software professional.<br />
+<br />
+This session will explore how to design and implement domain-specific languages within conventional languages such as Java and C#. In particular, we are interested in designing within the underlying language's features, such as its type system, rather than hosting a different language like Jython or Groovy.<br />
+<br />
+As an example, we will use the jMock library, for which we have developed a "builder" language to express constraints on an object under test. Our experience with this API is that it has generated strong reactions for and against. We are interested in exploring what is behind the negative reactions beyond our unusual API style.<br />
+<br />
+</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Audience background:</b></td><td colspan="3" valign="top">Architects, designers, and experienced developers who are interested in language and API usability.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Benefits of participating:</b></td><td colspan="3" valign="top">The participants will be able to consider language and design issues that are often left implicit during system development with a group of like-minded professionals.</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Materials provided:</b></td><td colspan="3" valign="top">Introductory poster<br />
+- problem statement <br />
+- jMock example</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Process:</b></td><td colspan="3" valign="top">00 Introductions and problem statement<br />
+05 Very brief demo of jMock as an example, discussing motivations and trade-offs<br />
+15 Brainstorm and write skeletons for candidate patterns<br />
+65 Wrap-up and summary</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>Outputs:</b></td><td colspan="3" valign="top">Summary poster</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td valign="top"><b>History:</b></td><td colspan="3" valign="top">First time. Might try a BOF at OOPLSA</td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td class="section" colspan="4" valign="top"><b>Presenters</b></td></tr>
+	<tr><td>1. <a href="/cgi-bin/wiki.pl?browse=NatPryce">Nat Pryce</a><i><br>B13media Ltd.</i></td>
+		<td>2. <a href="/cgi-bin/wiki.pl?browse=SteveFreeman">Steve Freeman</a><i><br>Thoughtworks</i></td>
+		<td>3. </td>
+	</tr>
+</table>
+<br><br>
+</div>
+</body>
+</html>
