@@ -1,0 +1,69 @@
+﻿<?php
+include("../programme_includes/session_header.html");
+?>
+<h1>Failure Patterns in Java</h1>
+<p>Refactoring an existing codebase with functional error handling</p>
+
+<p><em>Practice</em></p>
+
+<h2>Abstract</h2>
+<p>As developers, we have a tendency to focus on what our code is supposed to do, the happy path. Unfortunately, the real world is rarely that simple. Our code fails: it fails frequently, in many different ways. Code that is simple when expressing the happy path very quickly becomes complex and cumbersome when expressing the reality of the situation.<br />
+<br />
+One approach to this rising complexity which has proven attractive in functional languages is railway-oriented programming: a way of representing two parallel paths through the code, one for success and one for failure. <br />
+<br />
+I'll be presenting a way to implement this, then running through some simple refactoring exercises to establish how to incrementally go from more conventional Java code to the railway-oriented approach.<br />
+<br />
+Once you have this concept of railway-oriented programming, you start to see common patterns of failure that crop up time and again. I call these failure patterns, and taking a functional approach to Java makes it much easier to abstract over these, creating reusable solutions. <br />
+<br />
+I'll talk through a couple of examples where I've built simple DSLs, then run through some more exercises to both use the existing DSL and also extend it where appropriate.</p>
+
+<h2>Audience background</h2>
+<p>Familiarity with Java 8, and in particular lambdas/method references.</p>
+
+<h2>Benefits of participating</h2>
+<p>An understanding of how functional programming principles can be applied to better handle multiple code paths in Java.</p>
+
+<h2>Materials provided</h2>
+<p>A Github project with a series of incomplete exercises to work through, and cheat-sheets on the main constructs available in the library.<br />
+<br />
+However, this is a coding session, so you'll need to provide a laptop set up for Java 8 (or higher) development.<br />
+<br />
+Github repo can be found here: https://github.com/writeoncereadmany/spacontrolworkshop<br />
+<br />
+Control library (subject of session) can be found here:<br />
+https://github.com/unruly/control<br />
+<br />
+Slides (which, to be honest, aren't super helpful without commentary) can be found here: https://docs.google.com/presentation/d/1nRgl6S0I3_eICCCkNpOyWSTxHKAIBQai7MtbvxFNn54/edit?usp=sharing<br />
+<br />
+I will write up a brief overview of the session to play along with at home and upload the quick reference sheets shortly.</p>
+
+<h2>Process</h2>
+<p>The structure of the session is loosely:<br />
+<br />
+Introduce an idea (slides, talking)<br />
+Apply the idea to a refactor on an existing codebase (this can be done solo, paired, or grouped, depending on how participants choose to organise)<br />
+Confirm understanding of the idea<br />
+<br />
+Repeated a number of times, building up a more sophisticated and layered understanding of the approach.</p>
+
+<h2>Detailed timetable</h2>
+<p>3 iterations, each of:<br />
+<br />
+10 minutes introducing idea (slides and talking)<br />
+10 minutes individual work (solo, pair, mob - however people like to form groups)<br />
+5 minutes presenting back and discussion<br />
+</p>
+
+<h2>Outputs</h2>
+<p>A before-and-after view of code applying different philosophies, a collection of repeatable katas to practice the railway-oriented approach, and a collaboratively developed understanding of what it is and how it works</p>
+
+<h2>History</h2>
+<p>I've presented the material as a BCS SPA talk, in June 2017, and the refactoring exercises as internal workshops at work. </p>
+
+<h2>Presenters</h2>
+<ol>
+  <li><a href="https://spaconference.org/spa2018/people/tomjohnson.html">Tom Johnson</a><i><br>Unruly</i></li>
+</ol>
+<?php
+include("../programme_includes/footer.html");
+?>

@@ -1,0 +1,69 @@
+﻿<?php
+include("../programme_includes/session_header.html");
+?>
+<h1>Building Universal Apps with React</h1>
+<p>Everything you need to know to get started with universal apps.</p>
+
+<p><em>80% Practice, some thinking/di</em></p>
+
+<h2>Abstract</h2>
+<p>Universal web apps combine server-side rendering with single page application architecture, giving several benefits. Search engine bots are able to easily consume your site and users get fast perceived performance. In this session you will build your own universal web app. We will cover using React and Node to create the key components. We will also learn debugging tips and tricks. Finally, we will discuss common production app issues and strategies to effectively solve them. By the end of this session, you will have a working universal web app!<br />
+<br />
+Specific topics/code that we will cover:<br />
+* How to make sure your data is available before serving a page from the server (since ReactJS doesn’t handle asynchronous data on the server)<br />
+* The different states that need to be accounted for:<br />
+** Server page load (i.e. search bots)<br />
+** Initial user load from the server with subsequent browser render<br />
+** Single Page Application experience<br />
+** Data mutation concerns and immutable data patterns in ReactJS (Redux, ImmutableJS, etc)<br />
+** How and when to handle differences in browser/server requirements (webpack)<br />
+</p>
+
+<h2>Audience background</h2>
+<p>Skills:<br />
+* JavaScript/HTML/CSS<br />
+* Previous experience or exposure to React is helpful but not required.<br />
+* Previous experience or exposure to Node.js is helpful but not required.<br />
+Jobs:<br />
+* Fullstack or frontend software engineer</p>
+
+<h2>Benefits of participating</h2>
+<p>* Learn a new type of web app architecture.<br />
+* Understand the complexity/tradeoffs involved with universal apps.<br />
+* Practice React/Node skills.<br />
+* Be able to better advocate for a universal architecture approach with your team.</p>
+
+<h2>Materials provided</h2>
+<p>* Starter application<br />
+* Guide with checkpoints for people to follow along.</p>
+
+<h2>Process</h2>
+<p>This session assumes each participant has a laptop and can download the code example. Throughout the session, we will work on a single application.<br />
+* I will talk about a topic area and show some sample code.<br />
+* Each participant (or pairs if preferred) then implements the concept in their own app.<br />
+* This repeats throughout.</p>
+
+<h2>Detailed timetable</h2>
+<p>* 00:00 - 00:07 - introductions/topic overview, understand various skill levels in group<br />
+* 00:07 - 00:15 - Setup exercise - make sure everyone can run code.<br />
+* 00:15 - 00:30 - Create first server-rendered route<br />
+* 00:30 - 00:40 - Understanding loading of the site, debugging tools.<br />
+* 00:40 - 00:55 - Fetching data/serializing data to the browser.<br />
+* 00:55 - 1:05 - Enabling the single page app - the app works!<br />
+* 01:05 - 01:15 - Discussion on advanced topics.<br />
+<br />
+In the feedback, someone noted that perhaps this session could use more time. If possible, another 15-30 minutes would allow us to cover more, however we can definitely hit on all of the most important bits in this time frame. I would provided a starter app so we can move more quickly.</p>
+
+<h2>Outputs</h2>
+<p>* Web app (runs locally on participants computer)</p>
+
+<h2>History</h2>
+<p>I have previously given talks on this topic but this would be the first workshop version. I am also the author of a book on this topic.</p>
+
+<h2>Presenters</h2>
+<ol>
+  <li><a href="https://spaconference.org/spa2018/people/elysekolkergordon.html">Elyse Kolker Gordon</a><i><br>Strava</i></li>
+</ol>
+<?php
+include("../programme_includes/footer.html");
+?>

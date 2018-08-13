@@ -1,0 +1,48 @@
+﻿<?php
+include("../programme_includes/session_header.html");
+?>
+<h1>Writing slow regexp is easier than you think (and want it to be)</h1>
+<p>Difference between fast and slow regular expressions can be so small many developers do not notice it. It is worth to focus on it, as a slow regex can stop entire application.</p>
+
+<p><em>Talk with excercises (practice</em></p>
+
+<h2>Abstract</h2>
+<p>Although regular expressions are commonly used in software development, few developers think about their performance. The sad truth is that a badly written regexp can severely damage application performance (both on server-side and in a browser). How to write a regular expression that is not only correct but also efficient?<br />
+<br />
+To answer this question I will explain how regular expressions work. Basing on that I will show why two similar regexps may have exponential differences in performance. I will explain how to optimise regular expressions by giving examples related to text search, form validation and text parsing. I will also tell what I learnt while handling seemingly simple task of counting numbers in texts written in various languages. During the session participants will have possibility to try various techniques of regexp optimization.<br />
+<br />
+How to efficiently validate an input text? What traps to avoid during searching in big files? Why is it a good idea to write long regular expressions? And last but not least: is it possible that a simple and innocent looking regexp can stop an application? These are questions I want to answer in my talk.</p>
+
+<h2>Audience background</h2>
+<p>Basic knowledge of regular expressions and text processing. Programming skills in at least one language.</p>
+
+<h2>Benefits of participating</h2>
+<p>Understanding of theory behind regular expressions and popular methods of implementation. Common performance pitfails. and techniques of regexp optimization. Threats related to using regular expressions.<br />
+</p>
+
+<h2>Materials provided</h2>
+<p>Slides, exercises.</p>
+
+<h2>Process</h2>
+<p>Talk interleaved with exercises.</p>
+
+<h2>Detailed timetable</h2>
+<p>- 00:00 - 00:15 introduction, examples of slow and fast regular expressions (with exercises)<br />
+- 00:15 - 00:30 regexp engine internals and theory<br />
+- 00:30 - 00:50 regexp time complexity and optimization techniques (with exercises)<br />
+- 00:50 - 01:05 threats related to regular expressions: catastrophic backtracking, ReDOS (examples and exercises)<br />
+- 01:05 - 01:15 summary, questions </p>
+
+<h2>Outputs</h2>
+<p>Presentation: <a href="https://speakerdeck.com/mrzasa/writing-slow-regexp-is-easier-than-you-think-and-want-it-to-be">https://speakerdeck.com/mrzasa/writing-slow-regexp-is-easier-than-you-think-and-want-it-to-be</a><br />
+<br />
+Exercises and references: <a href="https://regex-performance.github.io/exercises">https://regex-performance.github.io/exercises</a></p>
+
+
+<h2>Presenters</h2>
+<ol>
+  <li><a href="https://spaconference.org/spa2018/people/maciejrzasa.html">Maciej Rzasa</a><i><br>TextMaster</i></li>
+</ol>
+<?php
+include("../programme_includes/footer.html");
+?>
