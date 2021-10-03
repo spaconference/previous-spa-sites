@@ -24,7 +24,7 @@ function validateForm() {
 		}
 		// Modified by DMC to block certain countries.
 		if (isBlockedCountry(form.country.value)) {
-			window.location="http://www.spaconference.org/ot2004/registrationoffline.shtml";
+			window.location="/ot2004/registrationoffline.shtml";
 			return;
 		}
 		form.submit();
@@ -55,7 +55,7 @@ function validateDiscountForm() {
 		}
 		// Modified by DMC to block certain countries.
 		if (isBlockedCountry(form.country.value)) {
-			window.location="http://www.spaconference.org/ot2004/registrationoffline.shtml";
+			window.location="/ot2004/registrationoffline.shtml";
 			return;
 		}
 		form.submit();
@@ -86,7 +86,7 @@ function validateComplementaryForm() {
 //		}
 		// Modified by DMC to block certain countries.
 		if (isBlockedCountry(form.country.value)) {
-			window.location="http://www.spaconference.org/ot2004/registrationoffline.shtml";
+			window.location="/ot2004/registrationoffline.shtml";
 			return;
 		}
 		form.submit();
