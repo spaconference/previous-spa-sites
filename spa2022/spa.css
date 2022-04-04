@@ -459,6 +459,10 @@ header nav a:active {
     color:                  #fff;
 }
 
+ul#speakers {
+    margin-left:  20px;
+}
+
 .programme ol:after {
     content:                '';
     display:                block;
