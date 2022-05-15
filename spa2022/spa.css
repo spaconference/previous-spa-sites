@@ -548,6 +548,37 @@ ul#speakers {
 }
 /* /#main **/
 
+
+/** Sponsors table */
+table#sponsorstbl {
+    width:  100%;
+    padding:  15px;
+    text-align:  center;
+}
+
+/** /Sponsors table */
+
+/** Programme table */
+table#progtbl {
+    width:  100%;
+    padding:  5px;
+    text-align:  center;
+}
+table#progtbl td.progspeaker {
+    text-align:  left;
+}
+table#progtbl td.progtitle {
+    text-align:  left;
+}
+table#progtbl th.progspeaker {
+    text-align:  left;
+}
+table#progtbl th.progtitle {
+    text-align:  left;
+}
+
+/** /Programme table */
+
 /** footer */
 footer {
     background:             #0b0c0c;
@@ -562,3 +593,5 @@ footer a:active {
     color:                  #319f55;
 }
 /* /footer **/
+
+
