@@ -549,7 +549,7 @@ ul#speakers {
 /* /#main **/
 
 
-/** Sponsors table */
+/** Sponsors table for SPA2022 only */
 table#sponsorstbl {
     width:  100%;
     padding:  15px;
@@ -558,7 +558,7 @@ table#sponsorstbl {
 
 /** /Sponsors table */
 
-/** Programme table */
+/** Programme table for SPA2022 only */
 table#progtbl {
     width:  100%;
     padding:  5px;
