@@ -561,13 +561,15 @@ table#sponsorstbl {
 /** Programme table for SPA2022 only */
 table#progtbl {
     width:  100%;
-    padding:  5px;
-    text-align:  center;
-}
-table#progtbl td.progspeaker {
     text-align:  left;
+    table-layout: auto ;
+    border-spacing: 15px 5px;
+    font-size: 90%;
 }
-table#progtbl td.progtitle {
+table#progtbl td, th {
+    border-bottom: 1px solid darkgray;
+}
+table#progtbl td.progtime {
     text-align:  left;
 }
 table#progtbl th.progspeaker {
@@ -575,6 +577,11 @@ table#progtbl th.progspeaker {
 }
 table#progtbl th.progtitle {
     text-align:  left;
+}
+
+a.toplink {
+    font-size:  80%;
+    font-style:  italic;
 }
 
 /** /Programme table */

@@ -51,76 +51,110 @@
 <h1>Software in Practice</h1>
 <h2>June 22nd 2022 - Leeds</h2>
 <h2>Programme</h2>
-<p><em>Example programme table to be updated once programme is finalised ... will link to talk outlines and speaker bios further down the page.</em></p>
 <table id="progtbl">
+  <colgroup>
+     <col span="1" style="width: 20%;">
+     <col span="1" style="width: 30%;">
+     <col span="1" style="width: 50%;">
+  </colgroup>
+  <tbody>
   <tr>
     <th class="progtime">Time</th>
     <th class="progspeaker">Speaker</th>
     <th class="progtitle">Title</th>
   </tr>
   <tr>
-    <td class="progtime">10:30 - 10:45</td>
+    <td class="progtime">10:30-10:40</td>
     <td class="progspeaker">Amit Bhagwat</td>
     <td class="progtitle">Introduction and Welcome</td>
   </tr>
   <tr>
-    <td class="progtime">10:45 - 11:45</td>
-    <td class="progspeaker">A speaker</td>
-    <td class="progtitle">A talk (1)</td>
+    <td class="progtime">10:40-11:40</td>
+    <td class="progspeaker"><a href="#speaker_braithwaite">Keith Braithwaite</a></td>
+    <td class="progtitle"><a href="#talk_braithwaite">What lost when XP won</a></td>
   </tr>
   <tr>
-    <td class="progtime">11:45 - 12:45</td>
-    <td class="progspeaker">A speaker</td>
-    <td class="progtitle">A talk (2)</td>
+    <td class="progtime">11:40-12:40</td>
+    <td class="progspeaker"><a href="#speaker_cooperbland">Chris Cooper-Bland</a></td>
+    <td class="progtitle"><a href="#talk_cooperbland">There is more to a product than its features</a></td>
   </tr>
   <tr>
-    <td class="progtime">12:45 - 13:30</td>
+    <td class="progtime">12:40-13:30</td>
     <td class="progspeaker">Everyone</td>
     <td class="progtitle">Lunchtime</td>
   </tr>
   <tr>
-    <td class="progtime">13:30 - 14:30</td>
-    <td class="progspeaker">A speaker</td>
-    <td class="progtitle">A talk (3)</td>
+    <td class="progtime">13:30-14:30</td>
+    <td class="progspeaker"><a href="#speaker_balsdon">Quintin Balsdon</a></td>
+    <td class="progtitle"><a href="#talk_balsdon">Tales of a button that wasn’t a button</a></td>
   </tr>
   <tr>
-    <td class="progtime">14:30 - 15:30</td>
-    <td class="progspeaker">A speaker</td>
-    <td class="progtitle">A talk (4)</td>
+    <td class="progtime">14:30-15:30</td>
+    <td class="progspeaker"><a href="#speaker_oskina">Natalia Oskina</a></td>
+    <td class="progtitle"><a href="#talk_oskina">What the shiest person on the team can tell you</a></td>
   </tr>
   <tr>
-    <td class="progtime">15:30 - 16:00</td>
+    <td class="progtime">15:30-16:00</td>
     <td class="progspeaker">Everyone</td>
     <td class="progtitle">Afternoon Break</td>
   </tr>
   <tr>
-    <td class="progtime">16:00 - 17:00</td>
-    <td class="progspeaker">A speaker</td>
-    <td class="progtitle">A talk (5)</td>
+    <td class="progtime">16:00-17:00</td>
+    <td class="progspeaker"><a href="#speaker_parker">Andy Parker</a></td>
+    <td class="progtitle"><a href="#talk_parker">From outage to understanding</a></td>
   </tr>
   <tr>
-    <td class="progtime">17:00 - 18:00</td>
-    <td class="progspeaker">A speaker</td>
-    <td class="progtitle">A talk (6)</td>
+    <td class="progtime">17:00-18:00</td>
+    <td class="progspeaker"><a href="#speaker_bhadani">Pradeep Bhadani</a></td>
+    <td class="progtitle"><a href="#talk_bhadani">Build and test cloud infrastructure using Terraform Modules</a></td>
   </tr>
   <tr>
-    <td class="progtime">18:00 - 18:30</td>
+    <td class="progtime">18:00-18:20</td>
     <td class="progspeaker">Amit Bhagwat</td>
     <td class="progtitle">Closing Session</td>
   </tr>
-
+  </tbody>
 </table>
+
 <h2>The Talks</h2>
 
-
-
-<h3>Tales of a button that wasn’t a button</h3>
-<p><em>Quintin Balsdon, Spotify</em></p>
+<h3 id="talk_braithwaite">What lost when XP won</h3>       
+<p><em>Keith Braithwaite, Co-Op</em></p>
 <p>
-In this talk, I would like to propose that by using accessibility as a tool for refinement, engineers can be more engaged and decrease communication overhead between the different stages of the software development lifecycle. Through the introduction of accessibility metrics, designers, developers and quality assurance can all have a clearer perspective of what is required earlier in the development cycle.
+We don’t hear much about eXtreme Programming anymore. Scrum and Kanban had better marketing, SAFe and other large-scale frameworks are more comfortable for large enterprises, all of them provide a better sales tool for consultants and trainers. But, maybe we also don’t hear much about XP because…it won. XP brought to the mainstream engineering practices derived from Smalltalk: Continuous Integration, Refactoring, test-first and Test Driven programming, collaboration by default in Pair Programming, collective code ownership, User Stories, and more. These have been incorporated smoothly into other approaches, and that’s great! Maybe some valuable things have been left behind. And that’s sad. We’ll consider what those might be, and how we might get them back. <a href="#top" class="toplink">(top)</a>
 </p>
 
-<h3>Build and test cloud infrastructure using Terraform Modules</h3>
+<h3 id="talk_cooperbland">There is more to a product than its features</h3>
+<p><em>Chris Cooper-Bland, Endava</em></p>
+<p>
+When you are shaping and developing a product it is easy to focus on the functions, after all this is what the customers constantly talk about. But there are other crucial aspects of a product that you also need to consider, such performance, security and usability to name but a few. These are the Quality Attributes (aka non-functional requirements) of a product implementation. However when you start considering these aspects of a product it can all get very complicated very quickly, causing people to back away slowly, as it is all too scary. In reality though, there are almost always a few critical quality attributes (CQAs) which really make the difference in any particular problem space, and it is these critical qualities that you need to identify, as they are usually hugely influential in the decision-making process. This session will discuss how to handle the identification of the CQAs, initially using case studies, and then some audience participation, to collect experiences of the importance of CQAs across different product areas. <a href="#top" class="toplink">(top)</a>
+</p>
+
+<h3 id="talk_balsdon">Tales of a button that wasn’t a button</h3>
+<p><em>Quintin Balsdon, Spotify</em></p>
+<p>
+In this talk, I would like to propose that by using accessibility as a tool for refinement, engineers can be more engaged and decrease communication overhead between the different stages of the software development lifecycle. Through the introduction of accessibility metrics, designers, developers and quality assurance can all have a clearer perspective of what is required earlier in the development cycle. <a href="#top" class="toplink">(top)</a>
+</p>
+
+<h3 id="talk_oskina">What the shiest person on the team can tell you</h3>
+<p><em>Natalia Oskina, Equal Experts</em></p>
+<p>
+The pandemic has changed our world and the ways that we work. Many of us now operate in a remote-first culture but due to the rapid transition, some subtleties of communication have been lost. Having left behind the traditional office, differences between characters have become more pronounced. Sometimes it is too easy to hide behind the screen; sometimes good intentions get lost through emotionless slack messages. While a team of just extroverts may solve some of these problems it would cause many others. This means that we need to find a way to make everyone shine.
+</p>
+<p>                 
+This talk will focus on the ways to empower all members of the team and how effective communication can improve productivity. We will discuss the difficulties that team members may face with remote-first work and what we can do to avoid them. <a href="#top" class="toplink">(top)</a>
+</p>
+
+<h3 id="talk_parker">From outage to understanding</h3>
+<p><em>Andy Parker</em></p>
+<p>
+Outages, big and small, happen. It is how you respond in the moment and in the aftermath that really determines what the outage means. Do you use it as a challenge to figure out who (nothing you did!) caused the outage? Do you restore service and just get back to the real work? Do you use it as a chance to build a learning culture and learning organisation?
+</p>
+<p>
+Incidents are intricate puzzles of the interactions between social and technical systems. Building a learning culture happens through the actions we take when faced with a puzzle. From collecting information to enquiring into knowns and unknowns to testing hypothesis and even acknowledging the value of different experiences everyone had of the same event. In this session I’ll take you through what I’ve learned over the years to transform these events from stressful, demoralising experiences to useful collaborations. Come prepared with prepared with a recent incident in mind and learn a new way to look at it. <a href="#top" class="toplink">(top)</a>
+</p>
+
+<h3 id="talk_bhadani">Build and test cloud infrastructure using Terraform Modules</h3>
 <p><em>Pradeep Bhadani, Cloud Native Technologies</em></p>
 <p>
 Cloud adoption across an organization is growing rapidly due to it’s benefit of elasticity and fully managed services. More and more organizations are migrating to cloud from on-premise systems, but building and managing cloud infrastructure in a reliable, efficient and repeatable fashion is a challenge.
@@ -132,39 +166,61 @@ Infrastructure as Code(IaC) is a process to manage and provision cloud resources
 Terraform is an open-source tool that helps to describe Infrastructure as code and it’s one of the most popular tools to build Cloud Infrastructure in a reliable and efficient way. Terraform has many providers available and can manage resources on different clouds like GCP, AWS, Azure, etc.
 </p>
 <p>
-In this talk, I will talk about the Terraform modules and how to use them to build Cloud Infrastructure and accelerate the cloud journey. Terraform module allows teams to reuse the code and build infrastructure faster across the organization. As a software practice, testing is a key component when releasing code and I will demonstrate how “inspec-gcp” can test Terraform modules and gain confidence.
+In this talk, I will talk about the Terraform modules and how to use them to build Cloud Infrastructure and accelerate the cloud journey. Terraform module allows teams to reuse the code and build infrastructure faster across the organization. As a software practice, testing is a key component when releasing code and I will demonstrate how “inspec-gcp” can test Terraform modules and gain confidence. <a href="#top" class="toplink">(top)</a>
 </p>
 
-<h3>What lost when XP won</h3>       
-<p><em>Keith Braithwaite, Co-Op</em></p>
+<h2>The Speakers</h2>
+
+<h3 id="speaker_braithwaite">Keith Braithwaite - Co-op</h3>
 <p>
-We don’t hear much about eXtreme Programming anymore. Scrum and Kanban had better marketing, SAFe and other large-scale frameworks are more comfortable for large enterprises, all of them provide a better sales tool for consultants and trainers. But, maybe we also don’t hear much about XP because…it won. XP brought to the mainstream engineering practices derived from Smalltalk: Continuous Integration, Refactoring, test-first and Test Driven programming, collaboration by default in Pair Programming, collective code ownership, User Stories, and more. These have been incorporated smoothly into other approaches, and that’s great! Maybe some valuable things have been left behind. And that’s sad. We’ll consider what those might be, and how we might get them back.
+Keith Braithwaite MBCS, MIoD is an Engineering Manager at The Cooperative Group. He has led and coached teams that envision, build, and operate software-intensive products and services in the UK, mainland Europe, India, Singapore, and the USA. He was one of the early adopters of eXtreme Programming in the UK and has remained committed to iterative, incremental, evolutionary software development ever since. He has worked in startups, in globally-recognised household names, and many scales in-between. His coaching and training clients have included apprentice software developers and CTOs. He has held board-level P&L responsibility for development endeavours worth 10s of millions of pounds and shipped native code on embedded devices.
+</p>
+<p>
+Keith studied Physics and Maths as an undergrad, and after a horrific experience as a programmer in a small startup returned to study Software Engineering as a post-grad, believing that there had to be a better way to ship software than sleeping under your desk. Given his background he quickly became a fan of formal and semi-formal methods of specification, design, and implementation of software. After exposure to the Design Patterns movement he began to learn about eXtreme Programming from the originators and started to experiment with it. At first sceptical, and alarmed at the apparent loss of rigour, he became convinced that eXtreme Programming in fact took software seriously as an engineering material. He later learned to manage product development using Scrum, and became Certified ScrumMaster, and also learned the Kanban approach to managing streams of ad-hoc work. He has developed an approach to fitting these together using tools from the Cynefin framework. He has presented and delivered workshops at a wide range of conferences in Europe and the US, including the original XP conferences, the Agile Alliance conference series, ICSE, EuroPLOP, and others. He has been a guest lecturer at the universities of Birmingham, Durham, and Sunderland. He co-authored the first peer-reviewed description of successful distributed eXtreme Programming.
+</p>
+<p>
+Keith has been a manager of developers for nearly 20 years and has worked in technical sales and engagement management in professional services alongside line management. He holds the Institute of Directors Certificate and Diploma in Company Direction and has served on the board of micro-businesses, small-to-medium enterprises, and Community Benefit Societies. <a href="#top" class="toplink">(top)</a>
 </p>
 
-<h3>There is more to a product than its features</h3>    
-<p><em>Chris Cooper-Bland, Endava</em></p>
+<h3 id="speaker_cooperbland">Chris Cooper-Bland - Endava</h3>
 <p>
-When you are shaping and developing a product it is easy to focus on the functions, after all this is what the customers constantly talk about. But there are other crucial aspects of a product that you also need to consider, such performance, security and usability to name but a few. These are the Quality Attributes (aka non-functional requirements) of a product implementation. However when you start considering these aspects of a product it can all get very complicated very quickly, causing people to back away slowly, as it is all too scary. In reality though, there are almost always a few critical quality attributes (CQAs) which really make the difference in any particular problem space, and it is these critical qualities that you need to identify, as they are usually hugely influential in the decision-making process. This session will discuss how to handle the identification of the CQAs, initially using case studies, and then some audience participation, to collect experiences of the importance of CQAs across different product areas.
+  Chris has many years of experience in IT, throughout the product life-cycle. Having started as a COBOL programmer, she quickly moved into systems programming and then analysis and design, some technical project management and finally to architecture. 
+</p>
+<p>
+Her first IT job was working on ICL mainframes for the Metropolitan Police civil staff developing a FPN system for parking tickets. She then moved into the financial sector, working for BACS for many years, where she was involved with two complete rewrites of the UK Direct Debt and Credit processing system. It was whilst at BACS that Chris became interested in process improvement, having been part of a skunk works project which tried out a number of agile techniques when they were still new, also at this time she attended one of the first BCS SPA conferences, which was called BCS OOPS at that point. This work led to her taking the lead in the adoption of iterative processes at BACS. 
+</p>
+<p>
+  Chris has been at Endava for the last 16 years and currently runs the architecture discipline, as well as working for clients on enterprise and solution architecture assignments and reviews, primarily in the larger financial services clients. This has led to an interest in what actually influences the IT solutions that we produce and how the decision-making process really works in organisations. 
+</p>
+<p>
+She is also involved with IASA, an organisation focused on promoting professionalism in IT architecture, being a contributor to their Body of Knowledge and recently their Women in Architecture initiative. Chris holds an MBA in Technology Management from the Open University. <a href="#top" class="toplink">(top)</a>
 </p>
 
-<h3>What the shiest person on the team can tell you</h3>
-<p><em>Natalia Oskina, Equal Experts</em></p>
+<h3 id="speaker_balsdon">Quintin Balsdon - Spotify</h3>
 <p>
-The pandemic has changed our world and the ways that we work. Many of us now operate in a remote-first culture but due to the rapid transition, some subtleties of communication have been lost. Having left behind the traditional office, differences between characters have become more pronounced. Sometimes it is too easy to hide behind the screen; sometimes good intentions get lost through emotionless slack messages. While a team of just extroverts may solve some of these problems it would cause many others. This means that we need to find a way to make everyone shine.
-</p>
-<p>                 
-This talk will focus on the ways to empower all members of the team and how effective communication can improve productivity. We will discuss the difficulties that team members may face with remote-first work and what we can do to avoid them.
+  Quintin (he/him) has been developing Android applications since 2011 and holds an MSc in Computer Science Cum Laude. He has specialised in the areas of test driven development (TDD), mobile accessibility and conducting software developer interviews. <a href="#top" class="toplink">(top)</a>
 </p>
 
-<h3>From outage to understanding</h3>
-<p><em>Andy Parker</em></p>
+<h3 id="speaker_oskina">Natalia Oskina - Equal Experts</h3>
 <p>
-Outages, big and small, happen. It is how you respond in the moment and in the aftermath that really determines what the outage means. Do you use it as a challenge to figure out who (nothing you did!) caused the outage? Do you restore service and just get back to the real work? Do you use it as a chance to build a learning culture and learning organisation?
-</p>
-<p>
-Incidents are intricate puzzles of the interactions between social and technical systems. Building a learning culture happens through the actions we take when faced with a puzzle. From collecting information to enquiring into knowns and unknowns to testing hypothesis and even acknowledging the value of different experiences everyone had of the same event. In this session I’ll take you through what I’ve learned over the years to transform these events from stressful, demoralising experiences to useful collaborations. Come prepared with prepared with a recent incident in mind and learn a new way to look at it.
+  Natalia is a software engineer with a range of experience and a keen interest in backend development, best practices, and architecture. Natalia has worked across consultancies, covering a diverse range of engagements across sectors. Her project experience covers spectrums of scale and of green-brown-field. She has worked in diverse team structures involving a variety of combinations of provider organisations, independent consultants, and direct employees and different flavours of teams from well-established to under-development, each providing a new experience. <a href="#top" class="toplink">(top)</a>
 </p>
 
+<h3 id="speaker_parker">Andy Parker</h3>
+<p>
+  Andrew Parker is a Software Engineer, Engineering Manager and Software Anthropologist with over 20 years’ experience leading teams in a range of domains from proprietary e-commerce to open source configuration management software. His formal education (Masters in Software Engineering from the Technical University of Munich) and further education (anthropology/sociology, management, and history) are all incorporated in his approach to software engineering and management. Andrew applies his experience and training to bring about autonomy and learning on the teams he works with. He believes that an important aspect of achieving autonomy is growing a team's (and the individuals who make up the team) skills in communication and judgement.
+  <p>
+  </p>
+Andrew has previously worked at Puppet, TIM Group, and ION Analytics. Currently he is taking some time off to relax and explore other ideas. During time he hopes to take long bike tours, learn some new programming tools and techniques, and get to know (and help!) interesting people, teams and organisations. <a href="#top" class="toplink">(top)</a>
+</p>
+
+<h3 id="speaker_bhadani">Pradeep Bhadani - Cloud Native Technologies</h3>
+<p>
+  Pradeep Bhadani is an IT Consultant and founded Cloud Native Technologies to fill the Cloud skills-gap by providing tailored Training and Consultancy. He is a Google Cloud Authorized Trainer and Google Developers Expert in Cloud.
+</p>
+<p>
+He has extensive experience in building Data Platforms on Cloud and On-premises with great use of automation, delivering technical training. He is a conceptual thinker who effectively partners with architects and senior management to deliver successful projects.  <a href="#top" class="toplink">(top)</a>
+</p>
 
 </div>
 </section>
