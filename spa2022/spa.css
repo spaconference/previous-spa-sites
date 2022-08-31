@@ -357,6 +357,12 @@ header nav a:active {
     margin-top:             30px;
 }
 
+#main .banner {
+    font-style: italic;
+    border-top:  1px solid;
+    border-bottom: 1px solid;
+}
+
 @media (min-width: 700px) {
     #main section .inner {
         padding:                 60px 30px;
